@@ -2,9 +2,23 @@
     display:flex;
     align-items:center;
     justify-content: center;
+    width:700px;
+    padding:20px;
+    margin:auto;
+}
+.hero-image{
+    padding:10px;
 }
 
 .hero-image >img{
     width:300px;
 
+}
+
+@media  (max-width:768px){
+    .hero-section{
+
+        width:380px;
+        flex-direction:column;
+    }
 }
