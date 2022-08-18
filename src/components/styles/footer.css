@@ -1,10 +1,8 @@
 .footer{
-
     position :fixed;
     width:300px;
    left: calc(50% - 160px);
    padding:5px 20px;
-
     bottom:30px;
     background:whitesmoke;
     border-radius:50px;
@@ -23,19 +21,16 @@
     font-size:40px !important;
 }
 .linked-in-icon{
- 
-  
-        font-size:40px !important;
-
+font-size:40px !important;
 }
 
 .separate{
-    width:3px;
-    height:60px;
-    border-radius:1px;
-    margin:0 20px;
-  background:rgb(255, 255, 255);
-  box-shadow: 1px 2px 1px 0px rgba(0,0,0,0.1),1px 1px 1px 1px rgba(0,0,0,0.2);
+width:3px;
+height:60px;
+border-radius:1px;
+margin:0 20px;
+background:rgb(255, 255, 255);
+box-shadow: 1px 2px 1px 0px rgba(0,0,0,0.1),1px 1px 1px 1px rgba(0,0,0,0.2);
 }
 
 
