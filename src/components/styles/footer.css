@@ -61,16 +61,20 @@ box-shadow: 1px 2px 1px 0px rgba(0,0,0,0.1),1px 1px 1px 1px rgba(0,0,0,0.2);
 
 .hero-text::-webkit-scrollbar {
     width: 10px;
+
   }
   
   /* Track */
   .hero-text::-webkit-scrollbar-track {
     background: rgba(255,255,255,0.1);
+    border-radius:5px 5px 5px 5px;
   }
   
   /* Handle */
   .hero-text::-webkit-scrollbar-thumb {
     background: rgba(255,255,255,0.5);
+    border-radius:5px 5px 5px 5px;
+    cursor:pointer;
   }
   
   /* Handle on hover */
