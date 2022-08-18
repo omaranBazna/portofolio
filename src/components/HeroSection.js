@@ -13,7 +13,11 @@ const HeroSection = () => {
           <p>
             Hello Guys , I am omaran bazna ,React JS developer I have been
             working for +4 years I have experience in varies technologies Thank
-            for visiting my website
+            for visiting my website Hello Guys , I am omaran bazna ,React JS
+            developer I have been working for +4 years I have experience in
+            varies technologies Thank for visiting my website Hello Guys , I am
+            omaran bazna ,React JS developer I have been working for +4 years I
+            have experience in varies technologies Thank for visiting my website
           </p>
         </div>
       </div>

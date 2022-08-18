@@ -1,5 +1,7 @@
 :root{
     ---hero-color:rgba(1, 23, 38, 0.827);
+
+    --hero-text_size:18px;
 }
 
 body{
