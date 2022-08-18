@@ -1,8 +1,14 @@
 import "./styles/technology.css";
 import React from "react";
-
-const Technology = () => {
-  return <div></div>;
+import { Button } from "@mui/material";
+const Technology = ({ Icon }) => {
+  return (
+    <div>
+      <Button>
+        <Icon />
+      </Button>
+    </div>
+  );
 };
 
 export default Technology;

@@ -6,7 +6,10 @@ const Timeline = () => {
   return (
     <div className="time-line">
       <div className="whole-time-line">
-        <Technology></Technology>
+        <img src="/images/react-js-icon.png" />
+        <img src="/images/Unity.png" />
+        <img src="/images/teacher.png" />
+        <img src="/images/certificate.png" />
       </div>
     </div>
   );
