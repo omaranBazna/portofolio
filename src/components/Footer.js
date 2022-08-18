@@ -14,6 +14,7 @@ const Footer = () => {
         <Button>
           <LinkedInIcon className="linked-in-icon" />
         </Button>
+        <div className="separate"></div>
       </div>
       <div className="contact-me"></div>
       <div className="resume"></div>
