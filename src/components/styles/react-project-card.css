@@ -6,13 +6,21 @@
     background:rgb(0, 0, 0);
     color:rgb(255, 255, 255);
     overflow:hidden;
+transition: 0.4s;
+cursor:pointer;
 }
   .card > p{
     padding:15px;
   }
+
+
 
 .card >img{
 width:250px;
 
 }
 
+  .card:hover{
+    border:3px solid white;
+    transform:translateY(-20px);
+  }
