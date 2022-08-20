@@ -60,13 +60,14 @@ const Email = () => {
         validate={validateEmailForm}
       >
         <Form>
-          <Field type="username" name="name" />
+          <Field type="username" name="name" placeholder="Your name" />
 
-          <Field type="email" name="email" />
+          <Field type="email" name="email" placeholder="Your email" />
 
-          <Field as="textarea" name="message" />
+          <Field as="textarea" name="message" placeholder="Your  message" />
 
           <button type="submit">Send </button>
+          <button className="closeBtn">close</button>
         </Form>
       </Formik>
     </div>

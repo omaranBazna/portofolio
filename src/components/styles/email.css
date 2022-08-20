@@ -30,11 +30,12 @@ position: absolute;
     resize:none;
     border:none;
     outline:none;
-    width:100%;
+    width:90%;
     height:35%;
     margin:20px;
     border-radius:5px;
     background-color: rgba(240,240,240,0.8);
+    padding:10px;
 
 }
 .emailForm >form textarea:focus{
@@ -57,8 +58,8 @@ position: absolute;
 }
 .emailForm >form button{
     width:80%;
-    margin:20px;
-    border-radius:5px;
+    margin:8px;
+    border-radius:7px;
     background-color: rgb(4, 202, 90);
     color:white;
     cursor:pointer;
@@ -73,4 +74,10 @@ font-weight:400;
     background-color: rgb(2, 255, 111);
  
 
+}
+.closeBtn{
+    background-color: rgb(202, 4, 4) !important;
+}
+.closeBtn:hover{
+    background-color: rgb(230, 7, 7) !important;
 }
