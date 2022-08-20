@@ -2,3 +2,8 @@
 width:250px;
 
 }
+
+.card{
+    position:absolute;
+    right:20px;
+}
