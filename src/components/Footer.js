@@ -5,7 +5,7 @@ import { Button } from "@mui/material";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import EmailIcon from "@mui/icons-material/Email";
-const Footer = () => {
+const Footer = ({ setShow }) => {
   return (
     <div className="footer">
       <div className="social">
@@ -18,7 +18,11 @@ const Footer = () => {
       </div>
       <div className="separate"></div>
       <div className="contact-me">
-        <Button>
+        <Button
+          onClick={() => {
+            setShow(true);
+          }}
+        >
           <EmailIcon className="email-icon" />
         </Button>
       </div>

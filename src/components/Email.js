@@ -4,7 +4,7 @@ import { validateEmailForm } from "../utilis/validateEmailForm";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import { Col, Button, Label, FormGroup } from "reactstrap";
 import "./styles/email.css";
-const Email = () => {
+const Email = ({ setShow }) => {
   const initialValues = {
     name: "",
     email: "",
@@ -67,7 +67,14 @@ const Email = () => {
           <Field as="textarea" name="message" placeholder="Your  message" />
 
           <button type="submit">Send </button>
-          <button className="closeBtn">close</button>
+          <button
+            onClick={() => {
+              setShow(false);
+            }}
+            className="closeBtn"
+          >
+            close
+          </button>
         </Form>
       </Formik>
     </div>
