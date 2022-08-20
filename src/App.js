@@ -5,6 +5,7 @@ import Timeline from "./components/Timeline";
 import { useState, useEffect } from "react";
 import ReactProto from "./components/ReactPorto";
 import Email from "./components/Email";
+import PopUp from "./components/PopUp";
 
 function App() {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -24,12 +25,19 @@ function App() {
   return (
     <div className="App">
       <HeroSection />
+      <HeroSection />
+      <HeroSection />
+      <HeroSection />
+      <HeroSection />
+      <HeroSection />
+      <HeroSection />
+      <HeroSection />
       {/*
       
     <ReactProto scroll={scrollPosition} />
       <Timeline scroll={scrollPosition} />
   */}
-
+      <PopUp />
       {showEmailForm && <Email setShow={setShowEmailForm} />}
       <Footer setShow={setShowEmailForm} />
     </div>
