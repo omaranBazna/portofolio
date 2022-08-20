@@ -11,7 +11,9 @@ const ProjectDetails = () => {
         <a>Walt Disney Movies </a> using :
       </p>
       <div className="skills">
-        <span>ReactJS</span>
+        <a href="https://reactjs.org/" target={"_blank"}>
+          <span>ReactJS</span>
+        </a>
         <span>React-Router</span>
         <span>React-Redux</span>
         <span>Styled-components</span>
