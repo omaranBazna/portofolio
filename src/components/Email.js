@@ -60,21 +60,11 @@ const Email = () => {
         validate={validateEmailForm}
       >
         <Form>
-          <FormGroup row>
-            <Col>
-              <Field type="username" name="name" />
-            </Col>{" "}
-          </FormGroup>
-          <FormGroup row>
-            <Col>
-              <Field type="email" name="email" />
-            </Col>
-          </FormGroup>
-          <FormGroup row>
-            <Col>
-              <Field as="textarea" name="message" />
-            </Col>
-          </FormGroup>
+          <Field type="username" name="name" />
+
+          <Field type="email" name="email" />
+
+          <Field as="textarea" name="message" />
 
           <button type="submit">Send </button>
         </Form>
