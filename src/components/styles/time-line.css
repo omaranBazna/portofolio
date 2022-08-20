@@ -1,16 +1,19 @@
 .time-line{
- position:fixed;
+ position:fixed; 
+
  width:5px;
- height:100%;
+ height:80%;
  background-color: transparent;
  left:35px;
- top:0px;
+ top: 50%;
+ transform: translate(0, -50%);
  display:flex;
+
  flex-direction: column;
  justify-content: center;
 }
 .whole-time-line{
-    height:80%;
+    height:100%;
     border-radius:2px 2px 2px 2px;
     background-color: rgba(245, 245, 245, 0.362);
     display:flex;
@@ -18,9 +21,16 @@
     justify-content: space-around;
     align-items: center;
 }
+
 .whole-time-line > img {
 width:48px;
-opacity:0.3;
+
+}
+.in-active{
+    opacity:0.3;
+}
+.active{
+    opacity:1;
 }
 @media (max-width:768px){
     .time-line{
@@ -35,4 +45,6 @@ opacity:0.3;
         flex-direction: row;
       
     }
+    
+    
 }
