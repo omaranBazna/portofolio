@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import emailjs from "@emailjs/browser";
+import emailjs, { send } from "emailjs-com";
 import { validateEmailForm } from "../utilis/validateEmailForm";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import "./styles/email.css";
@@ -10,16 +10,9 @@ const Email = () => {
     message: "",
   };
 
-  const onSubmit = (e) => {
-    e.preventDefault();
-
+  function SendEmail(object) {
     emailjs
-      .sendForm(
-        "service_a1njsji",
-        "template_oepbcjt",
-        form.current,
-        "MAQE_cAPPmYKBXCIX"
-      )
+      .send("service_a1njsji", "template_oepbcjt", object, "MAQE_cAPPmYKBXCIX")
       .then(
         (result) => {
           console.log(result.text);
@@ -28,6 +21,13 @@ const Email = () => {
           console.log(error.text);
         }
       );
+  }
+
+  const onSubmit = (values, actions) => {
+    setTimeout(() => {
+      SendEmail(values);
+      actions.setSubmitting(false);
+    }, 1000);
   };
   const form = useRef();
 
@@ -53,15 +53,6 @@ const Email = () => {
 
   return (
     <>
-      <form ref={form} onSubmit={sendEmail}>
-        <label>Name</label>
-        <input type="text" name="name" />
-        <label>Email</label>
-        <input type="email" name="email" />
-        <label>Message</label>
-        <textarea name="message" />
-        <input type="submit" value="Send" />
-      </form>
       <Formik
         initialValues={initialValues}
         onSubmit={onSubmit}
@@ -70,6 +61,7 @@ const Email = () => {
         <Form>
           <Field type="username" name="name" />
           <Field type="email" name="email" />
+          <Field as="textarea" name="message" />
           <button type="submit">Send </button>
         </Form>
       </Formik>
