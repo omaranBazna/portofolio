@@ -13,7 +13,12 @@ const Footer = ({ setShow }) => {
           <GitHubIcon className="github-icon" />
         </Button>
         <Button>
-          <LinkedInIcon className="linked-in-icon" />
+          <a
+            href="https://www.linkedin.com/in/omaran-bazna-64234b102/"
+            target="_blank"
+          >
+            <LinkedInIcon className="linked-in-icon" />
+          </a>
         </Button>
       </div>
       <div className="separate"></div>
