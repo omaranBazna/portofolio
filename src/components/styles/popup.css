@@ -3,7 +3,7 @@
     top:20px;
     left:50%;
     transform: translate(-50%,0);
-    animation: showPopUp 1s ease 0s 1;
+    animation: showPopUp 2s ease 0s 1;
 }
 .message-body{
     padding:20px 30px;
@@ -21,10 +21,14 @@
 }
 @keyframes showPopUp {
     0%{
+        opacity:0.6;
+        transform:translate(-50%,-30px);
+    }
+    20%{
         opacity:1;
         transform:translate(-50%,0);
     }
-    30%{
+    50%{
         opacity:1;
         transform:translate(-50%,0);
     }

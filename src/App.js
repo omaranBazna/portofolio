@@ -5,11 +5,12 @@ import Timeline from "./components/Timeline";
 import { useState, useEffect } from "react";
 import ReactProto from "./components/ReactPorto";
 import Email from "./components/Email";
-import PopUp from "./components/PopUp";
+import PopUpSucc from "./components/PopUpSucc";
 
 function App() {
   const [scrollPosition, setScrollPosition] = useState(0);
   const [showEmailForm, setShowEmailForm] = useState(false);
+  const [popUpSuc, setPopUpSuc] = useState(false);
   const handleScroll = () => {
     const position = window.pageYOffset / window.outerHeight;
     setScrollPosition(position);
@@ -37,8 +38,10 @@ function App() {
     <ReactProto scroll={scrollPosition} />
       <Timeline scroll={scrollPosition} />
   */}
-      <PopUp />
-      {showEmailForm && <Email setShow={setShowEmailForm} />}
+      {popUpSuc && <PopUpSucc setPop={setPopUpSuc} />}
+      {showEmailForm && (
+        <Email setShow={setShowEmailForm} setPopSuc={setPopUpSuc} />
+      )}
       <Footer setShow={setShowEmailForm} />
     </div>
   );

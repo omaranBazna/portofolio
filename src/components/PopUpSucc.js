@@ -1,6 +1,12 @@
 import React from "react";
 import "./styles/popup.css";
-const PopUp = () => {
+import { useEffect } from "react";
+const PopUpSucc = ({ setPop }) => {
+  useEffect(() => {
+    setTimeout(() => {
+      setPop(false);
+    }, 2000);
+  }, []);
   return (
     <div className="popUp">
       <div className="message-body">
@@ -11,4 +17,4 @@ const PopUp = () => {
   );
 };
 
-export default PopUp;
+export default PopUpSucc;

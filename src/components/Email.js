@@ -4,7 +4,7 @@ import { validateEmailForm } from "../utilis/validateEmailForm";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import { Col, Button, Label, FormGroup } from "reactstrap";
 import "./styles/email.css";
-const Email = ({ setShow }) => {
+const Email = ({ setShow, setPopSuc }) => {
   const initialValues = {
     name: "",
     email: "",
@@ -32,27 +32,6 @@ const Email = ({ setShow }) => {
       setShow(false);
     }, 1000);
   };
-  const form = useRef();
-
-  const sendEmail = (e) => {
-    e.preventDefault();
-
-    emailjs
-      .sendForm(
-        "service_a1njsji",
-        "template_oepbcjt",
-        form.current,
-        "MAQE_cAPPmYKBXCIX"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-  };
 
   return (
     <div className="emailForm">
@@ -72,6 +51,7 @@ const Email = ({ setShow }) => {
           <button
             onClick={() => {
               setShow(false);
+              setPopSuc(true);
             }}
             className="closeBtn"
           >
