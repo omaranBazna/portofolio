@@ -14,18 +14,11 @@ const ReactPorto = ({ scroll }) => {
           </div>
         </a>
         <div className="react-porto-projects">
-          <ReactProjectCard />
-          <ReactProjectCard />
-          <ReactProjectCard />
-          <ReactProjectCard />
-          <ReactProjectCard />
-          <ReactProjectCard />
-          <ReactProjectCard />
-          <ReactProjectCard />
-          <ReactProjectCard />
-          <ReactProjectCard />
-          <ReactProjectCard />
-          <ReactProjectCard />
+          <ReactProjectCard imgSrc="https://www.disneychannel.ca/wp-content/themes/disney-child/assets/images/thumbnail-generic.jpg" />
+          <ReactProjectCard imgSrc="https://pryormediacdn.azureedge.net/wordpress/2016/04/No-Hype-Social-Media-for-Business-LinkedIn.jpg" />
+          <ReactProjectCard imgSrc="https://www.guidingtech.com/wp-content/uploads/slack-tips-tricks-fi_4d470f76dc99e18ad75087b1b8410ea9.jpg" />
+          <ReactProjectCard imgSrc="https://techgameworld.com/wp-content/uploads/2022/01/Gmail-reaches-10-billion-downloads-on-the-Play-Store.jpg" />
+          <ReactProjectCard imgSrc="https://images.ctfassets.net/b4k16c7lw5ut/6aR9X4qHgnnbxPxLlUhywh/0ca46f6fdae5448d4022e52061898933/image4.png?w=1920&h=1080&q=50&fm=png" />
         </div>
       </dic>
     </div>
