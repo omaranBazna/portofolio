@@ -68,7 +68,7 @@ const Email = () => {
         validate={validateEmailForm}
       >
         <Form>
-          <Field type="username" name="username" />
+          <Field type="username" name="name" />
           <Field type="email" name="email" />
           <button type="submit">Send </button>
         </Form>
