@@ -25,3 +25,23 @@ position: absolute;
     justify-content: center;
   
 }
+.emailForm >form textarea{
+    
+    resize:none;
+    border:none;
+    outline:none;
+    
+   
+}
+.emailForm >form button{
+    width:80%;
+    margin:20px;
+    border-radius:5px;
+    background-color: rgb(4, 202, 90);
+    color:white;
+    cursor:pointer;
+    padding:10px 0px;
+    outline:none;
+    border:none;
+
+}
