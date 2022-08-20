@@ -2,6 +2,7 @@ import React, { useRef } from "react";
 import emailjs, { send } from "emailjs-com";
 import { validateEmailForm } from "../utilis/validateEmailForm";
 import { Formik, Form, Field, ErrorMessage } from "formik";
+import { Col, Button, Label, FormGroup } from "react-strap";
 import "./styles/email.css";
 const Email = () => {
   const initialValues = {
@@ -59,9 +60,22 @@ const Email = () => {
         validate={validateEmailForm}
       >
         <Form>
-          <Field type="username" name="name" />
-          <Field type="email" name="email" />
-          <Field as="textarea" name="message" />
+          <FormGroup row>
+            <Col>
+              <Field type="username" name="name" />
+            </Col>{" "}
+          </FormGroup>
+          <FormGroup row>
+            <Col>
+              <Field type="email" name="email" />
+            </Col>
+          </FormGroup>
+          <FormGroup row>
+            <Col>
+              <Field as="textarea" name="message" />
+            </Col>
+          </FormGroup>
+
           <button type="submit">Send </button>
         </Form>
       </Formik>
