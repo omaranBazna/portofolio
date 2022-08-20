@@ -4,8 +4,11 @@
     left:50%;
     transform: translate(-50%,0);
     animation: showPopUp 2s ease 0s 1;
+    width:90%;
+    max-width:250px;
 }
 .message-body{
+    width:100%;
     padding:20px 30px;
     background-color: rgba(255,255,255,1);
     border-radius:999px;

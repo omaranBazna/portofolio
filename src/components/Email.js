@@ -25,12 +25,10 @@ const Email = ({ setShow, setPopSuc, setPopFail }) => {
   }
 
   const onSubmit = (values, { resetForm }) => {
-    setTimeout(() => {
-      SendEmail(values);
+    SendEmail(values);
 
-      resetForm();
-      setShow(false);
-    }, 1000);
+    resetForm();
+    setShow(false);
   };
 
   return (
