@@ -27,6 +27,7 @@ const ProjectDetails = () => {
           <span>Firebase</span>
         </a>
       </div>
+      <div className="icons"></div>
     </div>
   );
 };
