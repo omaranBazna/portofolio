@@ -13,6 +13,9 @@ const ProjectDetails = () => {
       <div className="skills">
         <span>ReactJS</span>
         <span>React-Router</span>
+        <span>React-Redux</span>
+        <span>Styled-components</span>
+        <span>Firebase</span>
       </div>
     </div>
   );

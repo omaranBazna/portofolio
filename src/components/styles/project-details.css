@@ -12,7 +12,7 @@
     overflow: hidden;
 }
 .project-details > p {
-    padding:15px;
+    padding:13px;
     font-size:25px;
     font-weight:400;
 }
@@ -24,7 +24,7 @@
     justify-content: space-around;
 }
 .project-details > div > span {
-    padding:20px;
+    padding:15px;
     background-color:rgba(0,0,0,0.2);
     border-radius:999px;
     font-weight:700;
