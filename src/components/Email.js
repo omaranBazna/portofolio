@@ -24,10 +24,10 @@ const Email = ({ setShow }) => {
       );
   }
 
-  const onSubmit = (values, actions, { resetForm }) => {
+  const onSubmit = (values, { resetForm }) => {
     setTimeout(() => {
       SendEmail(values);
-      actions.setSubmitting(false);
+
       resetForm();
       setShow(false);
     }, 1000);
