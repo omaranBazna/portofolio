@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./styles/react-project-card.css";
 const ReactProjectCard = () => {
   return (
     <div>
