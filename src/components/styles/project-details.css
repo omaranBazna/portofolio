@@ -23,3 +23,9 @@
     align-items: center;
     justify-content: space-around;
 }
+.project-details > div > span {
+    padding:20px;
+    background-color:rgba(0,0,0,0.2);
+    border-radius:999px;
+    font-weight:700;
+}
