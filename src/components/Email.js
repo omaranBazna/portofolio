@@ -9,6 +9,25 @@ const Email = () => {
     message: "",
   };
 
+  const onSubmit = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_a1njsji",
+        "template_oepbcjt",
+        form.current,
+        "MAQE_cAPPmYKBXCIX"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
   const form = useRef();
 
   const sendEmail = (e) => {
