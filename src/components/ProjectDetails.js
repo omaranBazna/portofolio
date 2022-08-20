@@ -1,7 +1,8 @@
 import "./styles/project-details.css";
 
 import React from "react";
-
+import { Button } from "@mui/material";
+import GitHubIcon from "@mui/icons-material/GitHub";
 const ProjectDetails = () => {
   return (
     <div className="project-details">
@@ -27,7 +28,11 @@ const ProjectDetails = () => {
           <span>Firebase</span>
         </a>
       </div>
-      <div className="icons"></div>
+      <div className="icons">
+        <Button>
+          <GitHubIcon className="github-icon" />
+        </Button>
+      </div>
     </div>
   );
 };
