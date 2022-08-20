@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { validateEmailForm } from "../utilis/validateEmailForm";
-import { Formik } from "formik";
+import { Formik, Form, Field, ErrorMessage } from "formik";
 import "./styles/email.css";
 const Email = () => {
   const initialValues = {
@@ -66,7 +66,13 @@ const Email = () => {
         initialValues={initialValues}
         onSubmit={onSubmit}
         validate={validateEmailForm}
-      ></Formik>
+      >
+        <Form>
+          <Field type="username" name="username" />
+          <Field type="email" name="email" />
+          <button type="submit">Send </button>
+        </Form>
+      </Formik>
     </>
   );
 };
