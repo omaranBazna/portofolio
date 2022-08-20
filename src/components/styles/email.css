@@ -37,7 +37,36 @@ position :fixed;
     background-color: rgba(240,240,240,0.8);
     padding:10px;
 
+
+
+
 }
+
+
+
+.emailForm >form textarea::-webkit-scrollbar {
+    width: 10px;
+
+  }
+  
+  /* Track */
+  .emailForm >form textarea::-webkit-scrollbar-track {
+    background: rgba(255,255,255,0.1);
+    border-radius:5px 5px 5px 5px;
+  }
+  
+  /* Handle */
+  .emailForm >form textarea::-webkit-scrollbar-thumb {
+    background: rgba(255,255,255,0.5);
+    border-radius:5px 5px 5px 5px;
+    cursor:pointer;
+  }
+  
+  /* Handle on hover */
+  .emailForm >form textarea::-webkit-scrollbar-thumb:hover {
+    background: rgba(255,255,255,0.8);
+  }
+
 .emailForm >form textarea:focus{
  
     background-color: rgb(255, 255, 255);
