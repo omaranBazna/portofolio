@@ -20,11 +20,7 @@ function App() {
   return (
     <div className="App">
       <HeroSection />
-      <HeroSection />
-      <HeroSection />
-      <HeroSection />
-      <HeroSection />
-      <HeroSection />
+
       <Timeline scroll={scrollPosition} />
       <Footer />
     </div>
