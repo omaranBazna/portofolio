@@ -16,10 +16,10 @@ const Email = ({ setShow, setPopSuc, setPopFail }) => {
       .send("service_a1njsji", "template_oepbcjt", object, "MAQE_cAPPmYKBXCIX")
       .then(
         (result) => {
-          console.log(result.text);
+          setPopSuc(true);
         },
         (error) => {
-          console.log(error.text);
+          setPopFail(true);
         }
       );
   }
@@ -51,7 +51,6 @@ const Email = ({ setShow, setPopSuc, setPopFail }) => {
           <button
             onClick={() => {
               setShow(false);
-              setPopFail(true);
             }}
             className="closeBtn"
           >
