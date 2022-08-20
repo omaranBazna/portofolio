@@ -3,6 +3,8 @@ import "./styles/project-details.css";
 import React from "react";
 import { Button } from "@mui/material";
 import GitHubIcon from "@mui/icons-material/GitHub";
+import LanguageIcon from "@mui/icons-material/Language";
+import CloseIcon from "@mui/icons-material/Close";
 const ProjectDetails = () => {
   return (
     <div className="project-details">
@@ -31,6 +33,13 @@ const ProjectDetails = () => {
       <div className="icons">
         <Button>
           <GitHubIcon className="github-icon" />
+        </Button>
+        <Button>
+          <LanguageIcon className="hosting-icon" />
+        </Button>
+
+        <Button>
+          <CloseIcon className="close-icon" />
         </Button>
       </div>
     </div>
