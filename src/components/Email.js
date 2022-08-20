@@ -4,7 +4,7 @@ import { validateEmailForm } from "../utilis/validateEmailForm";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import { Col, Button, Label, FormGroup } from "reactstrap";
 import "./styles/email.css";
-const Email = ({ setShow, setPopSuc }) => {
+const Email = ({ setShow, setPopSuc, setPopFail }) => {
   const initialValues = {
     name: "",
     email: "",
@@ -51,7 +51,7 @@ const Email = ({ setShow, setPopSuc }) => {
           <button
             onClick={() => {
               setShow(false);
-              setPopSuc(true);
+              setPopFail(true);
             }}
             className="closeBtn"
           >
