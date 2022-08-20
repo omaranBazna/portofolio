@@ -1,9 +1,18 @@
+.card{
+    width:250px;
+    margin:15px;
+  
+    border-radius:15px;
+    background:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+    overflow:hidden;
+}
+  .card > p{
+    padding:15px;
+  }
+
 .card >img{
 width:250px;
 
 }
 
-.card{
-    position:absolute;
-    right:20px;
-}
