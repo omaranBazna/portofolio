@@ -5,7 +5,7 @@
     transform: translate(-50%,0);
     animation: showPopUp 2s ease 0s 1;
     width:90%;
-    max-width:250px;
+    max-width:400px;
 }
 .message-body{
     width:100%;
