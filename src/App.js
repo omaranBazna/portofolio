@@ -21,7 +21,7 @@ function App() {
   return (
     <div className="App">
       <HeroSection />
-      <ReactProto />
+      <ReactProto scroll={scrollPosition} />
       <Timeline scroll={scrollPosition} />
       <Footer />
     </div>

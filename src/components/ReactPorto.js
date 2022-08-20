@@ -3,10 +3,10 @@ import React from "react";
 import ReactIcon from "./ReactIcon";
 import ReactProjectCard from "./ReactProjectCard";
 
-const ReactPorto = () => {
+const ReactPorto = ({ scroll }) => {
   return (
     <div className="react-porto">
-      <ReactIcon />
+      <ReactIcon scroll={scroll} />
       <ReactProjectCard />
     </div>
   );

@@ -1,6 +1,6 @@
 import React from "react";
 import "./styles/react-icon.css";
-const ReactIcon = () => {
+const ReactIcon = ({ scroll }) => {
   return (
     <div className="react-icon">
       <img src="/images/react-js-icon.png" />

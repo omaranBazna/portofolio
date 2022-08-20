@@ -1,5 +1,7 @@
 .react-icon {
     position:fixed;
-    left:70px;
+    left:100px;
+    transform: translate(0,30px) ;
+
     
 }
