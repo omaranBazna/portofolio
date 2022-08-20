@@ -3,7 +3,7 @@ import Footer from "./components/Footer";
 import HeroSection from "./components/HeroSection";
 import Timeline from "./components/Timeline";
 import { useState, useEffect } from "react";
-import ReactProto from "./components/ReactProto";
+import ReactProto from "./components/ReactPorto";
 function App() {
   const [scrollPosition, setScrollPosition] = useState(0);
   const handleScroll = () => {
