@@ -28,16 +28,10 @@ function App() {
   return (
     <div className="App">
       <HeroSection />
-      <HeroSection />
-      <HeroSection />
-      <HeroSection />
-      <HeroSection />
-      <HeroSection />
-      <HeroSection />
-      <HeroSection />
+      <ReactProto scroll={scrollPosition} />
       {/*
       
-    <ReactProto scroll={scrollPosition} />
+   
       <Timeline scroll={scrollPosition} />
   */}
       {popUpSuc && <PopUpSucc setPop={setPopUpSuc} />}

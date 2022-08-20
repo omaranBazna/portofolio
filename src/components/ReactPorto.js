@@ -6,8 +6,9 @@ import ReactProjectCard from "./ReactProjectCard";
 const ReactPorto = ({ scroll }) => {
   return (
     <div className="react-porto">
-      <ReactIcon scroll={scroll} />
-      <ReactProjectCard />
+      <dic className="react-porto-content">
+        <div>Content</div>
+      </dic>
     </div>
   );
 };
