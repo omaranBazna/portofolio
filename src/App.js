@@ -3,6 +3,7 @@ import Footer from "./components/Footer";
 import HeroSection from "./components/HeroSection";
 import Timeline from "./components/Timeline";
 import { useState, useEffect } from "react";
+import ReactProto from "./components/ReactProto";
 function App() {
   const [scrollPosition, setScrollPosition] = useState(0);
   const handleScroll = () => {
@@ -20,7 +21,7 @@ function App() {
   return (
     <div className="App">
       <HeroSection />
-
+      <ReactProto />
       <Timeline scroll={scrollPosition} />
       <Footer />
     </div>
