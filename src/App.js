@@ -7,6 +7,7 @@ import ReactProto from "./components/ReactPorto";
 import Email from "./components/Email";
 import PopUpSucc from "./components/PopUpSucc";
 import PopUpFail from "./components/PopUpFail";
+import ProjectDetails from "./components/ProjectDetails";
 
 function App() {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -29,6 +30,7 @@ function App() {
     <div className="App">
       <HeroSection />
       <ReactProto scroll={scrollPosition} />
+      <ProjectDetails />
       {/*
       
    
