@@ -9,17 +9,19 @@ const Footer = ({ setShow }) => {
   return (
     <div className="footer">
       <div className="social">
-        <Button>
-          <GitHubIcon className="github-icon" />
-        </Button>
-        <Button>
-          <a
-            href="https://www.linkedin.com/in/omaran-bazna-64234b102/"
-            target="_blank"
-          >
+        <a href="https://github.com/omaranBazna" target="_blank">
+          <Button>
+            <GitHubIcon className="github-icon" />
+          </Button>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/omaran-bazna-64234b102/"
+          target="_blank"
+        >
+          <Button>
             <LinkedInIcon className="linked-in-icon" />
-          </a>
-        </Button>
+          </Button>
+        </a>
       </div>
       <div className="separate"></div>
       <div className="contact-me">
