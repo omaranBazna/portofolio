@@ -14,7 +14,9 @@ const ProjectDetails = () => {
         <a href="https://reactjs.org/" target={"_blank"}>
           <span>ReactJS</span>
         </a>
-        <span>React-Router</span>
+        <a href="https://reactrouter.com/" target={"_blank"}>
+          <span>React-Router</span>
+        </a>
         <span>React-Redux</span>
         <span>Styled-components</span>
         <span>Firebase</span>
