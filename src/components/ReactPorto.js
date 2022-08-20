@@ -14,7 +14,17 @@ const ReactPorto = ({ scroll }) => {
           </div>
         </a>
         <div className="react-porto-projects">
-          Content
+          <ReactProjectCard />
+          <ReactProjectCard />
+          <ReactProjectCard />
+          <ReactProjectCard />
+          <ReactProjectCard />
+          <ReactProjectCard />
+          <ReactProjectCard />
+          <ReactProjectCard />
+          <ReactProjectCard />
+          <ReactProjectCard />
+          <ReactProjectCard />
           <ReactProjectCard />
         </div>
       </dic>
