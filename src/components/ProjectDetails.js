@@ -10,7 +10,10 @@ const ProjectDetails = () => {
         In this Project ,I cloned the official website of{" "}
         <a>Walt Disney Movies </a> using :
       </p>
-      <div className="skills"></div>
+      <div className="skills">
+        <span>ReactJS</span>
+        <span>React-Router</span>
+      </div>
     </div>
   );
 };

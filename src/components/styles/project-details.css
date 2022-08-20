@@ -16,3 +16,10 @@
     font-size:25px;
     font-weight:400;
 }
+
+.project-details > div {
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
