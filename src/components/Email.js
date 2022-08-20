@@ -53,7 +53,7 @@ const Email = () => {
   };
 
   return (
-    <>
+    <div className="emailForm">
       <Formik
         initialValues={initialValues}
         onSubmit={onSubmit}
@@ -79,7 +79,7 @@ const Email = () => {
           <button type="submit">Send </button>
         </Form>
       </Formik>
-    </>
+    </div>
   );
 };
 
