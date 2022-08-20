@@ -4,6 +4,7 @@ import HeroSection from "./components/HeroSection";
 import Timeline from "./components/Timeline";
 import { useState, useEffect } from "react";
 import ReactProto from "./components/ReactPorto";
+import Email from "./components/Email";
 function App() {
   const [scrollPosition, setScrollPosition] = useState(0);
   const handleScroll = () => {
@@ -21,8 +22,13 @@ function App() {
   return (
     <div className="App">
       <HeroSection />
-      <ReactProto scroll={scrollPosition} />
+      {/*
+      
+    <ReactProto scroll={scrollPosition} />
       <Timeline scroll={scrollPosition} />
+  */}
+
+      <Email />
       <Footer />
     </div>
   );

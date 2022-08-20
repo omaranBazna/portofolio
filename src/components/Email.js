@@ -10,10 +10,10 @@ const Email = () => {
 
     emailjs
       .sendForm(
-        "YOUR_SERVICE_ID",
-        "YOUR_TEMPLATE_ID",
+        "service_a1njsji",
+        "template_oepbcjt",
         form.current,
-        "YOUR_PUBLIC_KEY"
+        "MAQE_cAPPmYKBXCIX"
       )
       .then(
         (result) => {
@@ -28,9 +28,9 @@ const Email = () => {
   return (
     <form ref={form} onSubmit={sendEmail}>
       <label>Name</label>
-      <input type="text" name="user_name" />
+      <input type="text" name="name" />
       <label>Email</label>
-      <input type="email" name="user_email" />
+      <input type="email" name="email" />
       <label>Message</label>
       <textarea name="message" />
       <input type="submit" value="Send" />
