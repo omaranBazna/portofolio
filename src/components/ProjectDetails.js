@@ -31,13 +31,19 @@ const ProjectDetails = () => {
         </a>
       </div>
       <div className="icons">
-        <Button>
-          <GitHubIcon className="github-icon" />
-        </Button>
-        <Button>
-          <LanguageIcon className="hosting-icon" />
-        </Button>
-
+        <span style={{ fontWeight: "600", fontSize: "20px" }}>
+          Project Links:
+        </span>
+        <a href="https://github.com/omaranBazna/disney-clone" target={"_blank"}>
+          <Button>
+            <GitHubIcon className="github-icon" />
+          </Button>
+        </a>
+        <a href="https://omaranbazna.github.io/disney-clone/" target={"_blank"}>
+          <Button>
+            <LanguageIcon className="hosting-icon" />
+          </Button>
+        </a>
         <Button>
           <CloseIcon className="close-icon" />
         </Button>
