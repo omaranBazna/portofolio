@@ -3,6 +3,12 @@ import emailjs from "@emailjs/browser";
 import { Formik } from "formik";
 import "./styles/email.css";
 const Email = () => {
+  const initialValues = {
+    name: "",
+    email: "",
+    message: "",
+  };
+
   const form = useRef();
 
   const sendEmail = (e) => {
