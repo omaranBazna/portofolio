@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import emailjs, { send } from "emailjs-com";
 import { validateEmailForm } from "../utilis/validateEmailForm";
 import { Formik, Form, Field, ErrorMessage } from "formik";
-import { Col, Button, Label, FormGroup } from "react-strap";
+import { Col, Button, Label, FormGroup } from "reactstrap";
 import "./styles/email.css";
 const Email = () => {
   const initialValues = {
