@@ -10,6 +10,7 @@
     background-color:rgba(255,255,255,0.9);
     border-radius:25px;
     overflow: hidden;
+
 }
 .project-details > p {
     padding:10px;
@@ -43,3 +44,4 @@ a{
     justify-content: center;
     margin:10px;
 }
+
