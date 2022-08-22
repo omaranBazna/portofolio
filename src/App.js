@@ -30,7 +30,7 @@ function App() {
   return (
     <div className="App">
       <HeroSection />
-      <ReactProto scroll={scrollPosition} />
+      <ReactProto scroll={scrollPosition} setShow={setShowProjectDetails} />
       {showProjectDetails && <ProjectDetails setShow={setShowProjectDetails} />}
       {/*
       
