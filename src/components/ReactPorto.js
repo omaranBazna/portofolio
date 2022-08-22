@@ -16,7 +16,6 @@ const ReactPorto = ({ scroll, setShow }) => {
         <div className="react-porto-projects">
           <div
             onClick={() => {
-              console.log("hello");
               setShow(true);
             }}
           >
@@ -24,7 +23,6 @@ const ReactPorto = ({ scroll, setShow }) => {
           </div>
           <div
             onClick={() => {
-              console.log("hello");
               setShow(true);
             }}
           >
@@ -32,7 +30,6 @@ const ReactPorto = ({ scroll, setShow }) => {
           </div>
           <div
             onClick={() => {
-              console.log("hello");
               setShow(true);
             }}
           >
@@ -40,7 +37,6 @@ const ReactPorto = ({ scroll, setShow }) => {
           </div>
           <div
             onClick={() => {
-              console.log("hello");
               setShow(true);
             }}
           >
@@ -48,7 +44,6 @@ const ReactPorto = ({ scroll, setShow }) => {
           </div>
           <div
             onClick={() => {
-              console.log("hello");
               setShow(true);
             }}
           >
