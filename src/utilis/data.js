@@ -44,9 +44,10 @@ export const ReactProjects = [
     url: "https://omaranbazna.github.io/linked-in-clone2/",
   },
   {
-    id: 2,
+    id: "2",
     name: "Slack clone",
-    photo: "",
+    photo:
+      "https://www.guidingtech.com/wp-content/uploads/slack-tips-tricks-fi_4d470f76dc99e18ad75087b1b8410ea9.jpg",
     description:
       "This website is a clone to the real Slack App build using ReactJS,Material UI and firebase",
 
@@ -58,6 +59,22 @@ export const ReactProjects = [
 
     github: "https://github.com/omaranBazna/slack-clone",
     url: "https://omaranbazna.github.io/slack-clone/",
+  },
+  {
+    id: "3",
+    name: "Gmail clone",
+    photo:
+      "https://techgameworld.com/wp-content/uploads/2022/01/Gmail-reaches-10-billion-downloads-on-the-Play-Store.jpg",
+    description:
+      "This website is a clone to the real Gmail website build using ReactJS,Material UI and firebase",
+
+    detailsDescription:
+      "In this Project ,I cloned the official website of Gmail using :",
+    skills: ["ReactJS", "ReactRouter", "ReactRedux", "MaterialUI", "Firebase"],
+    cover: "https://i.insider.com/627bd37f8f41d500187ac93b?width=700",
+
+    github: "https://github.com/omaranBazna/gmail-clone",
+    url: "",
   },
 ];
 
