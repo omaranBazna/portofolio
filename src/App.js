@@ -14,6 +14,7 @@ function App() {
   const [showEmailForm, setShowEmailForm] = useState(false);
   const [popUpSuc, setPopUpSuc] = useState(false);
   const [popUpFail, setPopUpFail] = useState(false);
+  const [showProjectDetails, setShowProjectDetails] = useState(false);
   const handleScroll = () => {
     const position = window.pageYOffset / window.outerHeight;
     setScrollPosition(position);
@@ -30,7 +31,7 @@ function App() {
     <div className="App">
       <HeroSection />
       <ReactProto scroll={scrollPosition} />
-      <ProjectDetails />
+      {showProjectDetails && <ProjectDetails setShow={setShowProjectDetails} />}
       {/*
       
    
