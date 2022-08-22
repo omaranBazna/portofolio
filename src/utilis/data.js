@@ -9,7 +9,7 @@ export const ReactProjects = [
     detailsDescription:
       "In this Project ,I cloned the official website of Walt Disney Movies using :",
     skills: [
-      "ReactJS",
+      "ReactJs",
       "ReactRouter",
       "ReactRedux",
       "StyledComponents",
@@ -31,7 +31,7 @@ export const ReactProjects = [
     detailsDescription:
       "In this Project ,I cloned the official website of LinkedIn using :",
     skills: [
-      "ReactJS",
+      "ReactJs",
       "ReactRouter",
       "ReactRedux",
       "StyledComponents",
@@ -53,7 +53,7 @@ export const ReactProjects = [
 
     detailsDescription:
       "In this Project ,I cloned the official website of Slack using :",
-    skills: ["ReactJS", "ReactRouter", "ReactRedux", "MaterialUI", "Firebase"],
+    skills: ["ReactJs", "ReactRouter", "ReactRedux", "MaterialUI", "Firebase"],
     cover:
       "https://a.slack-edge.com/221d25b/marketing/img/homepage/e2e-prospects/unfurl/slack-e2e-homepage-unfurl.jpg",
 
@@ -70,7 +70,7 @@ export const ReactProjects = [
 
     detailsDescription:
       "In this Project ,I cloned the official website of Gmail using :",
-    skills: ["ReactJS", "ReactRouter", "ReactRedux", "MaterialUI", "Firebase"],
+    skills: ["ReactJs", "ReactRouter", "ReactRedux", "MaterialUI", "Firebase"],
     cover: "https://i.insider.com/627bd37f8f41d500187ac93b?width=700",
 
     github: "https://github.com/omaranBazna/gmail-clone",

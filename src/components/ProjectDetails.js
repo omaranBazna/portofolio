@@ -8,6 +8,7 @@ import CloseIcon from "@mui/icons-material/Close";
 import { useSelector } from "react-redux/es/exports";
 
 import { selectProject } from "../app/features/projectSlice";
+import { skills } from "../utilis/data";
 const ProjectDetails = ({ setShow }) => {
   const project = useSelector(selectProject);
 
@@ -16,21 +17,17 @@ const ProjectDetails = ({ setShow }) => {
       <img src="https://i.pinimg.com/originals/0b/bf/c7/0bbfc7ccf6eda7d4173eb795526de3a9.jpg"></img>
       <p>{project.detailsDescription}</p>
       <div className="skills">
-        <a href="https://reactjs.org/" target={"_blank"}>
-          <span>ReactJS</span>
-        </a>
-        <a href="https://reactrouter.com/" target={"_blank"}>
-          <span>React-Router</span>
-        </a>
-        <a href="https://react-redux.js.org/" target={"_blank"}>
-          <span>React-Redux</span>
-        </a>
-        <a href="https://styled-components.com/" target={"_blank"}>
-          <span>Styled-components</span>
-        </a>
-        <a href="https://firebase.google.com/" target={"_blank"}>
-          <span>Firebase</span>
-        </a>
+        {project.skills.map((skill) => {
+          return (
+            <a
+              href={skills[skill]}
+              target={"_blank"}
+              key={skill[0] + skill.length}
+            >
+              <span>{skill}</span>
+            </a>
+          );
+        })}
       </div>
       <div className="icons">
         <span style={{ fontWeight: "600", fontSize: "20px" }}>
