@@ -5,7 +5,9 @@ import { Button } from "@mui/material";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LanguageIcon from "@mui/icons-material/Language";
 import CloseIcon from "@mui/icons-material/Close";
+import { useSelector } from "react-redux/es/exports";
 const ProjectDetails = ({ setShow }) => {
+  const projectId = useSelector((state) => state.project.projectId);
   return (
     <div className="project-details">
       <img src="https://i.pinimg.com/originals/0b/bf/c7/0bbfc7ccf6eda7d4173eb795526de3a9.jpg"></img>
