@@ -1,6 +1,6 @@
 import "./styles/react-porto.css";
 import React from "react";
-
+import { ReactProjects } from "../utilis/data";
 import ReactProjectCard from "./ReactProjectCard";
 
 const ReactPorto = ({ scroll, setShow }) => {
@@ -14,6 +14,7 @@ const ReactPorto = ({ scroll, setShow }) => {
           </div>
         </a>
         <div className="react-porto-projects">
+          {/*
           <div
             onClick={() => {
               setShow(true);
@@ -49,6 +50,22 @@ const ReactPorto = ({ scroll, setShow }) => {
           >
             <ReactProjectCard imgSrc="https://images.ctfassets.net/b4k16c7lw5ut/6aR9X4qHgnnbxPxLlUhywh/0ca46f6fdae5448d4022e52061898933/image4.png?w=1920&h=1080&q=50&fm=png" />
           </div>
+          */}
+          {ReactProjects.map((project) => {
+            return (
+              <div
+                key={project.id}
+                onClick={() => {
+                  setShow(true);
+                }}
+              >
+                <ReactProjectCard
+                  imgSrc={project.photo}
+                  description={project.description}
+                />
+              </div>
+            );
+          })}
         </div>
       </dic>
     </div>
