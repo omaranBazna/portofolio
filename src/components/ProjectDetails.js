@@ -14,7 +14,7 @@ const ProjectDetails = ({ setShow }) => {
 
   return (
     <div className="project-details">
-      <img src="https://i.pinimg.com/originals/0b/bf/c7/0bbfc7ccf6eda7d4173eb795526de3a9.jpg"></img>
+      <img src={project.cover}></img>
       <p>{project.detailsDescription}</p>
       <div className="skills">
         {project.skills.map((skill) => {
@@ -33,12 +33,20 @@ const ProjectDetails = ({ setShow }) => {
         <span style={{ fontWeight: "600", fontSize: "20px" }}>
           Project Links:
         </span>
-        <a href="https://github.com/omaranBazna/disney-clone" target={"_blank"}>
+        <a
+          className="btn"
+          href="https://github.com/omaranBazna/disney-clone"
+          target={"_blank"}
+        >
           <Button>
             <GitHubIcon className="github-icon" />
           </Button>
         </a>
-        <a href="https://omaranbazna.github.io/disney-clone/" target={"_blank"}>
+        <a
+          className="btn"
+          href="https://omaranbazna.github.io/disney-clone/"
+          target={"_blank"}
+        >
           <Button>
             <LanguageIcon className="hosting-icon" />
           </Button>
