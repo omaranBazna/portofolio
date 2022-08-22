@@ -4,9 +4,9 @@
    left:50%;
    transform: translate(-50%,-60%);
     width:90%;
-    max-width:800px;
+    max-width:1100px;
     height:80%;
-    max-height:600px;
+    max-height:880px;
     background-color:rgba(255,255,255,0.99);
     border-radius:25px;
     overflow: hidden;
@@ -43,9 +43,20 @@ a{
     align-items: center;
     justify-content: center;
     margin:10px;
+    padding:15px;
+    border-top:1px solid grey;
+    background-color: rgba(0,0,0,0.05);
+}
+.icons >button {
+    color:red;
+  
+}
+
+.hosting-icon{
+    color:green;
 }
 .btn{
-    background-color: rgba(0,0,0,0.05) !important;
+    background-color: rgba(0,0,0,0) !important;
     border-radius:2px !important;
     padding:10px 20px; 
 }

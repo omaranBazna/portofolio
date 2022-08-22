@@ -33,20 +33,12 @@ const ProjectDetails = ({ setShow }) => {
         <span style={{ fontWeight: "600", fontSize: "20px" }}>
           Project Links:
         </span>
-        <a
-          className="btn"
-          href="https://github.com/omaranBazna/disney-clone"
-          target={"_blank"}
-        >
+        <a className="btn" href={project.github} target={"_blank"}>
           <Button>
             <GitHubIcon className="github-icon" />
           </Button>
         </a>
-        <a
-          className="btn"
-          href="https://omaranbazna.github.io/disney-clone/"
-          target={"_blank"}
-        >
+        <a className="btn" href={project.url} target={"_blank"}>
           <Button>
             <LanguageIcon className="hosting-icon" />
           </Button>
