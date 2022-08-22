@@ -6,15 +6,15 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import LanguageIcon from "@mui/icons-material/Language";
 import CloseIcon from "@mui/icons-material/Close";
 import { useSelector } from "react-redux/es/exports";
+
+import { selectProject } from "../app/features/projectSlice";
 const ProjectDetails = ({ setShow }) => {
-  const projectId = useSelector((state) => state.project.projectId);
+  const project = useSelector(selectProject);
+
   return (
     <div className="project-details">
       <img src="https://i.pinimg.com/originals/0b/bf/c7/0bbfc7ccf6eda7d4173eb795526de3a9.jpg"></img>
-      <p>
-        In this Project ,I cloned the official website of Walt Disney Movies
-        using :
-      </p>
+      <p>{project.detailsDescription}</p>
       <div className="skills">
         <a href="https://reactjs.org/" target={"_blank"}>
           <span>ReactJS</span>
@@ -46,13 +46,12 @@ const ProjectDetails = ({ setShow }) => {
             <LanguageIcon className="hosting-icon" />
           </Button>
         </a>
-        <Button>
-          <CloseIcon
-            onClick={() => {
-              setShow(false);
-            }}
-            className="close-icon"
-          />
+        <Button
+          onClick={() => {
+            setShow(false);
+          }}
+        >
+          <CloseIcon className="close-icon" />
         </Button>
       </div>
     </div>

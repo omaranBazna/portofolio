@@ -1,5 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
-
+import { ReactProjects } from "../../utilis/data";
 const initialState = {
   category: "React",
   projectId: "0",
@@ -16,6 +16,10 @@ export const projectSlice = createSlice({
     },
   },
 });
-
+export const selectProject = (state) => {
+  return ReactProjects.find((project) => {
+    return project.id == state.project.projectId;
+  });
+};
 export const { setCategory, setProjectId } = projectSlice.actions;
 export const projectReducer = projectSlice.reducer;
