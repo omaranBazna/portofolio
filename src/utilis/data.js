@@ -70,7 +70,14 @@ export const ReactProjects = [
 
     detailsDescription:
       "In this Project ,I cloned the official website of Gmail using :",
-    skills: ["ReactJs", "ReactRouter", "ReactRedux", "MaterialUI", "Firebase"],
+    skills: [
+      "ReactJs",
+      "ReactRouter",
+      "ReactRedux",
+      "MaterialUI",
+      "Firebase",
+      "ReactHookForm",
+    ],
     cover: "https://i.insider.com/627bd37f8f41d500187ac93b?width=700",
 
     github: "https://github.com/omaranBazna/gmail-clone",
@@ -85,4 +92,5 @@ export const skills = {
   StyledComponents: "https://styled-components.com/",
   Firebase: "https://firebase.google.com/",
   MaterialUI: "https://mui.com/",
+  ReactHookForm: "https://react-hook-form.com/",
 };
