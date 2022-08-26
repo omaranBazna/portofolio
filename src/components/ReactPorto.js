@@ -68,6 +68,11 @@ const ReactPorto = ({ scroll, setShow }) => {
             />
           </div>
         </div>
+
+        <div className="controller">
+          <button>Previous</button>
+          <button>Next</button>
+        </div>
       </dic>
     </div>
   );
