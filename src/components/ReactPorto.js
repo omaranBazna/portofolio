@@ -23,12 +23,48 @@ const ReactPorto = ({ scroll, setShow }) => {
             onClick={() => {
               setShow(true);
               dispatch(setCategory("ReactJS"));
-              dispatch(setProjectId(0));
+              dispatch(setProjectId(index));
             }}
           >
             <ReactProjectCard
-              imgSrc={ReactProjects[0].photo}
-              description={ReactProjects[0].description}
+              imgSrc={ReactProjects[index].photo}
+              description={ReactProjects[index].description}
+            />
+          </div>
+          <div
+            onClick={() => {
+              setShow(true);
+              dispatch(setCategory("ReactJS"));
+              dispatch(setProjectId(index + 1));
+            }}
+          >
+            <ReactProjectCard
+              imgSrc={ReactProjects[index + 1].photo}
+              description={ReactProjects[index + 1].description}
+            />
+          </div>
+          <div
+            onClick={() => {
+              setShow(true);
+              dispatch(setCategory("ReactJS"));
+              dispatch(setProjectId(index + 2));
+            }}
+          >
+            <ReactProjectCard
+              imgSrc={ReactProjects[index + 2].photo}
+              description={ReactProjects[index + 2].description}
+            />
+          </div>
+          <div
+            onClick={() => {
+              setShow(true);
+              dispatch(setCategory("ReactJS"));
+              dispatch(setProjectId(index + 3));
+            }}
+          >
+            <ReactProjectCard
+              imgSrc={ReactProjects[index + 3].photo}
+              description={ReactProjects[index + 3].description}
             />
           </div>
         </div>
