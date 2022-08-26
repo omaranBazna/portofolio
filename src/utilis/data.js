@@ -246,11 +246,11 @@ export const ReactProjects = [
 export const ReactNativeProjects = [
   {
     id: "0",
-    name: "Disney clone",
+    name: "Disney clone Native",
     photo:
       "https://www.disneychannel.ca/wp-content/themes/disney-child/assets/images/thumbnail-generic.jpg",
     description:
-      "This website is a clone to the real Disney website build using ReactJS,Styled components and firebase",
+      "This website is a clone to the real Disney website build using ReactJS,Styled components and firebase Native",
     detailsDescription:
       "In this Project ,I cloned the official website of Walt Disney Movies using :",
     skills: [
