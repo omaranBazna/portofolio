@@ -4,9 +4,11 @@ import { ReactProjects } from "../utilis/data";
 import ReactProjectCard from "./ReactProjectCard";
 import { useDispatch } from "react-redux/es/hooks/useDispatch";
 import { setCategory, setProjectId } from "../app/features/projectSlice";
-
+import { useState } from "react";
 const ReactPorto = ({ scroll, setShow }) => {
   const dispatch = useDispatch();
+
+  const [index, setIndex] = useState(0);
   return (
     <div className="react-porto">
       <dic className="react-porto-content">
@@ -17,23 +19,18 @@ const ReactPorto = ({ scroll, setShow }) => {
           </div>
         </a>
         <div className="react-porto-projects">
-          {ReactProjects.map((project) => {
-            return (
-              <div
-                key={project.id}
-                onClick={() => {
-                  setShow(true);
-                  dispatch(setCategory("ReactJS"));
-                  dispatch(setProjectId(project.id));
-                }}
-              >
-                <ReactProjectCard
-                  imgSrc={project.photo}
-                  description={project.description}
-                />
-              </div>
-            );
-          })}
+          <div
+            onClick={() => {
+              setShow(true);
+              dispatch(setCategory("ReactJS"));
+              dispatch(setProjectId(0));
+            }}
+          >
+            <ReactProjectCard
+              imgSrc={ReactProjects[0].photo}
+              description={ReactProjects[0].description}
+            />
+          </div>
         </div>
       </dic>
     </div>
