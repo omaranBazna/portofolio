@@ -76,6 +76,12 @@
    border:1px solid rgba(255,255,255,0.4) !important;
  
  }
+
+ @media (max-width:768px){
+    .skill-porto-projects-section{
+align-items: center;
+    }
+ }
  .controller-left{
    border-left: none !important;
    border-top-right-radius:25px !important;
