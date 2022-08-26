@@ -13,15 +13,15 @@ const ReactNativePorto = ({ scroll, setShow }) => {
 
   const [index, setIndex] = useState(0);
   return (
-    <div className="react-porto">
-      <dic className="react-porto-content">
-        <a href="https://reactjs.org/" target={"_blank"}>
-          <div className="react-title">
+    <div className="react-native-porto">
+      <dic className="react-native-porto-content">
+        <a href="https://reactnative.dev/" target={"_blank"}>
+          <div className="react-native-title">
             <img src="https://icons-for-free.com/iconfiles/png/512/design+development+facebook+framework+mobile+react+icon-1320165723839064798.png" />
-            <h2>ReactJS</h2>
+            <h2>React-Native</h2>
           </div>
         </a>
-        <div className="react-porto-projects-section">
+        <div className="react-native-porto-projects-section">
           <Button
             className="controller-left"
             onClick={() => {
@@ -32,12 +32,12 @@ const ReactNativePorto = ({ scroll, setShow }) => {
           >
             <ArrowBackIosIcon />
           </Button>
-          <div className="react-porto-projects">
+          <div className="react-native-porto-projects">
             {ReactProjects[index] && (
               <div
                 onClick={() => {
                   setShow(true);
-                  dispatch(setCategory("ReactJS"));
+                  dispatch(setCategory("ReactNative"));
                   dispatch(setProjectId(index));
                 }}
               >
@@ -51,7 +51,7 @@ const ReactNativePorto = ({ scroll, setShow }) => {
               <div
                 onClick={() => {
                   setShow(true);
-                  dispatch(setCategory("ReactJS"));
+                  dispatch(setCategory("ReactNative"));
                   dispatch(setProjectId(index + 1));
                 }}
               >
@@ -66,7 +66,7 @@ const ReactNativePorto = ({ scroll, setShow }) => {
               <div
                 onClick={() => {
                   setShow(true);
-                  dispatch(setCategory("ReactJS"));
+                  dispatch(setCategory("ReactNative"));
                   dispatch(setProjectId(index + 2));
                 }}
               >
@@ -80,7 +80,7 @@ const ReactNativePorto = ({ scroll, setShow }) => {
               <div
                 onClick={() => {
                   setShow(true);
-                  dispatch(setCategory("ReactJS"));
+                  dispatch(setCategory("ReactNative"));
                   dispatch(setProjectId(index + 3));
                 }}
               >
