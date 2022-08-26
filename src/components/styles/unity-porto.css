@@ -1,4 +1,4 @@
-.javascript-porto{
+.unity-porto{
    width:100%;
    height:600px;
    display:flex;
@@ -8,7 +8,7 @@
    margin-top:20px;
 
 }
-.javascript-porto-content{
+.unity-porto-content{
     width:95%;
     height:95%;
     border-radius:25px;
@@ -16,10 +16,10 @@
     border:1px solid rgba(255, 255, 255, 0.2);
    overflow-y: scroll;
 }
-.javascript-title >img{
+.unity-title >img{
     width:90px;
 }
-.javascript-title{
+.unity-title{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -27,10 +27,10 @@
     background-color: rgba(255,255,255,0.05);
     border-radius:20px 20px 0 0 ;
 }
-.javascript-title:hover{
+.unity-title:hover{
     background-color: rgba(255,255,255,0.2);
 }
-.javascript-porto-projects{
+.unity-porto-projects{
     display:flex;
     align-items: center;
     justify-content: space-around;
@@ -43,29 +43,29 @@
 
 
 
-.javascript-porto-content::-webkit-scrollbar {
+.unity-porto-content::-webkit-scrollbar {
     width: 10px;
 
   }
   
   /* Track */
-  .javascript-porto-content::-webkit-scrollbar-track {
+  .unity-porto-content::-webkit-scrollbar-track {
     background: rgba(255,255,255,0.1);
     border-radius:5px 5px 5px 5px;
   }
   
   /* Handle */
-  .javascript-porto-content::-webkit-scrollbar-thumb {
+  .unity-porto-content::-webkit-scrollbar-thumb {
     background: rgba(255,255,255,0.5);
     border-radius:5px 5px 5px 5px;
     cursor:pointer;
   }
   
   /* Handle on hover */
-  .javascript-porto-content::-webkit-scrollbar-thumb:hover {
+  .unity-porto-content::-webkit-scrollbar-thumb:hover {
     background: rgba(255,255,255,0.8);
   }
-.javascript-porto-projects-section{
+.unity-porto-projects-section{
   display:flex;
   align-items: center;
   justify-content: space-between;

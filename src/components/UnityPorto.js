@@ -8,20 +8,20 @@ import { useState } from "react";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
 import { Button } from "@mui/material";
-const JavaScriptPorto = ({ scroll, setShow }) => {
+const UnityPorto = ({ setShow }) => {
   const dispatch = useDispatch();
 
   const [index, setIndex] = useState(0);
   return (
-    <div className="javascript-porto">
-      <dic className="javascript-porto-content">
+    <div className="unity-porto">
+      <dic className="unity-porto-content">
         <a href="https://www.javascript.com/" target={"_blank"}>
-          <div className="javascript-title">
+          <div className="unity-title">
             <img src="https://cdn0.iconfinder.com/data/icons/designer-skills/128/node-js-512.png" />
-            <h2>JavaScript</h2>
+            <h2>Unity</h2>
           </div>
         </a>
-        <div className="javascript-porto-projects-section">
+        <div className="unity-porto-projects-section">
           <Button
             className="controller-left"
             onClick={() => {
@@ -32,12 +32,12 @@ const JavaScriptPorto = ({ scroll, setShow }) => {
           >
             <ArrowBackIosIcon />
           </Button>
-          <div className="javascript-porto-projects">
+          <div className="unity-porto-projects">
             {JavaScriptProjects[index] && (
               <div
                 onClick={() => {
                   setShow(true);
-                  dispatch(setCategory("JavaScript"));
+                  dispatch(setCategory("Unity"));
                   dispatch(setProjectId(index));
                 }}
               >
@@ -51,7 +51,7 @@ const JavaScriptPorto = ({ scroll, setShow }) => {
               <div
                 onClick={() => {
                   setShow(true);
-                  dispatch(setCategory("JavaScript"));
+                  dispatch(setCategory("Unity"));
                   dispatch(setProjectId(index + 1));
                 }}
               >
@@ -66,7 +66,7 @@ const JavaScriptPorto = ({ scroll, setShow }) => {
               <div
                 onClick={() => {
                   setShow(true);
-                  dispatch(setCategory("JavaScript"));
+                  dispatch(setCategory("Unity"));
                   dispatch(setProjectId(index + 2));
                 }}
               >
@@ -80,7 +80,7 @@ const JavaScriptPorto = ({ scroll, setShow }) => {
               <div
                 onClick={() => {
                   setShow(true);
-                  dispatch(setCategory("JavaScript"));
+                  dispatch(setCategory("Unity"));
                   dispatch(setProjectId(index + 3));
                 }}
               >
@@ -107,4 +107,4 @@ const JavaScriptPorto = ({ scroll, setShow }) => {
   );
 };
 
-export default JavaScriptPorto;
+export default UnityPorto;
