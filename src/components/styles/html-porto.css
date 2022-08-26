@@ -1,4 +1,4 @@
-.javascript-porto{
+.html-porto{
    width:100%;
    height:600px;
    display:flex;
@@ -8,7 +8,7 @@
    margin-top:20px;
 
 }
-.javascript-porto-content{
+.html-porto-content{
     width:95%;
     height:95%;
     border-radius:25px;
@@ -16,10 +16,10 @@
     border:1px solid rgba(255, 255, 255, 0.2);
    overflow-y: scroll;
 }
-.javascript-title >img{
-    width:90px;
+.html-title >img{
+    width:50px;
 }
-.javascript-title{
+.html-title{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -27,10 +27,10 @@
     background-color: rgba(255,255,255,0.05);
     border-radius:20px 20px 0 0 ;
 }
-.javascript-title:hover{
+.html-title:hover{
     background-color: rgba(255,255,255,0.2);
 }
-.javascript-porto-projects{
+.html-porto-projects{
     display:flex;
     align-items: center;
     justify-content: space-around;
@@ -43,29 +43,29 @@
 
 
 
-.javascript-porto-content::-webkit-scrollbar {
+.html-porto-content::-webkit-scrollbar {
     width: 10px;
 
   }
   
   /* Track */
-  .javascript-porto-content::-webkit-scrollbar-track {
+  .html-porto-content::-webkit-scrollbar-track {
     background: rgba(255,255,255,0.1);
     border-radius:5px 5px 5px 5px;
   }
   
   /* Handle */
-  .javascript-porto-content::-webkit-scrollbar-thumb {
+  .html-porto-content::-webkit-scrollbar-thumb {
     background: rgba(255,255,255,0.5);
     border-radius:5px 5px 5px 5px;
     cursor:pointer;
   }
   
   /* Handle on hover */
-  .javascript-porto-content::-webkit-scrollbar-thumb:hover {
+  .html-porto-content::-webkit-scrollbar-thumb:hover {
     background: rgba(255,255,255,0.8);
   }
-.javascript-porto-projects-section{
+.html-porto-projects-section{
   display:flex;
   align-items: center;
   justify-content: space-between;

@@ -6,6 +6,7 @@ import { useState, useEffect } from "react";
 import ReactProto from "./components/ReactPorto";
 import ReactNativePorto from "./components/ReactNativePorto";
 import JavaScriptPorto from "./components/JavaScriptPorto";
+import HTMLPorto from "./components/HTMLPorto";
 import Email from "./components/Email";
 import PopUpSucc from "./components/PopUpSucc";
 import PopUpFail from "./components/PopUpFail";
@@ -23,6 +24,7 @@ function App() {
       <ReactProto setShow={setShowProjectDetails} />
       <ReactNativePorto setShow={setShowProjectDetails} />
       <JavaScriptPorto setShow={setShowProjectDetails} />
+      <HTMLPorto setShow={setShowProjectDetails} />
       {showProjectDetails && <ProjectDetails setShow={setShowProjectDetails} />}
 
       {popUpSuc && <PopUpSucc setPop={setPopUpSuc} />}

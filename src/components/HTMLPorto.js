@@ -1,6 +1,6 @@
-import "./styles/javascript-porto.css";
+import "./styles/html-porto.css";
 import React from "react";
-import { JavaScriptProjects } from "../utilis/data";
+import { HTMLProjects } from "../utilis/data";
 import ReactProjectCard from "./ReactProjectCard";
 import { useDispatch } from "react-redux/es/hooks/useDispatch";
 import { setCategory, setProjectId } from "../app/features/projectSlice";
@@ -17,8 +17,8 @@ const HTMLPorto = ({ scroll, setShow }) => {
       <dic className="html-porto-content">
         <a href="https://www.javascript.com/" target={"_blank"}>
           <div className="html-title">
-            <img src="https://cdn0.iconfinder.com/data/icons/designer-skills/128/node-js-512.png" />
-            <h2>JavaScript</h2>
+            <img src="https://cdn-icons-png.flaticon.com/512/1199/1199113.png?w=360" />
+            <h2>HTML&CSS</h2>
           </div>
         </a>
         <div className="html-porto-projects-section">
@@ -33,7 +33,7 @@ const HTMLPorto = ({ scroll, setShow }) => {
             <ArrowBackIosIcon />
           </Button>
           <div className="html-porto-projects">
-            {JavaScriptProjects[index] && (
+            {HTMLProjects[index] && (
               <div
                 onClick={() => {
                   setShow(true);
@@ -42,12 +42,12 @@ const HTMLPorto = ({ scroll, setShow }) => {
                 }}
               >
                 <ReactProjectCard
-                  imgSrc={JavaScriptProjects[index].photo}
-                  description={JavaScriptProjects[index].description}
+                  imgSrc={HTMLProjects[index].photo}
+                  description={HTMLProjects[index].description}
                 />
               </div>
             )}
-            {JavaScriptProjects[index + 1] && (
+            {HTMLProjects[index + 1] && (
               <div
                 onClick={() => {
                   setShow(true);
@@ -56,13 +56,13 @@ const HTMLPorto = ({ scroll, setShow }) => {
                 }}
               >
                 <ReactProjectCard
-                  imgSrc={JavaScriptProjects[index + 1].photo}
-                  description={JavaScriptProjects[index + 1].description}
+                  imgSrc={HTMLProjects[index + 1].photo}
+                  description={HTMLProjects[index + 1].description}
                 />
               </div>
             )}
 
-            {JavaScriptProjects[index + 2] && (
+            {HTMLProjects[index + 2] && (
               <div
                 onClick={() => {
                   setShow(true);
@@ -71,12 +71,12 @@ const HTMLPorto = ({ scroll, setShow }) => {
                 }}
               >
                 <ReactProjectCard
-                  imgSrc={JavaScriptProjects[index + 2].photo}
-                  description={JavaScriptProjects[index + 2].description}
+                  imgSrc={HTMLProjects[index + 2].photo}
+                  description={HTMLProjects[index + 2].description}
                 />
               </div>
             )}
-            {JavaScriptProjects[index + 3] && (
+            {HTMLProjects[index + 3] && (
               <div
                 onClick={() => {
                   setShow(true);
@@ -85,8 +85,8 @@ const HTMLPorto = ({ scroll, setShow }) => {
                 }}
               >
                 <ReactProjectCard
-                  imgSrc={JavaScriptProjects[index + 3].photo}
-                  description={JavaScriptProjects[index + 3].description}
+                  imgSrc={HTMLProjects[index + 3].photo}
+                  description={HTMLProjects[index + 3].description}
                 />
               </div>
             )}
@@ -94,7 +94,7 @@ const HTMLPorto = ({ scroll, setShow }) => {
           <Button
             className="controller-right"
             onClick={() => {
-              if (index < JavaScriptProjects.length - 4) {
+              if (index < HTMLProjects.length - 4) {
                 setIndex(index + 1);
               }
             }}
