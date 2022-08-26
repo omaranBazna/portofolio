@@ -14,13 +14,13 @@ const SkillPortfolio = ({ setShow, link, name, img, database, skillId }) => {
   const [index, setIndex] = useState(0);
   return (
     <div className="skill-porto">
+      <a href={link} target={"_blank"}>
+        <div className="skill-title">
+          <img src={img} />
+          <h3>{name}</h3>
+        </div>
+      </a>
       <dic className="skill-porto-content">
-        <a href={link} target={"_blank"}>
-          <div className="skill-title">
-            <img src={img} />
-            <h2>{name}</h2>
-          </div>
-        </a>
         <div className="skill-porto-projects-section">
           <Button
             className="controller-left"
