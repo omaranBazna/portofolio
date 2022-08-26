@@ -1,7 +1,8 @@
 import { createSlice } from "@reduxjs/toolkit";
 import { ReactProjects } from "../../utilis/data";
+import { ReactNativeProjects } from "../../utilis/data";
 const initialState = {
-  category: "React",
+  category: "ReactJS",
   projectId: "0",
 };
 export const projectSlice = createSlice({
@@ -17,9 +18,16 @@ export const projectSlice = createSlice({
   },
 });
 export const selectProject = (state) => {
-  return ReactProjects.find((project) => {
-    return project.id == state.project.projectId;
-  });
+  if (state.project.category == "ReactJS") {
+    return ReactProjects.find((project) => {
+      return project.id == state.project.projectId;
+    });
+  }
+  if (state.project.category == "ReactNative") {
+    return ReactNativeProjects.find((project) => {
+      return project.id == state.project.projectId;
+    });
+  }
 };
 export const { setCategory, setProjectId } = projectSlice.actions;
 export const projectReducer = projectSlice.reducer;

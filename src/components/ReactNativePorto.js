@@ -1,6 +1,6 @@
 import "./styles/react-native-porto.css";
 import React from "react";
-import { ReactProjects } from "../utilis/data";
+import { ReactNativeProjects } from "../utilis/data";
 import ReactProjectCard from "./ReactProjectCard";
 import { useDispatch } from "react-redux/es/hooks/useDispatch";
 import { setCategory, setProjectId } from "../app/features/projectSlice";
@@ -8,7 +8,7 @@ import { useState } from "react";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
 import { Button } from "@mui/material";
-const ReactNativePorto = ({ scroll, setShow }) => {
+const ReactNativePorto = ({ setShow }) => {
   const dispatch = useDispatch();
 
   const [index, setIndex] = useState(0);
@@ -33,7 +33,7 @@ const ReactNativePorto = ({ scroll, setShow }) => {
             <ArrowBackIosIcon />
           </Button>
           <div className="react-native-porto-projects">
-            {ReactProjects[index] && (
+            {ReactNativeProjects[index] && (
               <div
                 onClick={() => {
                   setShow(true);
@@ -42,12 +42,12 @@ const ReactNativePorto = ({ scroll, setShow }) => {
                 }}
               >
                 <ReactProjectCard
-                  imgSrc={ReactProjects[index].photo}
-                  description={ReactProjects[index].description}
+                  imgSrc={ReactNativeProjects[index].photo}
+                  description={ReactNativeProjects[index].description}
                 />
               </div>
             )}
-            {ReactProjects[index + 1] && (
+            {ReactNativeProjects[index + 1] && (
               <div
                 onClick={() => {
                   setShow(true);
@@ -56,13 +56,13 @@ const ReactNativePorto = ({ scroll, setShow }) => {
                 }}
               >
                 <ReactProjectCard
-                  imgSrc={ReactProjects[index + 1].photo}
-                  description={ReactProjects[index + 1].description}
+                  imgSrc={ReactNativeProjects[index + 1].photo}
+                  description={ReactNativeProjects[index + 1].description}
                 />
               </div>
             )}
 
-            {ReactProjects[index + 2] && (
+            {ReactNativeProjects[index + 2] && (
               <div
                 onClick={() => {
                   setShow(true);
@@ -71,12 +71,12 @@ const ReactNativePorto = ({ scroll, setShow }) => {
                 }}
               >
                 <ReactProjectCard
-                  imgSrc={ReactProjects[index + 2].photo}
-                  description={ReactProjects[index + 2].description}
+                  imgSrc={ReactNativeProjects[index + 2].photo}
+                  description={ReactNativeProjects[index + 2].description}
                 />
               </div>
             )}
-            {ReactProjects[index + 3] && (
+            {ReactNativeProjects[index + 3] && (
               <div
                 onClick={() => {
                   setShow(true);
@@ -85,8 +85,8 @@ const ReactNativePorto = ({ scroll, setShow }) => {
                 }}
               >
                 <ReactProjectCard
-                  imgSrc={ReactProjects[index + 3].photo}
-                  description={ReactProjects[index + 3].description}
+                  imgSrc={ReactNativeProjects[index + 3].photo}
+                  description={ReactNativeProjects[index + 3].description}
                 />
               </div>
             )}
@@ -94,7 +94,7 @@ const ReactNativePorto = ({ scroll, setShow }) => {
           <Button
             className="controller-right"
             onClick={() => {
-              if (index < ReactProjects.length - 4) {
+              if (index < ReactNativeProjects.length - 4) {
                 setIndex(index + 1);
               }
             }}
