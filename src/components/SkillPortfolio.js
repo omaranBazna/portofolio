@@ -1,7 +1,7 @@
 import "./styles/skill-portfolio.css";
 import React from "react";
-import { ReactProjects } from "../utilis/data";
-import ReactProjectCard from "./ReactProjectCard";
+
+import SkillCard from "./SkillCard";
 import { useDispatch } from "react-redux/es/hooks/useDispatch";
 import { setCategory, setProjectId } from "../app/features/projectSlice";
 import { useState } from "react";
@@ -16,7 +16,7 @@ const SkillPortfolio = ({ setShow, link, name, img, database, skillId }) => {
     <div className="skill-porto">
       <dic className="skill-porto-content">
         <a href={link} target={"_blank"}>
-          <div className="react-title">
+          <div className="skill-title">
             <img src={img} />
             <h2>{name}</h2>
           </div>
@@ -41,7 +41,7 @@ const SkillPortfolio = ({ setShow, link, name, img, database, skillId }) => {
                   dispatch(setProjectId(index));
                 }}
               >
-                <ReactProjectCard
+                <SkillCard
                   imgSrc={database[index].photo}
                   description={database[index].description}
                 />
@@ -55,7 +55,7 @@ const SkillPortfolio = ({ setShow, link, name, img, database, skillId }) => {
                   dispatch(setProjectId(index + 1));
                 }}
               >
-                <ReactProjectCard
+                <SkillCard
                   imgSrc={database[index + 1].photo}
                   description={database[index + 1].description}
                 />
@@ -70,7 +70,7 @@ const SkillPortfolio = ({ setShow, link, name, img, database, skillId }) => {
                   dispatch(setProjectId(index + 2));
                 }}
               >
-                <ReactProjectCard
+                <SkillCard
                   imgSrc={database[index + 2].photo}
                   description={database[index + 2].description}
                 />
@@ -84,7 +84,7 @@ const SkillPortfolio = ({ setShow, link, name, img, database, skillId }) => {
                   dispatch(setProjectId(index + 3));
                 }}
               >
-                <ReactProjectCard
+                <SkillCard
                   imgSrc={database[index + 3].photo}
                   description={database[index + 3].description}
                 />

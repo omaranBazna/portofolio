@@ -3,11 +3,6 @@ import Footer from "./components/Footer";
 import HeroSection from "./components/HeroSection";
 
 import { useState, useEffect } from "react";
-import ReactProto from "./components/ReactPorto";
-import ReactNativePorto from "./components/ReactNativePorto";
-import JavaScriptPorto from "./components/JavaScriptPorto";
-import HTMLPorto from "./components/HTMLPorto";
-import UnityPorto from "./components/UnityPorto";
 import Email from "./components/Email";
 import PopUpSucc from "./components/PopUpSucc";
 import PopUpFail from "./components/PopUpFail";
