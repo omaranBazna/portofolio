@@ -23,7 +23,7 @@ const ReactPorto = ({ scroll, setShow }) => {
         </a>
         <div className="react-porto-projects-section">
           <Button
-            className="controller"
+            className="controller-left"
             onClick={() => {
               if (index > 0) {
                 setIndex(index - 1);
@@ -92,7 +92,7 @@ const ReactPorto = ({ scroll, setShow }) => {
             )}
           </div>
           <Button
-            className="controller"
+            className="controller-right"
             onClick={() => {
               if (index < ReactProjects.length - 4) {
                 setIndex(index + 1);
