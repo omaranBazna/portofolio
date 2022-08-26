@@ -19,67 +19,76 @@ const ReactPorto = ({ scroll, setShow }) => {
           </div>
         </a>
         <div className="react-porto-projects">
-          <div
-            onClick={() => {
-              setShow(true);
-              dispatch(setCategory("ReactJS"));
-              dispatch(setProjectId(index));
-            }}
-          >
-            <ReactProjectCard
-              imgSrc={ReactProjects[index].photo}
-              description={ReactProjects[index].description}
-            />
-          </div>
-          <div
-            onClick={() => {
-              setShow(true);
-              dispatch(setCategory("ReactJS"));
-              dispatch(setProjectId(index + 1));
-            }}
-          >
-            <ReactProjectCard
-              imgSrc={ReactProjects[index + 1].photo}
-              description={ReactProjects[index + 1].description}
-            />
-          </div>
-          <div
-            onClick={() => {
-              setShow(true);
-              dispatch(setCategory("ReactJS"));
-              dispatch(setProjectId(index + 2));
-            }}
-          >
-            <ReactProjectCard
-              imgSrc={ReactProjects[index + 2].photo}
-              description={ReactProjects[index + 2].description}
-            />
-          </div>
-          <div
-            onClick={() => {
-              setShow(true);
-              dispatch(setCategory("ReactJS"));
-              dispatch(setProjectId(index + 3));
-            }}
-          >
-            <ReactProjectCard
-              imgSrc={ReactProjects[index + 3].photo}
-              description={ReactProjects[index + 3].description}
-            />
-          </div>
+          {ReactProjects[index] && (
+            <div
+              onClick={() => {
+                setShow(true);
+                dispatch(setCategory("ReactJS"));
+                dispatch(setProjectId(index));
+              }}
+            >
+              <ReactProjectCard
+                imgSrc={ReactProjects[index].photo}
+                description={ReactProjects[index].description}
+              />
+            </div>
+          )}
+          {ReactProjects[index + 1] && (
+            <div
+              onClick={() => {
+                setShow(true);
+                dispatch(setCategory("ReactJS"));
+                dispatch(setProjectId(index + 1));
+              }}
+            >
+              <ReactProjectCard
+                imgSrc={ReactProjects[index + 1].photo}
+                description={ReactProjects[index + 1].description}
+              />
+            </div>
+          )}
+
+          {ReactProjects[index + 2] && (
+            <div
+              onClick={() => {
+                setShow(true);
+                dispatch(setCategory("ReactJS"));
+                dispatch(setProjectId(index + 2));
+              }}
+            >
+              <ReactProjectCard
+                imgSrc={ReactProjects[index + 2].photo}
+                description={ReactProjects[index + 2].description}
+              />
+            </div>
+          )}
+          {ReactProjects[index + 3] && (
+            <div
+              onClick={() => {
+                setShow(true);
+                dispatch(setCategory("ReactJS"));
+                dispatch(setProjectId(index + 3));
+              }}
+            >
+              <ReactProjectCard
+                imgSrc={ReactProjects[index + 3].photo}
+                description={ReactProjects[index + 3].description}
+              />
+            </div>
+          )}
         </div>
 
         <div className="controller">
           <button
             onClick={() => {
-              index > 0 ? setIndex(index - 1) : null;
+              setIndex(1);
             }}
           >
             Previous
           </button>
           <button
             onClick={() => {
-              index < ReactProjects.length ? setIndex(index + 1) : null;
+              setIndex(0);
             }}
           >
             Next
