@@ -1,6 +1,6 @@
-import "./styles/javascript-porto.css";
+import "./styles/unity-porto.css";
 import React from "react";
-import { JavaScriptProjects } from "../utilis/data";
+import { UnityProjects } from "../utilis/data";
 import ReactProjectCard from "./ReactProjectCard";
 import { useDispatch } from "react-redux/es/hooks/useDispatch";
 import { setCategory, setProjectId } from "../app/features/projectSlice";
@@ -15,9 +15,9 @@ const UnityPorto = ({ setShow }) => {
   return (
     <div className="unity-porto">
       <dic className="unity-porto-content">
-        <a href="https://www.javascript.com/" target={"_blank"}>
+        <a href="https://unity.com/" target={"_blank"}>
           <div className="unity-title">
-            <img src="https://cdn0.iconfinder.com/data/icons/designer-skills/128/node-js-512.png" />
+            <img src="https://cdn4.iconfinder.com/data/icons/various-icons-2/476/Unity.png" />
             <h2>Unity</h2>
           </div>
         </a>
@@ -33,7 +33,7 @@ const UnityPorto = ({ setShow }) => {
             <ArrowBackIosIcon />
           </Button>
           <div className="unity-porto-projects">
-            {JavaScriptProjects[index] && (
+            {UnityProjects[index] && (
               <div
                 onClick={() => {
                   setShow(true);
@@ -42,12 +42,12 @@ const UnityPorto = ({ setShow }) => {
                 }}
               >
                 <ReactProjectCard
-                  imgSrc={JavaScriptProjects[index].photo}
-                  description={JavaScriptProjects[index].description}
+                  imgSrc={UnityProjects[index].photo}
+                  description={UnityProjects[index].description}
                 />
               </div>
             )}
-            {JavaScriptProjects[index + 1] && (
+            {UnityProjects[index + 1] && (
               <div
                 onClick={() => {
                   setShow(true);
@@ -56,13 +56,13 @@ const UnityPorto = ({ setShow }) => {
                 }}
               >
                 <ReactProjectCard
-                  imgSrc={JavaScriptProjects[index + 1].photo}
-                  description={JavaScriptProjects[index + 1].description}
+                  imgSrc={UnityProjects[index + 1].photo}
+                  description={UnityProjects[index + 1].description}
                 />
               </div>
             )}
 
-            {JavaScriptProjects[index + 2] && (
+            {UnityProjects[index + 2] && (
               <div
                 onClick={() => {
                   setShow(true);
@@ -71,12 +71,12 @@ const UnityPorto = ({ setShow }) => {
                 }}
               >
                 <ReactProjectCard
-                  imgSrc={JavaScriptProjects[index + 2].photo}
-                  description={JavaScriptProjects[index + 2].description}
+                  imgSrc={UnityProjects[index + 2].photo}
+                  description={UnityProjects[index + 2].description}
                 />
               </div>
             )}
-            {JavaScriptProjects[index + 3] && (
+            {UnityProjects[index + 3] && (
               <div
                 onClick={() => {
                   setShow(true);
@@ -85,8 +85,8 @@ const UnityPorto = ({ setShow }) => {
                 }}
               >
                 <ReactProjectCard
-                  imgSrc={JavaScriptProjects[index + 3].photo}
-                  description={JavaScriptProjects[index + 3].description}
+                  imgSrc={UnityProjects[index + 3].photo}
+                  description={UnityProjects[index + 3].description}
                 />
               </div>
             )}
@@ -94,7 +94,7 @@ const UnityPorto = ({ setShow }) => {
           <Button
             className="controller-right"
             onClick={() => {
-              if (index < JavaScriptProjects.length - 4) {
+              if (index < UnityProjects.length - 4) {
                 setIndex(index + 1);
               }
             }}

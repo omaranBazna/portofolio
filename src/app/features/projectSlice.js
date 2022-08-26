@@ -3,6 +3,7 @@ import { ReactProjects } from "../../utilis/data";
 import { ReactNativeProjects } from "../../utilis/data";
 import { JavaScriptProjects } from "../../utilis/data";
 import { HTMLProjects } from "../../utilis/data";
+import { UnityProjects } from "../../utilis/data";
 const initialState = {
   category: "ReactJS",
   projectId: "0",
@@ -38,6 +39,11 @@ export const selectProject = (state) => {
   }
   if (state.project.category == "HTML") {
     return HTMLProjects.find((project) => {
+      return project.id == state.project.projectId;
+    });
+  }
+  if (state.project.category == "Unity") {
+    return UnityProjects.find((project) => {
       return project.id == state.project.projectId;
     });
   }
