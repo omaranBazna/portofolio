@@ -32,10 +32,10 @@
  }
  .skill-porto-projects{
      display:flex;
-     align-items: center;
+     align-items: flex-start;
      justify-content: space-around;
      flex-wrap: wrap;
-     padding:40px;
+     padding:20px;
  
  }
  
@@ -67,11 +67,11 @@
    }
  .skill-porto-projects-section{
    display:flex;
-   align-items: center;
+   align-items: flex-start;
    justify-content: space-between;
  }
  .controller-left,.controller-right{
-   height:300px !important;
+   height:440px !important;
    background-color: rgba(0,0,0,0.2) !important;
    border:1px solid rgba(255,255,255,0.4) !important;
  
