@@ -65,3 +65,8 @@
   .react-porto-content::-webkit-scrollbar-thumb:hover {
     background: rgba(255,255,255,0.8);
   }
+.react-porto-projects-section{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}

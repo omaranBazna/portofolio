@@ -5,6 +5,9 @@ import ReactProjectCard from "./ReactProjectCard";
 import { useDispatch } from "react-redux/es/hooks/useDispatch";
 import { setCategory, setProjectId } from "../app/features/projectSlice";
 import { useState } from "react";
+import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
+import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
+import { Button } from "@mui/material";
 const ReactPorto = ({ scroll, setShow }) => {
   const dispatch = useDispatch();
 
@@ -18,85 +21,86 @@ const ReactPorto = ({ scroll, setShow }) => {
             <h2>ReactJS</h2>
           </div>
         </a>
-        <div className="react-porto-projects">
-          {ReactProjects[index] && (
-            <div
-              onClick={() => {
-                setShow(true);
-                dispatch(setCategory("ReactJS"));
-                dispatch(setProjectId(index));
-              }}
-            >
-              <ReactProjectCard
-                imgSrc={ReactProjects[index].photo}
-                description={ReactProjects[index].description}
-              />
-            </div>
-          )}
-          {ReactProjects[index + 1] && (
-            <div
-              onClick={() => {
-                setShow(true);
-                dispatch(setCategory("ReactJS"));
-                dispatch(setProjectId(index + 1));
-              }}
-            >
-              <ReactProjectCard
-                imgSrc={ReactProjects[index + 1].photo}
-                description={ReactProjects[index + 1].description}
-              />
-            </div>
-          )}
-
-          {ReactProjects[index + 2] && (
-            <div
-              onClick={() => {
-                setShow(true);
-                dispatch(setCategory("ReactJS"));
-                dispatch(setProjectId(index + 2));
-              }}
-            >
-              <ReactProjectCard
-                imgSrc={ReactProjects[index + 2].photo}
-                description={ReactProjects[index + 2].description}
-              />
-            </div>
-          )}
-          {ReactProjects[index + 3] && (
-            <div
-              onClick={() => {
-                setShow(true);
-                dispatch(setCategory("ReactJS"));
-                dispatch(setProjectId(index + 3));
-              }}
-            >
-              <ReactProjectCard
-                imgSrc={ReactProjects[index + 3].photo}
-                description={ReactProjects[index + 3].description}
-              />
-            </div>
-          )}
-        </div>
-
-        <div className="controller">
-          <button
+        <div className="react-porto-projects-section">
+          <Button
+            className="controller"
             onClick={() => {
               if (index > 0) {
                 setIndex(index - 1);
               }
             }}
           >
-            Previous
-          </button>
-          <button
+            <ArrowBackIosIcon />
+          </Button>
+          <div className="react-porto-projects">
+            {ReactProjects[index] && (
+              <div
+                onClick={() => {
+                  setShow(true);
+                  dispatch(setCategory("ReactJS"));
+                  dispatch(setProjectId(index));
+                }}
+              >
+                <ReactProjectCard
+                  imgSrc={ReactProjects[index].photo}
+                  description={ReactProjects[index].description}
+                />
+              </div>
+            )}
+            {ReactProjects[index + 1] && (
+              <div
+                onClick={() => {
+                  setShow(true);
+                  dispatch(setCategory("ReactJS"));
+                  dispatch(setProjectId(index + 1));
+                }}
+              >
+                <ReactProjectCard
+                  imgSrc={ReactProjects[index + 1].photo}
+                  description={ReactProjects[index + 1].description}
+                />
+              </div>
+            )}
+
+            {ReactProjects[index + 2] && (
+              <div
+                onClick={() => {
+                  setShow(true);
+                  dispatch(setCategory("ReactJS"));
+                  dispatch(setProjectId(index + 2));
+                }}
+              >
+                <ReactProjectCard
+                  imgSrc={ReactProjects[index + 2].photo}
+                  description={ReactProjects[index + 2].description}
+                />
+              </div>
+            )}
+            {ReactProjects[index + 3] && (
+              <div
+                onClick={() => {
+                  setShow(true);
+                  dispatch(setCategory("ReactJS"));
+                  dispatch(setProjectId(index + 3));
+                }}
+              >
+                <ReactProjectCard
+                  imgSrc={ReactProjects[index + 3].photo}
+                  description={ReactProjects[index + 3].description}
+                />
+              </div>
+            )}
+          </div>
+          <Button
+            className="controller"
             onClick={() => {
               if (index < ReactProjects.length - 4) {
                 setIndex(index + 1);
               }
             }}
           >
-            Next
-          </button>
+            <ArrowForwardIosIcon />
+          </Button>
         </div>
       </dic>
     </div>

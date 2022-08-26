@@ -83,6 +83,164 @@ export const ReactProjects = [
     github: "https://github.com/omaranBazna/gmail-clone",
     url: "",
   },
+  {
+    id: "4",
+    name: "Gmail clone",
+    photo:
+      "https://techgameworld.com/wp-content/uploads/2022/01/Gmail-reaches-10-billion-downloads-on-the-Play-Store.jpg",
+    description:
+      "This website is a clone to the real Gmail website build using ReactJS,Material UI and firebase",
+
+    detailsDescription:
+      "In this Project ,I cloned the official website of Gmail using :",
+    skills: [
+      "ReactJs",
+      "ReactRouter",
+      "ReactRedux",
+      "MaterialUI",
+      "Firebase",
+      "ReactHookForm",
+    ],
+    cover: "https://i.insider.com/627bd37f8f41d500187ac93b?width=700",
+
+    github: "https://github.com/omaranBazna/gmail-clone",
+    url: "",
+  },
+  {
+    id: "5",
+    name: "Disney clone",
+    photo:
+      "https://www.disneychannel.ca/wp-content/themes/disney-child/assets/images/thumbnail-generic.jpg",
+    description:
+      "This website is a clone to the real Disney website build using ReactJS,Styled components and firebase",
+    detailsDescription:
+      "In this Project ,I cloned the official website of Walt Disney Movies using :",
+    skills: [
+      "ReactJs",
+      "ReactRouter",
+      "ReactRedux",
+      "StyledComponents",
+      "Firebase",
+    ],
+    cover:
+      "https://i.pinimg.com/originals/0b/bf/c7/0bbfc7ccf6eda7d4173eb795526de3a9.jpg",
+
+    github: "https://github.com/omaranBazna/disney-clone",
+    url: "https://omaranbazna.github.io/disney-clone/",
+  },
+  {
+    id: "6",
+    name: "Gmail clone",
+    photo:
+      "https://techgameworld.com/wp-content/uploads/2022/01/Gmail-reaches-10-billion-downloads-on-the-Play-Store.jpg",
+    description:
+      "This website is a clone to the real Gmail website build using ReactJS,Material UI and firebase",
+
+    detailsDescription:
+      "In this Project ,I cloned the official website of Gmail using :",
+    skills: [
+      "ReactJs",
+      "ReactRouter",
+      "ReactRedux",
+      "MaterialUI",
+      "Firebase",
+      "ReactHookForm",
+    ],
+    cover: "https://i.insider.com/627bd37f8f41d500187ac93b?width=700",
+
+    github: "https://github.com/omaranBazna/gmail-clone",
+    url: "",
+  },
+  {
+    id: "7",
+    name: "Disney clone",
+    photo:
+      "https://www.disneychannel.ca/wp-content/themes/disney-child/assets/images/thumbnail-generic.jpg",
+    description:
+      "This website is a clone to the real Disney website build using ReactJS,Styled components and firebase",
+    detailsDescription:
+      "In this Project ,I cloned the official website of Walt Disney Movies using :",
+    skills: [
+      "ReactJs",
+      "ReactRouter",
+      "ReactRedux",
+      "StyledComponents",
+      "Firebase",
+    ],
+    cover:
+      "https://i.pinimg.com/originals/0b/bf/c7/0bbfc7ccf6eda7d4173eb795526de3a9.jpg",
+
+    github: "https://github.com/omaranBazna/disney-clone",
+    url: "https://omaranbazna.github.io/disney-clone/",
+  },
+  {
+    id: "8",
+    name: "Gmail clone",
+    photo:
+      "https://techgameworld.com/wp-content/uploads/2022/01/Gmail-reaches-10-billion-downloads-on-the-Play-Store.jpg",
+    description:
+      "This website is a clone to the real Gmail website build using ReactJS,Material UI and firebase",
+
+    detailsDescription:
+      "In this Project ,I cloned the official website of Gmail using :",
+    skills: [
+      "ReactJs",
+      "ReactRouter",
+      "ReactRedux",
+      "MaterialUI",
+      "Firebase",
+      "ReactHookForm",
+    ],
+    cover: "https://i.insider.com/627bd37f8f41d500187ac93b?width=700",
+
+    github: "https://github.com/omaranBazna/gmail-clone",
+    url: "",
+  },
+  {
+    id: "9",
+    name: "Disney clone",
+    photo:
+      "https://www.disneychannel.ca/wp-content/themes/disney-child/assets/images/thumbnail-generic.jpg",
+    description:
+      "This website is a clone to the real Disney website build using ReactJS,Styled components and firebase",
+    detailsDescription:
+      "In this Project ,I cloned the official website of Walt Disney Movies using :",
+    skills: [
+      "ReactJs",
+      "ReactRouter",
+      "ReactRedux",
+      "StyledComponents",
+      "Firebase",
+    ],
+    cover:
+      "https://i.pinimg.com/originals/0b/bf/c7/0bbfc7ccf6eda7d4173eb795526de3a9.jpg",
+
+    github: "https://github.com/omaranBazna/disney-clone",
+    url: "https://omaranbazna.github.io/disney-clone/",
+  },
+  {
+    id: "10",
+    name: "Gmail clone",
+    photo:
+      "https://techgameworld.com/wp-content/uploads/2022/01/Gmail-reaches-10-billion-downloads-on-the-Play-Store.jpg",
+    description:
+      "This website is a clone to the real Gmail website build using ReactJS,Material UI and firebase",
+
+    detailsDescription:
+      "In this Project ,I cloned the official website of Gmail using :",
+    skills: [
+      "ReactJs",
+      "ReactRouter",
+      "ReactRedux",
+      "MaterialUI",
+      "Firebase",
+      "ReactHookForm",
+    ],
+    cover: "https://i.insider.com/627bd37f8f41d500187ac93b?width=700",
+
+    github: "https://github.com/omaranBazna/gmail-clone",
+    url: "",
+  },
 ];
 
 export const skills = {
