@@ -76,3 +76,9 @@
   border:1px solid rgba(255,255,255,0.4) !important;
 
 }
+.controller-left{
+  border-left: none !important;
+}
+.controller-right{
+  border-right: none !important;
+}
