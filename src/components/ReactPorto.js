@@ -81,14 +81,18 @@ const ReactPorto = ({ scroll, setShow }) => {
         <div className="controller">
           <button
             onClick={() => {
-              setIndex(1);
+              if (index > 0) {
+                setIndex(index - 1);
+              }
             }}
           >
             Previous
           </button>
           <button
             onClick={() => {
-              setIndex(0);
+              if (index < ReactProjects.length - 4) {
+                setIndex(index + 1);
+              }
             }}
           >
             Next
