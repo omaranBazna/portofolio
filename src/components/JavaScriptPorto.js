@@ -1,6 +1,6 @@
 import "./styles/javascript-porto.css";
 import React from "react";
-import { ReactProjects } from "../utilis/data";
+import { JavaScriptProjects } from "../utilis/data";
 import ReactProjectCard from "./ReactProjectCard";
 import { useDispatch } from "react-redux/es/hooks/useDispatch";
 import { setCategory, setProjectId } from "../app/features/projectSlice";
@@ -15,10 +15,10 @@ const JavaScriptPorto = ({ scroll, setShow }) => {
   return (
     <div className="javascript-porto">
       <dic className="javascript-porto-content">
-        <a href="https://reactjs.org/" target={"_blank"}>
+        <a href="https://www.javascript.com/" target={"_blank"}>
           <div className="javascript-title">
-            <img src="https://icons-for-free.com/iconfiles/png/512/design+development+facebook+framework+mobile+react+icon-1320165723839064798.png" />
-            <h2>ReactJS</h2>
+            <img src="https://cdn0.iconfinder.com/data/icons/designer-skills/128/node-js-512.png" />
+            <h2>JavaScript</h2>
           </div>
         </a>
         <div className="javascript-porto-projects-section">
@@ -33,7 +33,7 @@ const JavaScriptPorto = ({ scroll, setShow }) => {
             <ArrowBackIosIcon />
           </Button>
           <div className="javascript-porto-projects">
-            {ReactProjects[index] && (
+            {JavaScriptProjects[index] && (
               <div
                 onClick={() => {
                   setShow(true);
@@ -42,12 +42,12 @@ const JavaScriptPorto = ({ scroll, setShow }) => {
                 }}
               >
                 <ReactProjectCard
-                  imgSrc={ReactProjects[index].photo}
-                  description={ReactProjects[index].description}
+                  imgSrc={JavaScriptProjects[index].photo}
+                  description={JavaScriptProjects[index].description}
                 />
               </div>
             )}
-            {ReactProjects[index + 1] && (
+            {JavaScriptProjects[index + 1] && (
               <div
                 onClick={() => {
                   setShow(true);
@@ -56,13 +56,13 @@ const JavaScriptPorto = ({ scroll, setShow }) => {
                 }}
               >
                 <ReactProjectCard
-                  imgSrc={ReactProjects[index + 1].photo}
-                  description={ReactProjects[index + 1].description}
+                  imgSrc={JavaScriptProjects[index + 1].photo}
+                  description={JavaScriptProjects[index + 1].description}
                 />
               </div>
             )}
 
-            {ReactProjects[index + 2] && (
+            {JavaScriptProjects[index + 2] && (
               <div
                 onClick={() => {
                   setShow(true);
@@ -71,12 +71,12 @@ const JavaScriptPorto = ({ scroll, setShow }) => {
                 }}
               >
                 <ReactProjectCard
-                  imgSrc={ReactProjects[index + 2].photo}
-                  description={ReactProjects[index + 2].description}
+                  imgSrc={JavaScriptProjects[index + 2].photo}
+                  description={JavaScriptProjects[index + 2].description}
                 />
               </div>
             )}
-            {ReactProjects[index + 3] && (
+            {JavaScriptProjects[index + 3] && (
               <div
                 onClick={() => {
                   setShow(true);
@@ -85,8 +85,8 @@ const JavaScriptPorto = ({ scroll, setShow }) => {
                 }}
               >
                 <ReactProjectCard
-                  imgSrc={ReactProjects[index + 3].photo}
-                  description={ReactProjects[index + 3].description}
+                  imgSrc={JavaScriptProjects[index + 3].photo}
+                  description={JavaScriptProjects[index + 3].description}
                 />
               </div>
             )}
@@ -94,7 +94,7 @@ const JavaScriptPorto = ({ scroll, setShow }) => {
           <Button
             className="controller-right"
             onClick={() => {
-              if (index < ReactProjects.length - 4) {
+              if (index < JavaScriptProjects.length - 4) {
                 setIndex(index + 1);
               }
             }}

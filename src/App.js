@@ -5,6 +5,7 @@ import HeroSection from "./components/HeroSection";
 import { useState, useEffect } from "react";
 import ReactProto from "./components/ReactPorto";
 import ReactNativePorto from "./components/ReactNativePorto";
+import JavaScriptPorto from "./components/JavaScriptPorto";
 import Email from "./components/Email";
 import PopUpSucc from "./components/PopUpSucc";
 import PopUpFail from "./components/PopUpFail";
@@ -21,6 +22,7 @@ function App() {
       <HeroSection />
       <ReactProto setShow={setShowProjectDetails} />
       <ReactNativePorto setShow={setShowProjectDetails} />
+      <JavaScriptPorto setShow={setShowProjectDetails} />
       {showProjectDetails && <ProjectDetails setShow={setShowProjectDetails} />}
 
       {popUpSuc && <PopUpSucc setPop={setPopUpSuc} />}
