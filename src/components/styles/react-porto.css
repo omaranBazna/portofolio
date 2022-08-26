@@ -78,7 +78,16 @@
 }
 .controller-left{
   border-left: none !important;
+  border-top-right-radius:25px !important;
+  border-bottom-right-radius:25px !important;
+  border-top-left-radius:0px !important;
+  border-bottom-left-radius:0px !important;
 }
 .controller-right{
   border-right: none !important;
+
+  border-top-left-radius:25px !important;
+  border-bottom-left-radius:25px !important;
+  border-top-right-radius:0px !important;
+  border-bottom-right-radius:0px !important;
 }
