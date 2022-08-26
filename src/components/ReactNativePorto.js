@@ -1,4 +1,4 @@
-import "./styles/react-porto.css";
+import "./styles/react-native-porto.css";
 import React from "react";
 import { ReactProjects } from "../utilis/data";
 import ReactProjectCard from "./ReactProjectCard";
