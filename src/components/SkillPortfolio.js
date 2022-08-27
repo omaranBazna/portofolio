@@ -15,24 +15,20 @@ const SkillPortfolio = ({ setShow, link, name, img, database, skillId }) => {
   return (
     <div className="skill-porto">
       <div className="tags">
-        <a href={link} target={"_blank"}>
-          <div className="skill-title active">
-            <img src={img} />
-            <h3>{name}</h3>
-          </div>
-        </a>
-        <a href={link} target={"_blank"}>
-          <div className="skill-title">
-            <img src={img} />
-            <h3>{name}</h3>
-          </div>
-        </a>
-        <a href={link} target={"_blank"}>
-          <div className="skill-title">
-            <img src={img} />
-            <h3>{name}</h3>
-          </div>
-        </a>
+        <div className="skill-title active">
+          <img src={img} />
+          <h3>{name}</h3>
+        </div>
+
+        <div className="skill-title">
+          <img src={img} />
+          <h3>{name}</h3>
+        </div>
+
+        <div className="skill-title">
+          <img src={img} />
+          <h3>{name}</h3>
+        </div>
       </div>
       <dic className="skill-porto-content">
         <div className="skill-porto-projects-section">
