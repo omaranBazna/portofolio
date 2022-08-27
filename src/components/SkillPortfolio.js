@@ -8,7 +8,7 @@ import { useState } from "react";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
 import { Button } from "@mui/material";
-const SkillPortfolio = ({ setShow, link, name, img, database, skillId }) => {
+const SkillPortfolio = ({ setShow, skills }) => {
   const dispatch = useDispatch();
 
   const [index, setIndex] = useState(0);
