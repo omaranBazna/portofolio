@@ -21,6 +21,7 @@ const SkillPortfolio = ({ setShow, skills }) => {
               className={`skill-title  ${tag == index && "active"}`}
               onClick={() => {
                 setTag(index);
+                setIndex(0);
               }}
             >
               <img src={skill[0].img} />
@@ -42,60 +43,60 @@ const SkillPortfolio = ({ setShow, skills }) => {
             <ArrowBackIosIcon />
           </Button>
           <div className="skill-porto-projects">
-            {skills[0][index + 1] && (
+            {skills[tag][index + 1] && (
               <div
                 onClick={() => {
                   setShow(true);
-                  dispatch(setCategory(skills[0][0].skillId));
+                  dispatch(setCategory(skills[tag][0].skillId));
                   dispatch(setProjectId(index));
                 }}
               >
                 <SkillCard
-                  imgSrc={skills[0][index + 1].photo}
-                  description={skills[0][index + 1].description}
+                  imgSrc={skills[tag][index + 1].photo}
+                  description={skills[tag][index + 1].description}
                 />
               </div>
             )}
-            {skills[0][index + 2] && (
+            {skills[tag][index + 2] && (
               <div
                 onClick={() => {
                   setShow(true);
-                  dispatch(setCategory(skills[0][0].skillId));
+                  dispatch(setCategory(skills[tag][0].skillId));
                   dispatch(setProjectId(index + 1));
                 }}
               >
                 <SkillCard
-                  imgSrc={skills[0][index + 2].photo}
-                  description={skills[0][index + 2].description}
+                  imgSrc={skills[tag][index + 2].photo}
+                  description={skills[tag][index + 2].description}
                 />
               </div>
             )}
 
-            {skills[0][index + 3] && (
+            {skills[tag][index + 3] && (
               <div
                 onClick={() => {
                   setShow(true);
-                  dispatch(setCategory(skills[0][0].skillId));
+                  dispatch(setCategory(skills[tag][0].skillId));
                   dispatch(setProjectId(index + 2));
                 }}
               >
                 <SkillCard
-                  imgSrc={skills[0][index + 3].photo}
-                  description={skills[0][index + 3].description}
+                  imgSrc={skills[tag][index + 3].photo}
+                  description={skills[tag][index + 3].description}
                 />
               </div>
             )}
-            {skills[0][index + 4] && (
+            {skills[tag][index + 4] && (
               <div
                 onClick={() => {
                   setShow(true);
-                  dispatch(setCategory(skills[0][0].skillId));
+                  dispatch(setCategory(skills[tag][0].skillId));
                   dispatch(setProjectId(index + 3));
                 }}
               >
                 <SkillCard
-                  imgSrc={skills[0][index + 4].photo}
-                  description={skills[0][index + 4].description}
+                  imgSrc={skills[tag][index + 4].photo}
+                  description={skills[tag][index + 4].description}
                 />
               </div>
             )}
@@ -103,7 +104,7 @@ const SkillPortfolio = ({ setShow, skills }) => {
           <Button
             className="controller-right"
             onClick={() => {
-              if (index < skills[0].length - 5) {
+              if (index < skills[tag].length - 5) {
                 setIndex(index + 1);
               }
             }}
