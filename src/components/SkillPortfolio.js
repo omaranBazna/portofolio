@@ -41,7 +41,7 @@ const SkillPortfolio = ({ setShow, skills }) => {
               <div
                 onClick={() => {
                   setShow(true);
-                  dispatch(setCategory(skills[0][index + 1].skillId));
+                  dispatch(setCategory(skills[0][0].skillId));
                   dispatch(setProjectId(index));
                 }}
               >
@@ -55,7 +55,7 @@ const SkillPortfolio = ({ setShow, skills }) => {
               <div
                 onClick={() => {
                   setShow(true);
-                  dispatch(setCategory(skills[0][index + 2].skillId));
+                  dispatch(setCategory(skills[0][0].skillId));
                   dispatch(setProjectId(index + 1));
                 }}
               >
@@ -70,7 +70,7 @@ const SkillPortfolio = ({ setShow, skills }) => {
               <div
                 onClick={() => {
                   setShow(true);
-                  dispatch(setCategory(skills[0][index + 3].skillId));
+                  dispatch(setCategory(skills[0][0].skillId));
                   dispatch(setProjectId(index + 2));
                 }}
               >
@@ -84,7 +84,7 @@ const SkillPortfolio = ({ setShow, skills }) => {
               <div
                 onClick={() => {
                   setShow(true);
-                  dispatch(setCategory(skills[0][index + 4].skillId));
+                  dispatch(setCategory(skills[0][0].skillId));
                   dispatch(setProjectId(index + 3));
                 }}
               >
