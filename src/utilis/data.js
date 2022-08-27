@@ -1,5 +1,11 @@
 export const ReactProjects = [
   {
+    name: "ReactJS",
+    skillId: "ReactJS",
+    img: "https://icons-for-free.com/iconfiles/png/512/design+development+facebook+framework+mobile+react+icon-1320165723839064798.png",
+    link: "https://reactjs.org/",
+  },
+  {
     id: "0",
     name: "Disney clone",
     photo:
@@ -245,6 +251,12 @@ export const ReactProjects = [
 
 export const ReactNativeProjects = [
   {
+    name: "React-Native",
+    skillId: "ReactNative",
+    img: "https://icons-for-free.com/iconfiles/png/512/design+development+facebook+framework+mobile+react+icon-1320165723839064798.png",
+    link: "https://reactnative.dev/",
+  },
+  {
     id: "0",
     name: "Disney clone Native",
     photo:
@@ -331,6 +343,12 @@ export const ReactNativeProjects = [
 ];
 
 export const JavaScriptProjects = [
+  {
+    name: "JavaScript",
+    skillId: "JavaScript",
+    img: "https://cdn0.iconfinder.com/data/icons/designer-skills/128/node-js-512.png",
+    link: "https://www.javascript.com/",
+  },
   {
     id: "0",
     name: "Disney clone JavaScript",
@@ -419,6 +437,12 @@ export const JavaScriptProjects = [
 
 export const HTMLProjects = [
   {
+    name: "HTML&CSS",
+    skillId: "HTML",
+    img: "https://cdn-icons-png.flaticon.com/512/1199/1199113.png?w=360",
+    link: "https://developer.mozilla.org/en-US/docs/Web/HTML",
+  },
+  {
     id: "0",
     name: "Disney clone JavaScript",
     photo:
@@ -505,6 +529,12 @@ export const HTMLProjects = [
 ];
 
 export const UnityProjects = [
+  {
+    name: "Unity3D C#",
+    skillId: "Unity",
+    img: "https://cdn4.iconfinder.com/data/icons/various-icons-2/476/Unity.png",
+    link: "https://unity.com/",
+  },
   {
     id: "0",
     name: "Disney clone JavaScript",
