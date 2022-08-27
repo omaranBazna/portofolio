@@ -15,20 +15,14 @@ const SkillPortfolio = ({ setShow, skills }) => {
   return (
     <div className="skill-porto">
       <div className="tags">
-        <div className="skill-title active">
-          <img src={img} />
-          <h3>{name}</h3>
-        </div>
-
-        <div className="skill-title">
-          <img src={img} />
-          <h3>{name}</h3>
-        </div>
-
-        <div className="skill-title">
-          <img src={img} />
-          <h3>{name}</h3>
-        </div>
+        {skills.map((skill) => {
+          return (
+            <div className="skill-title">
+              <img src={skill[0].img} />
+              <h3>{skill[0].name}</h3>
+            </div>
+          );
+        })}
       </div>
       <dic className="skill-porto-content">
         <div className="skill-porto-projects-section">
@@ -43,60 +37,60 @@ const SkillPortfolio = ({ setShow, skills }) => {
             <ArrowBackIosIcon />
           </Button>
           <div className="skill-porto-projects">
-            {database[index] && (
+            {skills[0][index + 1] && (
               <div
                 onClick={() => {
                   setShow(true);
-                  dispatch(setCategory(skillId));
+                  dispatch(setCategory(skills[0][index + 1].skillId));
                   dispatch(setProjectId(index));
                 }}
               >
                 <SkillCard
-                  imgSrc={database[index].photo}
-                  description={database[index].description}
+                  imgSrc={skills[0][index + 1].photo}
+                  description={skills[0][index + 1].description}
                 />
               </div>
             )}
-            {database[index + 1] && (
+            {skills[0][index + 2] && (
               <div
                 onClick={() => {
                   setShow(true);
-                  dispatch(setCategory(skillId));
+                  dispatch(setCategory(skills[0][index + 2].skillId));
                   dispatch(setProjectId(index + 1));
                 }}
               >
                 <SkillCard
-                  imgSrc={database[index + 1].photo}
-                  description={database[index + 1].description}
+                  imgSrc={skills[0][index + 2].photo}
+                  description={skills[0][index + 2].description}
                 />
               </div>
             )}
 
-            {database[index + 2] && (
+            {skills[0][index + 3] && (
               <div
                 onClick={() => {
                   setShow(true);
-                  dispatch(setCategory(skillId));
+                  dispatch(setCategory(skills[0][index + 3].skillId));
                   dispatch(setProjectId(index + 2));
                 }}
               >
                 <SkillCard
-                  imgSrc={database[index + 2].photo}
-                  description={database[index + 2].description}
+                  imgSrc={skills[0][index + 3].photo}
+                  description={skills[0][index + 3].description}
                 />
               </div>
             )}
-            {database[index + 3] && (
+            {skills[0][index + 4] && (
               <div
                 onClick={() => {
                   setShow(true);
-                  dispatch(setCategory(skillId));
+                  dispatch(setCategory(skills[0][index + 4].skillId));
                   dispatch(setProjectId(index + 3));
                 }}
               >
                 <SkillCard
-                  imgSrc={database[index + 3].photo}
-                  description={database[index + 3].description}
+                  imgSrc={skills[0][index + 4].photo}
+                  description={skills[0][index + 4].description}
                 />
               </div>
             )}
@@ -104,7 +98,7 @@ const SkillPortfolio = ({ setShow, skills }) => {
           <Button
             className="controller-right"
             onClick={() => {
-              if (index < database.length - 4) {
+              if (index < skills[0].length - 5) {
                 setIndex(index + 1);
               }
             }}
