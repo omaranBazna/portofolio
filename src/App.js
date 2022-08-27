@@ -29,7 +29,16 @@ function App() {
       {/* React Portfolio*/}
       <SkillPortfolio
         setShow={setShowProjectDetails}
-        skills={[ReactProjects, ReactNativeProjects]}
+        skills={[
+          ReactProjects,
+          ReactNativeProjects,
+          JavaScriptProjects,
+          HTMLProjects,
+        ]}
+      />
+      <SkillPortfolio
+        setShow={setShowProjectDetails}
+        skills={[UnityProjects]}
       />
 
       {showProjectDetails && <ProjectDetails setShow={setShowProjectDetails} />}

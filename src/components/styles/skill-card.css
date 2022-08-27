@@ -1,7 +1,7 @@
 .card{
    
-    width:290px;
-    margin:10px 35px;
+    width:240px;
+    margin:8px 25px;
   
     border-radius:15px;
     background:rgb(0, 0, 0);
@@ -21,8 +21,8 @@ border: 3px solid rgba(249, 249, 249, 0.1);
 
 
 .card >img{
-width:240px;
-height:130px;
+width:200px;
+height:110px;
 }
 
   .card:hover{
