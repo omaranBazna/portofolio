@@ -4,7 +4,7 @@ export const ReactProjects = [
     skillId: "ReactJS",
     img: "https://icons-for-free.com/iconfiles/png/512/design+development+facebook+framework+mobile+react+icon-1320165723839064798.png",
     link: "https://reactjs.org/",
-    color: "rgb(20,0,100)",
+    color: "rgb(27, 149, 200)",
   },
   {
     id: "0",
@@ -256,6 +256,8 @@ export const ReactNativeProjects = [
     skillId: "ReactNative",
     img: "https://icons-for-free.com/iconfiles/png/512/design+development+facebook+framework+mobile+react+icon-1320165723839064798.png",
     link: "https://reactnative.dev/",
+
+    color: "rgb(14, 109, 130)",
   },
   {
     id: "0",
@@ -349,6 +351,8 @@ export const JavaScriptProjects = [
     skillId: "JavaScript",
     img: "https://cdn0.iconfinder.com/data/icons/designer-skills/128/node-js-512.png",
     link: "https://www.javascript.com/",
+
+    color: "#eeee00",
   },
   {
     id: "0",
@@ -442,6 +446,7 @@ export const HTMLProjects = [
     skillId: "HTML",
     img: "https://cdn-icons-png.flaticon.com/512/1199/1199113.png?w=360",
     link: "https://developer.mozilla.org/en-US/docs/Web/HTML",
+    color: "#ffa500",
   },
   {
     id: "0",
@@ -535,6 +540,7 @@ export const UnityProjects = [
     skillId: "Unity",
     img: "https://cdn4.iconfinder.com/data/icons/various-icons-2/476/Unity.png",
     link: "https://unity.com/",
+    color: "rgb(80,80,80)",
   },
   {
     id: "0",
