@@ -10,14 +10,19 @@ import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
 import { Button } from "@mui/material";
 const SkillPortfolio = ({ setShow, skills }) => {
   const dispatch = useDispatch();
-
+  const [tag, setTag] = useState(0);
   const [index, setIndex] = useState(0);
   return (
     <div className="skill-porto">
       <div className="tags">
-        {skills.map((skill) => {
+        {skills.map((skill, index) => {
           return (
-            <div className="skill-title">
+            <div
+              className={`skill-title  ${tag == index && "active"}`}
+              onClick={() => {
+                setTag(index);
+              }}
+            >
               <img src={skill[0].img} />
               <h3>{skill[0].name}</h3>
             </div>
