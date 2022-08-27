@@ -4,6 +4,7 @@ export const ReactProjects = [
     skillId: "ReactJS",
     img: "https://icons-for-free.com/iconfiles/png/512/design+development+facebook+framework+mobile+react+icon-1320165723839064798.png",
     link: "https://reactjs.org/",
+    color: "rgb(20,0,100)",
   },
   {
     id: "0",

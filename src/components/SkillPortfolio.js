@@ -12,15 +12,25 @@ const SkillPortfolio = ({ setShow, skills }) => {
   const dispatch = useDispatch();
   const [tag, setTag] = useState(0);
   const [index, setIndex] = useState(0);
+  let color;
+
   return (
     <div className="skill-porto">
       <div className="tags">
-        {skills.map((skill, index) => {
+        {skills.map((skill, ind) => {
+          if (tag == ind) {
+            color = skill[0].color;
+          } else {
+            color = "rgb(150,150,150)";
+          }
           return (
             <div
-              className={`skill-title  ${tag == index && "active"}`}
+              className="skill-title"
+              style={{
+                backgroundColor: color,
+              }}
               onClick={() => {
-                setTag(index);
+                setTag(ind);
                 setIndex(0);
               }}
             >
@@ -30,7 +40,10 @@ const SkillPortfolio = ({ setShow, skills }) => {
           );
         })}
       </div>
-      <dic className="skill-porto-content">
+      <div
+        className="skill-porto-content"
+        style={{ backgroundColor: skills[tag][0].color }}
+      >
         <div className="skill-porto-projects-section">
           <Button
             className="controller-left"
@@ -112,7 +125,7 @@ const SkillPortfolio = ({ setShow, skills }) => {
             <ArrowForwardIosIcon />
           </Button>
         </div>
-      </dic>
+      </div>
     </div>
   );
 };
