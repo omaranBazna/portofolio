@@ -18,33 +18,17 @@ import { HTMLProjects } from "./utilis/data";
 import { UnityProjects } from "./utilis/data";
 
 /*import for particles */
-
+import ParticlesComponent from "./components/ParticlesComponent";
 function App() {
   const [showEmailForm, setShowEmailForm] = useState(false);
   const [popUpSuc, setPopUpSuc] = useState(false);
   const [popUpFail, setPopUpFail] = useState(false);
   const [showProjectDetails, setShowProjectDetails] = useState(false);
-  const particlesInit = useCallback(async (engine) => {
-    console.log(engine);
-    // you can initiate the tsParticles instance (engine) here, adding custom shapes or presets
-    // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
-    // starting from v2 you can add only the features you need reducing the bundle size
-    await loadFull(engine);
-  }, []);
-
-  const particlesLoaded = useCallback(async (container) => {
-    await console.log(container);
-  }, []);
 
   return (
     <div className="App">
       <HeroSection />
-      <Particles
-        id="tsparticles"
-        url="http://foo.bar/particles.json"
-        init={particlesInit}
-        loaded={particlesLoaded}
-      />
+      <ParticlesComponent />
       {/* React Portfolio*/}
       <SkillPortfolio
         setShow={setShowProjectDetails}
