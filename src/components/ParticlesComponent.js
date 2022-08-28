@@ -34,7 +34,7 @@ const ParticlesComponent = (props) => {
           value: "#FF9801",
         },
         shape: {
-          type: "star",
+          type: "circle",
           stroke: {
             width: 0,
             color: "#FF9800",
