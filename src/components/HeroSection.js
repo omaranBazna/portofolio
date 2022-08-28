@@ -19,7 +19,11 @@ const HeroSection = () => {
             </p>
           </div>
         </div>
-        <div className="hero-right"></div>
+        <div className="hero-right">
+          <h1>Contacts</h1>
+          <h4>+1 (313) 677-5744</h4>
+          <h4>omran4d@gmail.com</h4>
+        </div>
       </div>
     </div>
   );
