@@ -10,14 +10,11 @@ const HeroSection = () => {
           <img src="/images/omaran.jpg" />
         </div>
         <div className="hero-text">
+          <h1>OMARAN BAZNA</h1>
+          <h4>full stack developer</h4>
           <p>
-            Hello Guys , I am omaran bazna ,React JS developer I have been
-            working for +4 years I have experience in varies technologies Thank
-            for visiting my website Hello Guys , I am omaran bazna ,React JS
-            developer I have been working for +4 years I have experience in
-            varies technologies Thank for visiting my website Hello Guys , I am
-            omaran bazna ,React JS developer I have been working for +4 years I
-            have experience in varies technologies Thank for visiting my website
+            It is my pleasure to welcome you to my website. Feel free to contact
+            me at any time
           </p>
         </div>
       </div>
