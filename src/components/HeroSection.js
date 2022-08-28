@@ -14,7 +14,7 @@ const HeroSection = () => {
           </div>
           <div className="hero-text">
             <h1>OMARAN BAZNA</h1>
-            <h3>full stack developer</h3>
+            <h3>Full Stack Developer</h3>
             <p>
               It is my pleasure to welcome you to my website. Feel free to
               contact me at any time
