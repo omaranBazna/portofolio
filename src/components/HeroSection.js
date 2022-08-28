@@ -1,5 +1,6 @@
 import "./styles/hero-section.css";
-
+import PhoneIcon from "@mui/icons-material/Phone";
+import MarkunreadIcon from "@mui/icons-material/Markunread";
 import React from "react";
 
 const HeroSection = () => {
@@ -22,8 +23,13 @@ const HeroSection = () => {
         <div className="divider"></div>
         <div className="hero-right">
           <h1>Contacts</h1>
-          <h4>+1 (313) 677-5744</h4>
-          <h4>omran4d@gmail.com</h4>
+          <h4>
+            <PhoneIcon /> <a href="tel:+1 313 677 5744"> +1 (313) 677-5744</a>
+          </h4>
+          <h4>
+            <MarkunreadIcon />{" "}
+            <a href="mailto:omran4d@gmail.com"> omran4d@gmail.com</a>
+          </h4>
         </div>
       </div>
     </div>
