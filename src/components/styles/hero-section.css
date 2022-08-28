@@ -3,11 +3,12 @@
     background-color: var(---hero-color);
 }
 
-.hero-content{
+.hero-left{
     display:flex;
-    align-items:center;
-    justify-content: center;
-    width:90%;
+    align-items:flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    width:75%;
     padding:20px;
     margin:auto;
    background-color: transparent;
@@ -21,12 +22,13 @@
     width:300px;
    border-radius:4px;
    box-shadow:2px 1px 1px 1px rgba(0,0,0,0.2);
+   border-radius:2000px;
 }
 
 
 .hero-text{
     padding:20px;
-    overflow-y: scroll;
+
     max-height:250px;
 }
 .hero-text > p {
