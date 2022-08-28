@@ -31,7 +31,7 @@ const ParticlesComponent = (props) => {
         },
         modes: {
           push: {
-            quantity: 10, // number of particles to add on click
+            quantity: 4, // number of particles to add on click
           },
           repulse: {
             distance: 100, // distance of the particles from the cursor
@@ -45,10 +45,10 @@ const ParticlesComponent = (props) => {
         },
         move: {
           enable: true, // enabling this will make particles move in the canvas
-          speed: { min: 1, max: 5 }, // using a range in speed value will make particles move in a random speed between min/max values, each particles have its own value, it won't change in time by default
+          speed: { min: 0.3, max: 1.5 }, // using a range in speed value will make particles move in a random speed between min/max values, each particles have its own value, it won't change in time by default
         },
         opacity: {
-          value: { min: 0.3, max: 0.7 }, // using a different opacity, to have some semitransparent effects
+          value: { min: 0.1, max: 1 }, // using a different opacity, to have some semitransparent effects
         },
         size: {
           value: { min: 1, max: 3 }, // let's randomize the particles size a bit
