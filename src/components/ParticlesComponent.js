@@ -19,39 +19,114 @@ const ParticlesComponent = (props) => {
         zIndex: -1, // this is the z-index value used when the fullScreen is enabled, it's 0 by default
       },
       interactivity: {
-        events: {
-          onClick: {
-            enable: true, // enables the click event
-            mode: "push", // adds the particles on click
-          },
-          onHover: {
-            enable: true, // enables the hover event
-            mode: "repulse", // make the particles run away from the cursor
+        events: {},
+        modes: {},
+      },
+      particles: {
+        number: {
+          value: 180,
+          density: {
+            enable: false,
+            value_area: 800,
           },
         },
-        modes: {
-          push: {
-            quantity: 4, // number of particles to add on click
+        color: {
+          value: "#FF9801",
+        },
+        shape: {
+          type: "star",
+          stroke: {
+            width: 0,
+            color: "#FF9800",
           },
-          repulse: {
-            distance: 100, // distance of the particles from the cursor
+          polygon: {
+            nb_sides: 22.5,
+          },
+          image: {
+            src: "img/github.svg",
+            width: 100,
+            height: 100,
+          },
+        },
+        opacity: {
+          value: 0.5,
+          random: false,
+          anim: {
+            enable: true,
+            speed: 2,
+            opacity_min: 0.2,
+            sync: false,
+          },
+        },
+        size: {
+          value: 0,
+          random: true,
+          anim: {
+            enable: false,
+            speed: 40,
+            size_min: 0.1,
+            sync: false,
+          },
+        },
+        line_linked: {
+          enable: true,
+          distance: 100,
+          color: "#FF9800",
+          opacity: 0.8,
+          width: 1.5,
+        },
+        move: {
+          enable: true,
+          speed: 1,
+          direction: "none",
+          random: false,
+          straight: false,
+          out_mode: "out",
+          bounce: true,
+          attract: {
+            enable: true,
+            rotateX: 600,
+            rotateY: 1200,
           },
         },
       },
-      particles: {
-        links: {
-          enable: true, // enabling this will make particles linked together
-          distance: 200, // maximum distance for linking the particles
+      interactivity: {
+        detect_on: "window",
+        events: {
+          onhover: {
+            enable: true,
+            mode: "bubble",
+          },
+          onclick: {
+            enable: true,
+            mode: "repulse",
+          },
+          resize: true,
         },
-        move: {
-          enable: true, // enabling this will make particles move in the canvas
-          speed: { min: 0.3, max: 1.5 }, // using a range in speed value will make particles move in a random speed between min/max values, each particles have its own value, it won't change in time by default
-        },
-        opacity: {
-          value: { min: 0.1, max: 1 }, // using a different opacity, to have some semitransparent effects
-        },
-        size: {
-          value: { min: 1, max: 3 }, // let's randomize the particles size a bit
+        modes: {
+          grab: {
+            distance: 100,
+            line_linked: {
+              opacity: 1,
+            },
+          },
+          bubble: {
+            distance: 150,
+            size: 8,
+            duration: 20,
+            opacity: 0.5,
+            speed: 2,
+          },
+          repulse: {
+            distance: 135,
+            duration: 2,
+          },
+          push: {
+            particles_nb: 10,
+          },
+          remove: {
+            particles_nb: 2,
+          },
         },
       },
     };
