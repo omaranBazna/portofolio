@@ -10,7 +10,7 @@ const HeroSection = () => {
       <div className="hero-content">
         <div className="hero-left">
           <div className="hero-image">
-            <img src="/images/omaran.jpg" />
+            <img src="https://i.ibb.co/rF35ZMX/low-res2.jpg/images/omaran.jpg" />
           </div>
           <div className="hero-text">
             <h1>OMARAN BAZNA</h1>

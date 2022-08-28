@@ -49,11 +49,11 @@ const ParticlesComponent = (props) => {
           },
         },
         opacity: {
-          value: 0.5,
+          value: 0.3,
           random: false,
           anim: {
             enable: true,
-            speed: 2,
+            speed: 1,
             opacity_min: 0.2,
             sync: false,
           },
@@ -63,7 +63,7 @@ const ParticlesComponent = (props) => {
           random: true,
           anim: {
             enable: false,
-            speed: 40,
+            speed: 10,
             size_min: 0.1,
             sync: false,
           },
@@ -113,7 +113,7 @@ const ParticlesComponent = (props) => {
           bubble: {
             distance: 150,
             size: 8,
-            duration: 20,
+            duration: 40,
             opacity: 0.5,
             speed: 2,
           },
