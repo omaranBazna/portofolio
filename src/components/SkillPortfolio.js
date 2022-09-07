@@ -62,10 +62,9 @@ const SkillPortfolio = ({ skills }) => {
             {skills[tag][index + 1] && (
               <div
                 onClick={() => {
-                  navigate(
-                    `../project/${skills[tag][index + 1].skillId}/${index}`,
-                    { replace: true }
-                  );
+                  navigate(`../project/${skills[tag][0].skillId}/${index}`, {
+                    replace: false,
+                  });
                 }}
               >
                 <SkillCard
@@ -77,10 +76,9 @@ const SkillPortfolio = ({ skills }) => {
             {skills[tag][index + 2] && (
               <div
                 onClick={() => {
-                  navigate(
-                    `../project/${skills[tag][index + 1].skillId}/${index}`,
-                    { replace: true }
-                  );
+                  navigate(`../project/${skills[tag][0].skillId}/${index}`, {
+                    replace: false,
+                  });
                 }}
               >
                 <SkillCard
@@ -93,10 +91,9 @@ const SkillPortfolio = ({ skills }) => {
             {skills[tag][index + 3] && (
               <div
                 onClick={() => {
-                  navigate(
-                    `../project/${skills[tag][index + 1].skillId}/${index}`,
-                    { replace: true }
-                  );
+                  navigate(`../project/${skills[tag][0].skillId}/${index}`, {
+                    replace: false,
+                  });
                 }}
               >
                 <SkillCard
@@ -108,10 +105,9 @@ const SkillPortfolio = ({ skills }) => {
             {skills[tag][index + 4] && (
               <div
                 onClick={() => {
-                  navigate(
-                    `../project/${skills[tag][index + 1].skillId}/${index}`,
-                    { replace: true }
-                  );
+                  navigate(`../project/${skills[tag][0].skillId}/${index}`, {
+                    replace: false,
+                  });
                 }}
               >
                 <SkillCard
