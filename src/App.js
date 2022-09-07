@@ -26,7 +26,10 @@ function App() {
       <Routes>
         <Route path="/main" element={<MainPage />} />
 
-        <Route path="/project" element={<ProjectPage />} />
+        <Route
+          path="/project/:projectcategory/:projectid"
+          element={<ProjectPage />}
+        />
       </Routes>
 
       {popUpSuc && <PopUpSucc setPop={setPopUpSuc} />}
