@@ -1,5 +1,13 @@
 import React from "react";
 import { useParams } from "react-router-dom";
+
+import {
+  HTMLProjects,
+  ReactProjects,
+  ReactNativeProjects,
+  JavaScriptProjects,
+  UnityProjects,
+} from "../../utilis/data";
 const ProjectPage = () => {
   const { projectcategory, projectid } = useParams();
 
