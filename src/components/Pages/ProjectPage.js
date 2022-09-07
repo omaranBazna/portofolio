@@ -23,6 +23,8 @@ const ProjectPage = () => {
 
           <div className="skills">
             <h2>Skills</h2>
+
+            <div className="line" />
           </div>
         </div>
       )}
