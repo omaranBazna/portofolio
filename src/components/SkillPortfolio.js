@@ -62,9 +62,10 @@ const SkillPortfolio = ({ skills }) => {
             {skills[tag][index + 1] && (
               <div
                 onClick={() => {
-                  navigate("../project", { replace: true });
-                  dispatch(setCategory(skills[tag][0].skillId));
-                  dispatch(setProjectId(index));
+                  navigate(
+                    `../project/${skills[tag][index + 1].skillId}/${index}`,
+                    { replace: true }
+                  );
                 }}
               >
                 <SkillCard
@@ -76,9 +77,10 @@ const SkillPortfolio = ({ skills }) => {
             {skills[tag][index + 2] && (
               <div
                 onClick={() => {
-                  navigate("../project", { replace: true });
-                  dispatch(setCategory(skills[tag][0].skillId));
-                  dispatch(setProjectId(index + 1));
+                  navigate(
+                    `../project/${skills[tag][index + 1].skillId}/${index}`,
+                    { replace: true }
+                  );
                 }}
               >
                 <SkillCard
@@ -91,9 +93,10 @@ const SkillPortfolio = ({ skills }) => {
             {skills[tag][index + 3] && (
               <div
                 onClick={() => {
-                  navigate("../project", { replace: true });
-                  dispatch(setCategory(skills[tag][0].skillId));
-                  dispatch(setProjectId(index + 2));
+                  navigate(
+                    `../project/${skills[tag][index + 1].skillId}/${index}`,
+                    { replace: true }
+                  );
                 }}
               >
                 <SkillCard
@@ -105,9 +108,10 @@ const SkillPortfolio = ({ skills }) => {
             {skills[tag][index + 4] && (
               <div
                 onClick={() => {
-                  navigate("../project", { replace: true });
-                  dispatch(setCategory(skills[tag][0].skillId));
-                  dispatch(setProjectId(index + 3));
+                  navigate(
+                    `../project/${skills[tag][index + 1].skillId}/${index}`,
+                    { replace: true }
+                  );
                 }}
               >
                 <SkillCard
