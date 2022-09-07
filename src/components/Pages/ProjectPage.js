@@ -36,6 +36,22 @@ const ProjectPage = () => {
               );
             })}
           </div>
+
+          <div className="challenges">
+            <h2>Challenges</h2>
+
+            <div className="line" />
+          </div>
+          <div className="challenges-container">
+            {ReactProjects[projectid].skills.map((skill) => {
+              return (
+                <div className="skill-item" key={skill.length + skill[0]}>
+                  <a href="#">{skill} </a>
+                  <div className="skill-underline"></div>
+                </div>
+              );
+            })}
+          </div>
         </div>
       )}
     </div>
