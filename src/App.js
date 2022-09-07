@@ -23,8 +23,6 @@ function App() {
       <HeroSection />
       <ParticlesComponent />
 
-      <MainPage />
-
       {/*showProjectDetails && <ProjectDetails setShow={setShowProjectDetails} />*/}
 
       <Routes>
