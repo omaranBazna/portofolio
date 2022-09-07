@@ -16,6 +16,8 @@ const ProjectPage = () => {
       {projectcategory == "ReactJS" && (
         <div>
           <h1>{ReactProjects[projectid].name}</h1>
+
+          <div className="description">In this project</div>
         </div>
       )}
       This is the Project Page {projectcategory} <p>{projectid}</p>
