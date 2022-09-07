@@ -62,7 +62,7 @@ const SkillPortfolio = ({ skills }) => {
             {skills[tag][index + 1] && (
               <div
                 onClick={() => {
-                  navigate("./project", { replace: true });
+                  navigate("../project", { replace: true });
                   dispatch(setCategory(skills[tag][0].skillId));
                   dispatch(setProjectId(index));
                 }}
@@ -76,7 +76,7 @@ const SkillPortfolio = ({ skills }) => {
             {skills[tag][index + 2] && (
               <div
                 onClick={() => {
-                  navigate("./project", { replace: true });
+                  navigate("../project", { replace: true });
                   dispatch(setCategory(skills[tag][0].skillId));
                   dispatch(setProjectId(index + 1));
                 }}
@@ -91,7 +91,7 @@ const SkillPortfolio = ({ skills }) => {
             {skills[tag][index + 3] && (
               <div
                 onClick={() => {
-                  navigate("./project", { replace: true });
+                  navigate("../project", { replace: true });
                   dispatch(setCategory(skills[tag][0].skillId));
                   dispatch(setProjectId(index + 2));
                 }}
@@ -105,7 +105,7 @@ const SkillPortfolio = ({ skills }) => {
             {skills[tag][index + 4] && (
               <div
                 onClick={() => {
-                  navigate("./project", { replace: true });
+                  navigate("../project", { replace: true });
                   dispatch(setCategory(skills[tag][0].skillId));
                   dispatch(setProjectId(index + 3));
                 }}
