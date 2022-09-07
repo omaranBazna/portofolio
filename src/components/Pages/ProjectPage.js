@@ -26,7 +26,7 @@ const ProjectPage = () => {
 
             <div className="line" />
           </div>
-          <div className="description">
+          <div className="skills-container">
             {ReactProjects[projectid].skills.map((skill) => {
               return <div>{skill} </div>;
             })}
