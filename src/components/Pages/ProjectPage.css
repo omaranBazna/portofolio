@@ -28,7 +28,12 @@ img{
     
     justify-content: flex-start;
 }
-
+.video-demo{
+    display:flex;
+    align-items:baseline;
+    
+    justify-content: flex-start;
+}
 .line{
     width:95%;
     height:5px;
@@ -40,6 +45,13 @@ img{
 .skills-container{
     background-color: rgba(0,0,0,0.6);
     padding:20px;
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+}
+.demo-container{
+    background-color: rgba(0,0,0,0.6);
+    padding:30px;
     display:flex;
     align-items:center;
     justify-content: space-around;

@@ -59,6 +59,20 @@ const ProjectPage = () => {
             In this uniq project ,I have to ....pluh pluh pluh .... so I do
             ...pluh pluh .. which result in ...pluh pluh pluh
           </div>
+
+          <div className="video-demo">
+            <h2>Demo</h2>
+
+            <div className="line" />
+          </div>
+          <div className="demo-container">
+            <iframe
+              style={{ borderRadius: 25 }}
+              width="600"
+              height="450"
+              src="https://www.youtube.com/embed/tgbNymZ7vqY"
+            ></iframe>
+          </div>
         </div>
       )}
     </div>
