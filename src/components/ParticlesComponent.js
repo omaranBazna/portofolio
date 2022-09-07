@@ -24,7 +24,7 @@ const ParticlesComponent = (props) => {
       },
       particles: {
         number: {
-          value: 180,
+          value: 160,
           density: {
             enable: false,
             value_area: 800,
@@ -53,7 +53,7 @@ const ParticlesComponent = (props) => {
           random: false,
           anim: {
             enable: true,
-            speed: 1,
+            speed: 0.5,
             opacity_min: 0.2,
             sync: false,
           },
@@ -63,7 +63,7 @@ const ParticlesComponent = (props) => {
           random: true,
           anim: {
             enable: false,
-            speed: 10,
+            speed: 2,
             size_min: 0.1,
             sync: false,
           },
@@ -113,13 +113,13 @@ const ParticlesComponent = (props) => {
           bubble: {
             distance: 150,
             size: 8,
-            duration: 40,
+            duration: 80,
             opacity: 0.5,
             speed: 2,
           },
           repulse: {
             distance: 135,
-            duration: 2,
+            duration: 4,
           },
           push: {
             particles_nb: 10,
