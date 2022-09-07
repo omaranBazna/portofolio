@@ -20,7 +20,6 @@ const ProjectPage = () => {
           <div className="description">In this project</div>
         </div>
       )}
-      This is the Project Page {projectcategory} <p>{projectid}</p>
     </div>
   );
 };
