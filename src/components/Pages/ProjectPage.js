@@ -21,8 +21,13 @@ const ProjectPage = () => {
             <h1>{ReactProjects[projectid].name}</h1>
             <a href="">
               {" "}
-              <GitHubIcon className="github-project-icon" />
-              <LanguageIcon className="website-icon" />
+              <a href={ReactProjects[projectid].github} target="_blank">
+                {" "}
+                <GitHubIcon className="github-project-icon" />
+              </a>
+              <a href={ReactProjects[projectid].url} target="_blank">
+                <LanguageIcon className="website-icon" />
+              </a>
             </a>
           </div>
           <div className="description">
