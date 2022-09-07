@@ -43,14 +43,8 @@ const ProjectPage = () => {
             <div className="line" />
           </div>
           <div className="challenges-container">
-            {ReactProjects[projectid].skills.map((skill) => {
-              return (
-                <div className="skill-item" key={skill.length + skill[0]}>
-                  <a href="#">{skill} </a>
-                  <div className="skill-underline"></div>
-                </div>
-              );
-            })}
+            In this uniq project ,I have to ....pluh pluh pluh .... so I do
+            ...pluh pluh .. which result in ...pluh pluh pluh
           </div>
         </div>
       )}

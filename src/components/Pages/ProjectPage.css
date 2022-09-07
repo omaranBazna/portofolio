@@ -44,6 +44,11 @@ img{
     align-items:center;
     justify-content: space-around;
 }
+.challenges-container{
+    background-color: rgba(0,0,0,0.6);
+    padding:20px;
+   
+}
 .skills-container > div  {
  transition: 0.5s;
 
