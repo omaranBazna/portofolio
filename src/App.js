@@ -11,7 +11,7 @@ import ProjectDetails from "./components/ProjectDetails";
 /*import for particles */
 import ParticlesComponent from "./components/ParticlesComponent";
 import MainPage from "./components/Pages/MainPage";
-
+import ProjectPage from "./components/Pages/ProjectPage";
 import { Routes, Route } from "react-router-dom";
 function App() {
   const [showEmailForm, setShowEmailForm] = useState(false);
@@ -26,6 +26,12 @@ function App() {
       <MainPage />
 
       {/*showProjectDetails && <ProjectDetails setShow={setShowProjectDetails} />*/}
+
+      <Routes>
+        <Route path="/main" element={<MainPage />} />
+
+        <Route path="/project" element={<ProjectPage />} />
+      </Routes>
 
       {popUpSuc && <PopUpSucc setPop={setPopUpSuc} />}
       {popUpFail && <PopUpFail setPop={setPopUpFail} />}
