@@ -12,13 +12,17 @@ const ProjectPage = () => {
   const { projectcategory, projectid } = useParams();
 
   return (
-    <div>
+    <div className="project-page">
       {projectcategory == "ReactJS" && (
         <div>
           <h1>{ReactProjects[projectid].name}</h1>
 
           <div className="description">
             {ReactProjects[projectid].description}
+          </div>
+
+          <div className="skills">
+            <h2>Skills</h2>
           </div>
         </div>
       )}

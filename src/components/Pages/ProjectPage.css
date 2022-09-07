@@ -1,13 +1,12 @@
 .cover{
     width:100%;
 }
-
-h1{
+.project-page{
     color:white;
 }
 
 .description{
-    color:white;
+
     background-color: rgba(0,0,0,0.6);
     width:100%;
     padding:20px;
