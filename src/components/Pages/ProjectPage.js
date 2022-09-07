@@ -1,6 +1,6 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-
+import "./ProjectPage.css";
 import {
   HTMLProjects,
   ReactProjects,
@@ -15,7 +15,7 @@ const ProjectPage = () => {
     <div>
       {projectcategory == "ReactJS" && (
         <div>
-          <img src={ReactProjects[projectid].cover} />
+          <img className="cover" src={ReactProjects[projectid].cover} />
           <p>{ReactProjects[projectid].name}</p>
         </div>
       )}
