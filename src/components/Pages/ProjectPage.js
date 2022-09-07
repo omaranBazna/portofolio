@@ -15,8 +15,7 @@ const ProjectPage = () => {
     <div>
       {projectcategory == "ReactJS" && (
         <div>
-          <img className="cover" src={ReactProjects[projectid].cover} />
-          <p>{ReactProjects[projectid].name}</p>
+          <h1>{ReactProjects[projectid].name}</h1>
         </div>
       )}
       This is the Project Page {projectcategory} <p>{projectid}</p>
