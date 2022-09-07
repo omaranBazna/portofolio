@@ -42,6 +42,24 @@ img{
 
 }
 .skills-container > div:hover{
-    color: rgb(9, 75, 137);
-    text-decoration: underline;
+    color:  rgb(124, 182, 237);
+
+}
+.skills-container > div:hover > .skill-underline{
+  width:100%;
+
+}
+.skill-item{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.skill-underline{
+    background-color: rgb(124, 182, 237);
+    margin:3px;
+    width:0;
+    height:2px;
+    border-radius: 10px;
+    transition: 0.2s;
 }
