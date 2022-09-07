@@ -17,16 +17,15 @@ function App() {
   const [showEmailForm, setShowEmailForm] = useState(false);
   const [popUpSuc, setPopUpSuc] = useState(false);
   const [popUpFail, setPopUpFail] = useState(false);
-  const [showProjectDetails, setShowProjectDetails] = useState(false);
 
   return (
     <div className="App">
       <HeroSection />
       <ParticlesComponent />
 
-      <Main />
+      <MainPage />
 
-      {showProjectDetails && <ProjectDetails setShow={setShowProjectDetails} />}
+      {/*showProjectDetails && <ProjectDetails setShow={setShowProjectDetails} />*/}
 
       {popUpSuc && <PopUpSucc setPop={setPopUpSuc} />}
       {popUpFail && <PopUpFail setPop={setPopUpFail} />}

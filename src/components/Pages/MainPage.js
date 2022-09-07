@@ -1,19 +1,21 @@
-import SkillPortfolio from "./components/SkillPortfolio";
-
+import SkillPortfolio from "../SkillPortfolio";
 /* import data base */
+/*./src/components/Pages/MainPage.js */
+import {
+  HTMLProjects,
+  ReactProjects,
+  ReactNativeProjects,
+  JavaScriptProjects,
+  UnityProjects,
+} from "../../utilis/data";
 
-import { ReactProjects } from "./utilis/data";
-import { ReactNativeProjects } from "./utilis/data";
-import { JavaScriptProjects } from "./utilis/data";
-import { HTMLProjects } from "./utilis/data";
-import { UnityProjects } from "./utilis/data";
-
+import { useState } from "react";
 const MainPage = () => {
+  const [showProjectDetails, setShowProjectDetails] = useState(false);
   return (
     <>
       {" "}
       <SkillPortfolio
-        setShow={setShowProjectDetails}
         skills={[
           ReactProjects,
           ReactNativeProjects,
@@ -21,10 +23,7 @@ const MainPage = () => {
           HTMLProjects,
         ]}
       />
-      <SkillPortfolio
-        setShow={setShowProjectDetails}
-        skills={[UnityProjects]}
-      />
+      <SkillPortfolio skills={[UnityProjects]} />
     </>
   );
 };
