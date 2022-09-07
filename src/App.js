@@ -20,7 +20,6 @@ function App() {
 
   return (
     <div className="App">
-      <HeroSection />
       <ParticlesComponent />
 
       {/*showProjectDetails && <ProjectDetails setShow={setShowProjectDetails} />*/}

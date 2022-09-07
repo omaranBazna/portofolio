@@ -14,7 +14,7 @@ const MainPage = () => {
   const [showProjectDetails, setShowProjectDetails] = useState(false);
   return (
     <>
-      {" "}
+      <HeroSection />
       <SkillPortfolio
         skills={[
           ReactProjects,
