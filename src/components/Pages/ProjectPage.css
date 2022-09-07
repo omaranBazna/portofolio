@@ -78,7 +78,7 @@ align-items: center;
 
 .header{
     display: flex;
-    align-items: baseline;
+    align-items: center;
     justify-content: center;
     margin:10px;
 }
@@ -89,4 +89,16 @@ align-items: center;
 }
 .github-project-icon:hover{
     color:rgb(0, 107, 230);
+    transform: scale(1.1);
   }
+
+  .website-icon{
+    transition: 0.4s !important;
+   font-size: 50px !important;
+   margin-left: 20px !important;
+  }
+  .website-icon:hover{
+      color:rgb(0, 107, 230);
+      transform: scale(1.1);
+    }
+
