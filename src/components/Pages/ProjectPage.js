@@ -27,7 +27,9 @@ const ProjectPage = () => {
             <div className="line" />
           </div>
           <div className="description">
-            {ReactProjects[projectid].description}
+            {ReactProjects[projectid].skills.map((skill) => {
+              return <div>{skill} </div>;
+            })}
           </div>
         </div>
       )}
