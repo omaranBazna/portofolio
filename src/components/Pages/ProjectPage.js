@@ -26,6 +26,9 @@ const ProjectPage = () => {
 
             <div className="line" />
           </div>
+          <div className="description">
+            {ReactProjects[projectid].description}
+          </div>
         </div>
       )}
     </div>
