@@ -1,6 +1,5 @@
 import "./App.css";
 import Footer from "./components/Footer";
-import HeroSection from "./components/HeroSection";
 
 import { useState, useEffect } from "react";
 import Email from "./components/Email";

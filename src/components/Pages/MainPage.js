@@ -1,4 +1,5 @@
 import SkillPortfolio from "../SkillPortfolio";
+import HeroSection from "../HeroSection";
 /* import data base */
 /*./src/components/Pages/MainPage.js */
 import {
