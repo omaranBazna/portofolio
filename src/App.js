@@ -10,6 +10,7 @@ import ProjectDetails from "./components/ProjectDetails";
 
 /*import for particles */
 import ParticlesComponent from "./components/ParticlesComponent";
+import MainPage from "./components/Pages/MainPage";
 
 import { Routes, Route } from "react-router-dom";
 function App() {
@@ -22,7 +23,8 @@ function App() {
     <div className="App">
       <HeroSection />
       <ParticlesComponent />
-      {/* React Portfolio*/}
+
+      <Main />
 
       {showProjectDetails && <ProjectDetails setShow={setShowProjectDetails} />}
 
