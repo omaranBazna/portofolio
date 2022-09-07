@@ -8,6 +8,8 @@ import {
   JavaScriptProjects,
   UnityProjects,
 } from "../../utilis/data";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import LanguageIcon from "@mui/icons-material/Language";
 const ProjectPage = () => {
   const { projectcategory, projectid } = useParams();
 
@@ -17,6 +19,11 @@ const ProjectPage = () => {
         <div>
           <div className="header">
             <h1>{ReactProjects[projectid].name}</h1>
+            <a href="">
+              {" "}
+              <GitHubIcon className="github-project-icon" />
+              <LanguageIcon className="website-icon" />
+            </a>
           </div>
           <div className="description">
             {ReactProjects[projectid].description}
