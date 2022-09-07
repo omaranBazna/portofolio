@@ -114,3 +114,35 @@ align-items: center;
       transform: scale(1.1);
     }
 
+.back-to-home{
+    width: fit-content;
+    height:fit-content;
+    padding:5px 20px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 209, 63);
+    position: fixed;
+    left:-15px;
+    bottom:30px;
+    border-radius: 0 10px 10px 0;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.home-icon{
+    font-size: 40px !important;
+    margin-left: 10px !important;
+}
+.back-to-home:hover{
+    width: fit-content;
+    height:fit-content;
+    padding:5px 20px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 209, 63);
+    position: fixed;
+    left:0;
+    bottom:30px;
+    border-radius: 0 10px 10px 0;
+}
