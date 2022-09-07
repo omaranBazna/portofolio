@@ -37,3 +37,11 @@ img{
     align-items:center;
     justify-content: space-around;
 }
+.skills-container > div  {
+ transition: 0.5s;
+
+}
+.skills-container > div:hover{
+    color: rgb(9, 75, 137);
+    text-decoration: underline;
+}
