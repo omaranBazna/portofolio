@@ -15,8 +15,9 @@ const ProjectPage = () => {
     <div className="project-page">
       {projectcategory == "ReactJS" && (
         <div>
-          <h1>{ReactProjects[projectid].name}</h1>
-
+          <div className="header">
+            <h1>{ReactProjects[projectid].name}</h1>
+          </div>
           <div className="description">
             {ReactProjects[projectid].description}
           </div>
