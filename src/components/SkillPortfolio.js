@@ -8,10 +8,13 @@ import { useState } from "react";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
 import { Button } from "@mui/material";
-const SkillPortfolio = ({ setShow, skills }) => {
+import { useNavigate } from "react-router-dom";
+
+const SkillPortfolio = ({ skills }) => {
   const dispatch = useDispatch();
   const [tag, setTag] = useState(0);
   const [index, setIndex] = useState(0);
+  let navigate = useNavigate();
   let color;
 
   return (
@@ -59,7 +62,7 @@ const SkillPortfolio = ({ setShow, skills }) => {
             {skills[tag][index + 1] && (
               <div
                 onClick={() => {
-                  setShow(true);
+                  navigate("../main", { replace: true });
                   dispatch(setCategory(skills[tag][0].skillId));
                   dispatch(setProjectId(index));
                 }}
@@ -73,7 +76,7 @@ const SkillPortfolio = ({ setShow, skills }) => {
             {skills[tag][index + 2] && (
               <div
                 onClick={() => {
-                  setShow(true);
+                  navigate("../main", { replace: true });
                   dispatch(setCategory(skills[tag][0].skillId));
                   dispatch(setProjectId(index + 1));
                 }}
@@ -88,7 +91,7 @@ const SkillPortfolio = ({ setShow, skills }) => {
             {skills[tag][index + 3] && (
               <div
                 onClick={() => {
-                  setShow(true);
+                  navigate("../main", { replace: true });
                   dispatch(setCategory(skills[tag][0].skillId));
                   dispatch(setProjectId(index + 2));
                 }}
@@ -102,7 +105,7 @@ const SkillPortfolio = ({ setShow, skills }) => {
             {skills[tag][index + 4] && (
               <div
                 onClick={() => {
-                  setShow(true);
+                  navigate("../main", { replace: true });
                   dispatch(setCategory(skills[tag][0].skillId));
                   dispatch(setProjectId(index + 3));
                 }}
