@@ -13,6 +13,11 @@ const ProjectPage = () => {
 
   return (
     <div>
+      {projectcategory == "react" && (
+        <div>
+          <div>{<img src={ReactProjects[projectid].img} />}</div>
+        </div>
+      )}
       This is the Project Page {projectcategory} <p>{projectid}</p>
     </div>
   );
