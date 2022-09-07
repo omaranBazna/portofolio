@@ -10,11 +10,15 @@ import {
 } from "../../utilis/data";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LanguageIcon from "@mui/icons-material/Language";
+import HomeIcon from "@mui/icons-material/Home";
 const ProjectPage = () => {
   const { projectcategory, projectid } = useParams();
 
   return (
     <div className="project-page">
+      <div className="back-to-home">
+        <h2>Back To Home</h2> <HomeIcon className="home-icon" />
+      </div>
       {projectcategory == "ReactJS" && (
         <div>
           <div className="header">
