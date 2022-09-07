@@ -17,7 +17,9 @@ const ProjectPage = () => {
         <div>
           <h1>{ReactProjects[projectid].name}</h1>
 
-          <div className="description">In this project</div>
+          <div className="description">
+            {ReactProjects[projectid].description}
+          </div>
         </div>
       )}
     </div>
