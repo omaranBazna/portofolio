@@ -49,7 +49,7 @@ const ProjectPage = () => {
               );
             })}
           </div>
-
+          {/*
           <div className="challenges">
             <h2>Challenges</h2>
 
@@ -59,7 +59,7 @@ const ProjectPage = () => {
             In this uniq project ,I have to ....pluh pluh pluh .... so I do
             ...pluh pluh .. which result in ...pluh pluh pluh
           </div>
-
+          */}
           <div className="video-demo">
             <h2>Demo</h2>
 
