@@ -72,6 +72,7 @@ const SkillPortfolio = ({ skills }) => {
               >
                 <SkillCard
                   imgSrc={skills[tag][index + 1].photo}
+                  title={skills[tag][index + 1].title}
                   description={skills[tag][index + 1].description}
                 />
               </div>
@@ -90,6 +91,7 @@ const SkillPortfolio = ({ skills }) => {
                 <SkillCard
                   imgSrc={skills[tag][index + 2].photo}
                   description={skills[tag][index + 2].description}
+                  title={skills[tag][index + 2].title}
                 />
               </div>
             )}
@@ -108,6 +110,7 @@ const SkillPortfolio = ({ skills }) => {
                 <SkillCard
                   imgSrc={skills[tag][index + 3].photo}
                   description={skills[tag][index + 3].description}
+                  title={skills[tag][index + 3].title}
                 />
               </div>
             )}
@@ -125,6 +128,7 @@ const SkillPortfolio = ({ skills }) => {
                 <SkillCard
                   imgSrc={skills[tag][index + 4].photo}
                   description={skills[tag][index + 4].description}
+                  title={skills[tag][index + 4].title}
                 />
               </div>
             )}
