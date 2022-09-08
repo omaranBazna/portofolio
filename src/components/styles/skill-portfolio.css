@@ -1,11 +1,11 @@
 .skill-porto{
-    width:85%;
-    height:420px;
+    width:80%;
+    height:320px;
     display:flex;
     align-items: center;
    justify-content: center;
     color:white;
-    margin-top:20px;
+    margin-top:10px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -14,16 +14,16 @@
   margin-top:45px;
  }
  .skill-porto-content{
-     width:95%;
-     height:80%;
-     border-radius:25px;
+     width:85%;
+     height:75%;
+     border-radius:10px;
 
      transition: 0.3s;
      overflow-y: scroll;
 
  }
  .skill-title >img{
-     width:45px;
+     width:28px;
  }
  @media (min-width:1000px){
     .skill-porto-content{
@@ -41,7 +41,7 @@
     padding:2px 0px;
 }
 .skill-title>img{
-    width:40px;
+    width:20px;
 }
  }
  @media (max-width:640px){
@@ -54,16 +54,16 @@
      display: flex;
      align-items: center;
      justify-content: center;
-     padding:0px 20px;
+     padding:0px 10px;
      background-color: rgba(255,255,255,0.05);
-     border-radius:20px 20px 0 0 ;
+     border-radius:10px 10px 0 0 ;
      cursor:pointer;
      transition: 0.3s;
 
  }
  .skill-title >h3 {
-    font-weight: 300;
-    font-size:17px;
+    font-weight: 200;
+    font-size:14px;
  }
  .skill-title:hover{
    
@@ -73,7 +73,7 @@
      align-items: flex-start;
      justify-content: space-around;
      flex-wrap: wrap;
-     padding:20px;
+     padding:3px;
  
  }
  
@@ -127,9 +127,9 @@ align-items: center;
 border-radius:50% !important;
  }
  .skill-porto > .tags {
-    width: 85%;
+    width: 70%;
     display:flex;
    align-items: center;
    justify-content: flex-start;
-   gap: 10px;
+   gap: 8px;
  }
