@@ -46,6 +46,7 @@ const ProjectPage = () => {
             {ReactProjects[projectid].description}
           </div>
 
+          {/*
           <div className="skills">
             <h2>Skills</h2>
 
@@ -61,7 +62,7 @@ const ProjectPage = () => {
               );
             })}
           </div>
-          {/*
+        
           <div className="challenges">
             <h2>Challenges</h2>
 
@@ -71,7 +72,7 @@ const ProjectPage = () => {
             In this uniq project ,I have to ....pluh pluh pluh .... so I do
             ...pluh pluh .. which result in ...pluh pluh pluh
           </div>
-          */}
+     
           <div className="video-demo">
             <h2>Demo</h2>
 
@@ -85,6 +86,7 @@ const ProjectPage = () => {
               src="https://www.youtube.com/embed/tgbNymZ7vqY"
             ></iframe>
           </div>
+          */}
         </div>
       )}
     </div>

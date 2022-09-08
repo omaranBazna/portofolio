@@ -10,7 +10,7 @@
     background-color: rgba(0,0,0,0.6);
     width:100%;
     padding:20px;
-    height:200px;
+
 }
 img{
     width:100%;
@@ -117,7 +117,7 @@ align-items: center;
 .back-to-home{
     width: fit-content;
     height:fit-content;
-    padding:5px 20px;
+    padding:5px 10px;
     display:flex;
     align-items: center;
     justify-content: center;
@@ -130,13 +130,13 @@ align-items: center;
     cursor: pointer;
 }
 .home-icon{
-    font-size: 40px !important;
+    font-size: 30px !important;
     margin-left: 10px !important;
 }
 .back-to-home:hover{
     width: fit-content;
     height:fit-content;
-    padding:5px 20px;
+    padding:5px 10px;
     display:flex;
     align-items: center;
     justify-content: center;
