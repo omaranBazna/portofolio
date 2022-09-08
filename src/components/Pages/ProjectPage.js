@@ -29,20 +29,21 @@ const ProjectPage = () => {
       </div>
       {projectcategory == "ReactJS" && (
         <div>
-          <div className="header">
-            <h1>{ReactProjects[projectid].name}</h1>
-            <a href="">
-              {" "}
-              <a href={ReactProjects[projectid].github} target="_blank">
-                {" "}
-                <GitHubIcon className="github-project-icon" />
-              </a>
-              <a href={ReactProjects[projectid].url} target="_blank">
-                <LanguageIcon className="website-icon" />
-              </a>
-            </a>
-          </div>
           <div className="description">
+            <div className="header">
+              <h1>{ReactProjects[projectid].name}</h1>
+              <a href="">
+                {" "}
+                <a href={ReactProjects[projectid].github} target="_blank">
+                  {" "}
+                  <GitHubIcon className="github-project-icon" />
+                </a>
+                <a href={ReactProjects[projectid].url} target="_blank">
+                  <LanguageIcon className="website-icon" />
+                </a>
+              </a>
+            </div>
+            <hr />
             {ReactProjects[projectid].description
               .split("newLine")
               .map((item) => {
@@ -54,6 +55,8 @@ const ProjectPage = () => {
                   </div>
                 );
               })}
+            <br></br>
+            <br></br>
           </div>
 
           {/*
