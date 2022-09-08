@@ -1,13 +1,13 @@
 :root{
     ---hero-color:rgba(197, 113, 24, 0.827);
 
-    --hero-text_size:18px;
-    --app-background:rgba(0,0,0,0.95);
+    --hero-text_size:16px;
+    --app-background:rgba(0, 0, 0, 0.8);
 }
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color:var(--app-background);
+/* background-color:var(--app-background);*/
     margin-bottom: 170px;
     font-family: 'Inconsolata', monospace;
 }

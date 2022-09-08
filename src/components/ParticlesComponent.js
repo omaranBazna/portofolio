@@ -12,7 +12,7 @@ const ParticlesComponent = (props) => {
     // all options can be found here: https://particles.js.org/docs/interfaces/Options_Interfaces_IOptions.IOptions.html
     return {
       background: {
-        color: "#223", // this sets a background color for the canvas
+        color: "#DDC8A6", // this sets a background color for the canvas
       },
       fullScreen: {
         enable: true, // enabling this will make the canvas fill the entire screen, it's enabled by default
@@ -31,7 +31,7 @@ const ParticlesComponent = (props) => {
           },
         },
         color: {
-          value: "#FF9801",
+          value: "#aaaa",
         },
         shape: {
           type: "circle",
@@ -71,7 +71,7 @@ const ParticlesComponent = (props) => {
         line_linked: {
           enable: true,
           distance: 100,
-          color: "#FF9800",
+          color: "#485A80",
           opacity: 0.8,
           width: 1.5,
         },

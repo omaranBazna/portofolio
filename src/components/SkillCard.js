@@ -4,7 +4,8 @@ const SkillCard = ({ imgSrc, description, title }) => {
   return (
     <div className="card">
       {/*<img src={imgSrc} /> */}
-      <h1>{title}</h1>
+
+      <h3>{title}</h3>
       <hr></hr>
       <p>{description}</p>
     </div>
