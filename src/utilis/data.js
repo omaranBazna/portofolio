@@ -8,11 +8,11 @@ export const ReactProjects = [
   },
   {
     id: "0",
-    name: "Disney clone",
+    name: "Disney Clone",
     photo:
       "https://www.disneychannel.ca/wp-content/themes/disney-child/assets/images/thumbnail-generic.jpg",
     description:
-      "This website is a clone to the real Disney website build using ReactJS,Styled components and firebase",
+      "In this project I cloned Disney website using React Js , firebase ,Redux. newLine  For styling my project,I used styled components which enabled me to create more complex styles smoothly. newLine I used react-router for routing management and creating SPA . newLine I used react-slick and react-slides to add the slide effect to the hero section. newLine For my database ,I used firebase collections to store all movies data newLine I used Redux Js for state management to made my app more reliable and testable  ",
     detailsDescription:
       "In this Project ,I cloned the official website of Walt Disney Movies using :",
     skills: [

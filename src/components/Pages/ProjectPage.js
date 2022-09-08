@@ -43,7 +43,16 @@ const ProjectPage = () => {
             </a>
           </div>
           <div className="description">
-            {ReactProjects[projectid].description}
+            {ReactProjects[projectid].description
+              .split("newLine")
+              .map((item) => {
+                return (
+                  <div>
+                    <br />
+                    {item}
+                  </div>
+                );
+              })}
           </div>
 
           {/*
