@@ -12,7 +12,7 @@ export const ReactProjects = [
     photo:
       "https://www.disneychannel.ca/wp-content/themes/disney-child/assets/images/thumbnail-generic.jpg",
     description:
-      "In this project I cloned Disney website using React Js , firebase ,Redux. newLine  For styling my project,I used styled components which enabled me to create more complex styles smoothly. newLine I used react-router for routing management and creating SPA . newLine I used react-slick and react-slides to add the slide effect to the hero section. newLine For my database ,I used firebase collections to store all movies data newLine I used Redux Js for state management to made my app more reliable and testable newLine The App architecture is totally scalable and testable ,we can easily add new movie with full details.   ",
+      "In this project I cloned Disney website using React Js , firebase ,Redux. newLine  For styling my project,I used styled components which enabled me to create more complex styles smoothly. newLine I used react-router for routing management so my whole App is SPA which give the best user experience . newLine I used react-slick and react-slides to add the slide effect to the hero section. newLine For my database ,I used firebase collections to store all movies data. newLine I used Redux Js for state management to made my app more reliable and testable. newLine The App architecture is totally scalable and testable ,we can easily add new movie with full details. newLine The code is well documented ,clean ,commented ,divide into separate modules and components and easy to understand.   ",
     detailsDescription:
       "In this Project ,I cloned the official website of Walt Disney Movies using :",
     skills: [
