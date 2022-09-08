@@ -50,6 +50,7 @@ const ProjectPage = () => {
                   <div>
                     <br />
                     {item}
+                    <br />
                   </div>
                 );
               })}
