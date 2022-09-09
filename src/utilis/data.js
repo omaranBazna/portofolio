@@ -360,7 +360,7 @@ export const JavaScriptProjects = [
     photo:
       "https://www.disneychannel.ca/wp-content/themes/disney-child/assets/images/thumbnail-generic.jpg",
     description:
-      "I created this project using plain JavaScript. newLine I Figure out the mathematical formulas for 3D Projection. newLine I implement the four principles of Object-Oriented Programming to create simple and re-usable 3D library. newLine The code is clean ,commented and well documented. I used Git&Github for version control",
+      "I created this project using plain JavaScript. newLine I Figure out the mathematical formulas for 3D Projection. newLine I implement the four principles of Object-Oriented Programming to create simple and re-usable 3D library. newLine The code is clean ,commented and well documented. newLine I used Git&Github for version control",
     detailsDescription:
       "In this Project ,I cloned the official website of Walt Disney Movies using :",
     skills: [

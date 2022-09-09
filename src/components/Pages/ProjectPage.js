@@ -102,6 +102,40 @@ const ProjectPage = () => {
           */}
         </div>
       )}
+
+      {projectcategory == "JavaScript" && (
+        <div>
+          <div className="description">
+            <div className="header">
+              <h1>{JavaScriptProjects[projectid].name}</h1>
+              <a href="">
+                {" "}
+                <a href={JavaScriptProjects[projectid].github} target="_blank">
+                  {" "}
+                  <GitHubIcon className="github-project-icon" />
+                </a>
+                <a href={JavaScriptProjects[projectid].url} target="_blank">
+                  <LanguageIcon className="website-icon" />
+                </a>
+              </a>
+            </div>
+            <hr />
+            {JavaScriptProjects[projectid].description
+              .split("newLine")
+              .map((item) => {
+                return (
+                  <div>
+                    <br />
+                    {item}
+                    <br />
+                  </div>
+                );
+              })}
+            <br></br>
+            <br></br>
+          </div>
+        </div>
+      )}
     </div>
   );
 };
