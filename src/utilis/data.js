@@ -56,7 +56,7 @@ export const ReactProjects = [
     photo:
       "https://www.guidingtech.com/wp-content/uploads/slack-tips-tricks-fi_4d470f76dc99e18ad75087b1b8410ea9.jpg",
     description:
-      "This website is a clone to the real Slack App build using ReactJS,Material UI and firebase",
+      "In this project I cloned Slack App using React Js , firebase and Redux. newLine  For styling my project,I used CSS and material UI which enables me to add interactive icons really quickly with best quality. newLine For the database ,I used firebase collections to store all the channels. newLine For user authorization ,I used firebase Google provider. newLine I used Redux Js for state management to made my app more reliable and testable. newLine The App architecture is totally scalable and testable ,we can easily expand any new functionality like messages likes and threads. newLine The code is well documented ,clean ,commented ,divide into separate modules and components and easy to understand. newLine I used Git&GitHub for version control.",
 
     detailsDescription:
       "In this Project ,I cloned the official website of Slack using :",
