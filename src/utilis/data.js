@@ -374,8 +374,8 @@ export const JavaScriptProjects = [
     cover:
       "https://i.pinimg.com/originals/0b/bf/c7/0bbfc7ccf6eda7d4173eb795526de3a9.jpg",
 
-    github: "https://github.com/omaranBazna/disney-clone",
-    url: "https://omaranbazna.github.io/disney-clone/",
+    github: "https://github.com/omaranBazna/3DEngine",
+    url: "https://omaranbazna.github.io/3DEngine/",
   },
 ];
 
