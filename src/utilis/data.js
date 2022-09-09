@@ -12,7 +12,7 @@ export const ReactProjects = [
     photo:
       "https://www.disneychannel.ca/wp-content/themes/disney-child/assets/images/thumbnail-generic.jpg",
     description:
-      "In this project I cloned Disney website using React Js , firebase ,Redux. newLine  For styling my project,I used styled components which enabled me to create more complex styles smoothly. newLine I used react-router for routing management so my whole App is SPA which give the best user experience. newLine I used react-slick and react-slides to add the slide effect to the hero section. newLine For the database ,I used firebase collections to store all movies data. newLine For user authorization ,I used firebase Google provider. newLine I used Redux Js for state management to made my app more reliable and testable. newLine The App architecture is totally scalable and testable ,we can easily add a new movie with full details. newLine The code is well documented ,clean ,commented ,divide into separate modules and components and easy to understand. newLine I used Git&GitHub for version control. ",
+      "In this project I cloned Disney website using React Js , firebase and Redux. newLine  For styling my project,I used styled components which enabled me to create more complex styles smoothly. newLine I used react-router for routing management so my whole App is SPA which give the best user experience. newLine I used react-slick and react-slides to add the slide effect to the hero section. newLine For the database ,I used firebase collections to store all movies data. newLine For user authorization ,I used firebase Google provider. newLine I used Redux Js for state management to made my app more reliable and testable. newLine The App architecture is totally scalable and testable ,we can easily add a new movie with full details. newLine The code is well documented ,clean ,commented ,divide into separate modules and components and easy to understand. newLine I used Git&GitHub for version control. ",
     detailsDescription:
       "In this Project ,I cloned the official website of Walt Disney Movies using :",
     skills: [
@@ -34,7 +34,7 @@ export const ReactProjects = [
     photo:
       "https://pryormediacdn.azureedge.net/wordpress/2016/04/No-Hype-Social-Media-for-Business-LinkedIn.jpg",
     description:
-      "This website is a clone to the real LinkedIn build using ReactJS,Styled components and firebase",
+      "In this project I cloned LinkedIn website using React Js , firebase and Redux. newLine  For styling my project,I used styled components which enabled me to create more complex styles smoothly. newLine I used react-router for routing management so my whole App is SPA which give the best user experience. newLine I used react-player to play videos inside the post component. newLine For the database ,I used firebase collections to store all the feed posts. newLine For user authorization ,I used firebase Google provider. newLine I used Redux Js for state management to made my app more reliable and testable. newLine The App architecture is totally scalable and testable ,we can easily expand any new functionality like counting the likes clicks. newLine The code is well documented ,clean ,commented ,divide into separate modules and components and easy to understand. newLine I used Git&GitHub for version control.",
     detailsDescription:
       "In this Project ,I cloned the official website of LinkedIn using :",
     skills: [
