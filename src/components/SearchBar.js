@@ -4,7 +4,7 @@ import "./styles/SearchBar.css";
 const SearchBar = () => {
   return (
     <form>
-      <input type="text" placeholder="Search for skill or project " />
+      <input type="text" placeholder="Search for skill or project..." />
       <button type="submit">
         <SearchIcon />
       </button>
