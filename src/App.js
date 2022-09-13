@@ -25,10 +25,10 @@ function App() {
       {/*showProjectDetails && <ProjectDetails setShow={setShowProjectDetails} />*/}
       <SearchBar />
       <Routes>
-        <Route path="/main" element={<MainPage />} />
+        <Route path="/portofolio/main" element={<MainPage />} />
 
         <Route
-          path="/project/:projectcategory/:projectid"
+          path="/portofolio/project/:projectcategory/:projectid"
           element={<ProjectPage />}
         />
       </Routes>
