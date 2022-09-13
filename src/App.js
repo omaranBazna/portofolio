@@ -12,6 +12,7 @@ import ParticlesComponent from "./components/ParticlesComponent";
 import MainPage from "./components/Pages/MainPage";
 import ProjectPage from "./components/Pages/ProjectPage";
 import { Routes, Route } from "react-router-dom";
+import SearchBar from "./components/SearchBar";
 function App() {
   const [showEmailForm, setShowEmailForm] = useState(false);
   const [popUpSuc, setPopUpSuc] = useState(false);
@@ -22,7 +23,7 @@ function App() {
       <ParticlesComponent />
 
       {/*showProjectDetails && <ProjectDetails setShow={setShowProjectDetails} />*/}
-
+      <SearchBar />
       <Routes>
         <Route path="/main" element={<MainPage />} />
 
