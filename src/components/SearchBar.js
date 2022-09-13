@@ -3,7 +3,7 @@ import SearchIcon from "@mui/icons-material/Search";
 const SearchBar = () => {
   return (
     <form>
-      <input type="text" />
+      <input type="text" placeholder="Search for skill or project " />
       <button type="submit">
         <SearchIcon />
       </button>
