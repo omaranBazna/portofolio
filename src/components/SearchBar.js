@@ -7,9 +7,7 @@ const SearchBar = () => {
     <form>
       <input type="text" placeholder="Search for skill or project..." />
       <Link to="/portofolio/main">
-        <button type="submit">
-          <SearchIcon />
-        </button>
+        <SearchIcon />
       </Link>
     </form>
   );

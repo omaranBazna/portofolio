@@ -63,7 +63,9 @@ const SkillPortfolio = ({ skills }) => {
               <div
                 onClick={() => {
                   navigate(
-                    `../project/${skills[tag][0].skillId}/${index + 1}`,
+                    `../portofolio/project/${skills[tag][0].skillId}/${
+                      index + 1
+                    }`,
                     {
                       replace: false,
                     }
@@ -83,7 +85,9 @@ const SkillPortfolio = ({ skills }) => {
               <div
                 onClick={() => {
                   navigate(
-                    `../project/${skills[tag][0].skillId}/${index + 2}`,
+                    `../portofolio/project/${skills[tag][0].skillId}/${
+                      index + 2
+                    }`,
                     {
                       replace: false,
                     }
@@ -104,7 +108,9 @@ const SkillPortfolio = ({ skills }) => {
               <div
                 onClick={() => {
                   navigate(
-                    `../project/${skills[tag][0].skillId}/${index + 3}`,
+                    `../portofolio/project/${skills[tag][0].skillId}/${
+                      index + 3
+                    }`,
                     {
                       replace: false,
                     }
@@ -124,7 +130,9 @@ const SkillPortfolio = ({ skills }) => {
               <div
                 onClick={() => {
                   navigate(
-                    `../project/${skills[tag][0].skillId}/${index + 4}`,
+                    `../portofolio/project/${skills[tag][0].skillId}/${
+                      index + 4
+                    }`,
                     {
                       replace: false,
                     }

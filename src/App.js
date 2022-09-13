@@ -13,11 +13,15 @@ import MainPage from "./components/Pages/MainPage";
 import ProjectPage from "./components/Pages/ProjectPage";
 import { Routes, Route } from "react-router-dom";
 import SearchBar from "./components/SearchBar";
+import { useNavigate } from "react-router-dom";
 function App() {
   const [showEmailForm, setShowEmailForm] = useState(false);
   const [popUpSuc, setPopUpSuc] = useState(false);
   const [popUpFail, setPopUpFail] = useState(false);
-
+  const navigate = useNavigate();
+  useEffect(() => {
+    navigate("./portofolio/main", { replace: "true" });
+  }, []);
   return (
     <div className="App">
       <ParticlesComponent />
