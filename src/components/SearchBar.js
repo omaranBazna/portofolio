@@ -4,7 +4,7 @@ const SearchBar = () => {
   return (
     <form>
       <input type="text" />
-      <button type="submit"></button>
+      <button type="submit">Search</button>
     </form>
   );
 };
