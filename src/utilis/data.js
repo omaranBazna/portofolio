@@ -11,7 +11,7 @@ export const ReactProjects = [
     name: "JavaScript mistakes",
     photo: "https://i.ibb.co/JrWzHhN/javascript.png",
     description:
-      "More than 50 common javascript codes mistakes for beginners , The goal of this project is to help javascript beginners to learn javascript , I used React Bootstrap for styling , I used Strip API for payment portal  , I used Ready Code Editor package",
+      "More than 50 common javascript codes mistakes for beginners , newLine  The goal of this project is to help javascript beginners to learn javascript , newLine  I used React Bootstrap for styling , newLine  I used Strip API for payment portal  , newLine  I used Ready Code Editor package",
     detailsDescription: "I used the following technologies:",
     skills: [
       "ReactJs",
@@ -31,7 +31,7 @@ export const ReactProjects = [
     name: "Weather app",
     photo: "https://i.ibb.co/HDTy6M4/weather-app.png",
     description:
-      "Real Time weather data for all countries using Open Weather API , I used Three js  for the interactive earth model , I used  leaflet map for the 2d map ",
+      "Real Time weather data for all countries using Open Weather API , newLine  I used Three js  for the interactive earth model , newLine  I used  leaflet map for the 2d map ",
     detailsDescription: "I used the following technologies:",
     skills: [
       "ReactJs",
@@ -52,7 +52,7 @@ export const ReactProjects = [
     name: "Tensorflow drawing app",
     photo: "https://i.ibb.co/CMmy4s8/tensorflow.png",
     description:
-      "Use tensorflow hand recognition model and facial recognition model to create interactive drawing app , The hand detection model keep track of the hand movements and draw on the page , After the child done drawing the app recognize the drawing using ML algorithm , Facial detection model place 2d avatar on top of the child face",
+      "Use tensorflow hand recognition model and facial recognition model to create interactive drawing app ,  newLine The hand detection model keep track of the hand movements and draw on the page , newLine  After the child done drawing the app recognize the drawing using ML algorithm , newLine  Facial detection model place 2d avatar on top of the child face",
     detailsDescription: "I used the following technologies:",
     skills: [
       "ReactJs",
