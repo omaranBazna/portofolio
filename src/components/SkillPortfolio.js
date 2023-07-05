@@ -48,7 +48,7 @@ const SkillPortfolio = ({ skills }) => {
         style={{ backgroundColor: skills[tag][0].color }}
       >
         <div className="skill-porto-projects-section">
-          <Button
+          {/*<Button
             className="controller-left"
             onClick={() => {
               if (index > 0) {
@@ -57,7 +57,7 @@ const SkillPortfolio = ({ skills }) => {
             }}
           >
             <ArrowBackIosIcon />
-          </Button>
+          </Button>*/}
           <div className="skill-porto-projects">
             {skills[tag][index + 1] && (
               <div
@@ -129,7 +129,7 @@ const SkillPortfolio = ({ skills }) => {
               </div>
             )}
           </div>
-          <Button
+          {/* <Button
             className="controller-right"
             onClick={() => {
               if (index < skills[tag].length - 5) {
@@ -138,7 +138,7 @@ const SkillPortfolio = ({ skills }) => {
             }}
           >
             <ArrowForwardIosIcon />
-          </Button>
+          </Button>*/}
         </div>
       </div>
     </div>

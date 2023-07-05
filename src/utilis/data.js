@@ -11,7 +11,7 @@ export const ReactProjects = [
     name: "JavaScript mistakes",
     photo: "https://i.ibb.co/JrWzHhN/javascript.png",
     description:
-      "More than 50 common javascript codes mistakes for beginners , newLine  The goal of this project is to help javascript beginners to learn javascript , newLine  I used React Bootstrap for styling , newLine  I used Strip API for payment portal  , newLine  I used Ready Code Editor package",
+      "More than 50 common javascript codes mistakes for beginners . newLine  The goal of this project is to help javascript beginners to learn javascript . newLine  I used React Bootstrap for styling . newLine  I used Strip API for payment portal  . newLine  I used Ready Code Editor package.",
     detailsDescription: "I used the following technologies:",
     skills: [
       "ReactJs",
@@ -31,7 +31,7 @@ export const ReactProjects = [
     name: "Weather app",
     photo: "https://i.ibb.co/HDTy6M4/weather-app.png",
     description:
-      "Real Time weather data for all countries using Open Weather API , newLine  I used Three js  for the interactive earth model , newLine  I used  leaflet map for the 2d map ",
+      "Real Time weather data for all countries using Open Weather API . newLine  I used Three js  for the interactive earth model . newLine  I used  leaflet map for the 2d map .",
     detailsDescription: "I used the following technologies:",
     skills: [
       "ReactJs",
@@ -52,7 +52,7 @@ export const ReactProjects = [
     name: "Tensorflow drawing app",
     photo: "https://i.ibb.co/CMmy4s8/tensorflow.png",
     description:
-      "Use tensorflow hand recognition model and facial recognition model to create interactive drawing app ,  newLine The hand detection model keep track of the hand movements and draw on the page , newLine  After the child done drawing the app recognize the drawing using ML algorithm , newLine  Facial detection model place 2d avatar on top of the child face",
+      "Use tensorflow hand recognition model and facial recognition model to create interactive drawing app .  newLine The hand detection model keep track of the hand movements and draw on the page . newLine  After the child done drawing the app recognize the drawing using ML algorithm . newLine  Facial detection model place 2d avatar on top of the child face .",
     detailsDescription: "I used the following technologies:",
     skills: [
       "ReactJs",
@@ -65,90 +65,6 @@ export const ReactProjects = [
 
     github: "https://github.com/omaranBazna/AI_Project_UFD",
     url: "https://velvety-paletas-8ab1c7.netlify.app/",
-  },
-  {
-    id: "3",
-    name: "Disney Clone",
-    photo:
-      "https://www.disneychannel.ca/wp-content/themes/disney-child/assets/images/thumbnail-generic.jpg",
-    description:
-      "In this project I cloned Disney website using React Js , firebase and Redux. newLine  For styling my project,I used styled components which enabled me to create more complex styles smoothly. newLine I used react-router for routing management so my whole App is SPA which give the best user experience. newLine I used react-slick and react-slides to add the slide effect to the hero section. newLine For the database ,I used firebase collections to store all movies data. newLine For user authorization ,I used firebase Google provider. newLine I used Redux Js for state management to made my app more reliable and testable. newLine The App architecture is totally scalable and testable ,we can easily add a new movie with full details. newLine The code is well documented ,clean ,commented ,divide into separate modules and components and easy to understand. newLine I used Git&GitHub for version control. newLine The website is highly responsive.",
-    detailsDescription:
-      "In this Project ,I cloned the official website of Walt Disney Movies using :",
-    skills: [
-      "ReactJs",
-      "ReactRouter",
-      "ReactRedux",
-      "StyledComponents",
-      "Firebase",
-    ],
-    cover:
-      "https://i.pinimg.com/originals/0b/bf/c7/0bbfc7ccf6eda7d4173eb795526de3a9.jpg",
-
-    github: "https://github.com/omaranBazna/disney-clone",
-    url: "https://omaranbazna.github.io/disney-clone/",
-  },
-  {
-    id: "4",
-    name: "LinkedIn clone",
-    photo:
-      "https://pryormediacdn.azureedge.net/wordpress/2016/04/No-Hype-Social-Media-for-Business-LinkedIn.jpg",
-    description:
-      "In this project I cloned LinkedIn website using React Js , firebase and Redux. newLine  For styling my project,I used styled components which enabled me to create more complex styles smoothly. newLine I used react-router for routing management so my whole App is SPA which give the best user experience. newLine I used react-player to play videos inside the post component. newLine For the database ,I used firebase collections to store all the feed posts. newLine For user authorization ,I used firebase Google provider. newLine I used Redux Js for state management to made my app more reliable and testable. newLine The App architecture is totally scalable and testable ,we can easily expand any new functionality like counting the likes clicks. newLine The code is well documented ,clean ,commented ,divide into separate modules and components and easy to understand. newLine I used Git&GitHub for version control. newLine The website is highly responsive.",
-    detailsDescription:
-      "In this Project ,I cloned the official website of LinkedIn using :",
-    skills: [
-      "ReactJs",
-      "ReactRouter",
-      "ReactRedux",
-      "StyledComponents",
-      "Firebase",
-    ],
-    cover:
-      "https://kinsta.com/wp-content/uploads/2018/09/linkedin-statistics.png",
-
-    github: "https://github.com/omaranBazna/linked-in-clone2",
-    url: "https://omaranbazna.github.io/linked-in-clone2/",
-  },
-  {
-    id: "5",
-    name: "Slack clone",
-    photo:
-      "https://www.guidingtech.com/wp-content/uploads/slack-tips-tricks-fi_4d470f76dc99e18ad75087b1b8410ea9.jpg",
-    description:
-      "In this project I cloned Slack App using React Js , firebase and Redux. newLine  For styling my project,I used CSS and material UI which enables me to add interactive icons really quickly with best quality. newLine For the database ,I used firebase collections to store all the channels. newLine For user authorization ,I used firebase Google provider. newLine I used Redux Js for state management to made my app more reliable and testable. newLine The App architecture is totally scalable and testable ,we can easily expand any new functionality like messages likes and threads. newLine The code is well documented ,clean ,commented ,divide into separate modules and components and easy to understand. newLine I used Git&GitHub for version control.",
-
-    detailsDescription:
-      "In this Project ,I cloned the official website of Slack using :",
-    skills: ["ReactJs", "ReactRouter", "ReactRedux", "MaterialUI", "Firebase"],
-    cover:
-      "https://a.slack-edge.com/221d25b/marketing/img/homepage/e2e-prospects/unfurl/slack-e2e-homepage-unfurl.jpg",
-
-    github: "https://github.com/omaranBazna/slack-clone",
-    url: "https://omaranbazna.github.io/slack-clone/",
-  },
-  {
-    id: "6",
-    name: "Gmail clone",
-    photo:
-      "https://techgameworld.com/wp-content/uploads/2022/01/Gmail-reaches-10-billion-downloads-on-the-Play-Store.jpg",
-    description:
-      "This website is a clone to the real Gmail website build using ReactJS,Material UI and firebase",
-
-    detailsDescription:
-      "In this Project ,I cloned the official website of Gmail using :",
-    skills: [
-      "ReactJs",
-      "ReactRouter",
-      "ReactRedux",
-      "MaterialUI",
-      "Firebase",
-      "ReactHookForm",
-    ],
-    cover: "https://i.insider.com/627bd37f8f41d500187ac93b?width=700",
-
-    github: "https://github.com/omaranBazna/gmail-clone",
-    url: "",
   },
 ];
 
@@ -277,7 +193,47 @@ export const JavaScriptProjects = [
       "https://i.pinimg.com/originals/0b/bf/c7/0bbfc7ccf6eda7d4173eb795526de3a9.jpg",
 
     github: "https://github.com/omaranBazna/3DEngine",
-    url: "https://omaranbazna.github.io/3DEngine/",
+    url: "https://resilient-pegasus-715492.netlify.app",
+  },
+  {
+    id: "1",
+    name: "Functions visualizer",
+    photo:
+      "https://www.disneychannel.ca/wp-content/themes/disney-child/assets/images/thumbnail-generic.jpg",
+    description: "I created this project using plain JavaScript. ",
+    detailsDescription: "In this Project ,I used the following technologies :",
+    skills: [
+      "JavaScript",
+      "Mathematics",
+      "Object-Oriented Programming",
+      "HTML & CSS",
+      "Problem Solving",
+    ],
+    cover:
+      "https://i.pinimg.com/originals/0b/bf/c7/0bbfc7ccf6eda7d4173eb795526de3a9.jpg",
+
+    github: "https://codepen.io/omrandmax/pen/YzvLVdr",
+    url: "https://codepen.io/omrandmax/full/YzvLVdr",
+  },
+  {
+    id: "2",
+    name: "BFS algorithm",
+    photo:
+      "https://www.disneychannel.ca/wp-content/themes/disney-child/assets/images/thumbnail-generic.jpg",
+    description: "I created this project using plain JavaScript. ",
+    detailsDescription: "In this Project ,I used the following technologies :",
+    skills: [
+      "JavaScript",
+      "Breadth search first",
+      "HTML DOM manipulation",
+      "HTML & CSS",
+      "Problem Solving",
+    ],
+    cover:
+      "https://i.pinimg.com/originals/0b/bf/c7/0bbfc7ccf6eda7d4173eb795526de3a9.jpg",
+
+    github: "https://codepen.io/omrandmax/pen/LYewqaO",
+    url: "https://codepen.io/omrandmax/full/LYewqaO",
   },
 ];
 
@@ -289,90 +245,6 @@ export const HTMLProjects = [
     link: "https://developer.mozilla.org/en-US/docs/Web/HTML",
     color: "rgba(100,20,120,0.6)",
   },
-  {
-    id: "0",
-    name: "Disney clone JavaScript",
-    photo:
-      "https://www.disneychannel.ca/wp-content/themes/disney-child/assets/images/thumbnail-generic.jpg",
-    description:
-      "This website is a clone to the real Disney website build using ReactJS,Styled components and firebase html",
-    detailsDescription:
-      "In this Project ,I cloned the official website of Walt Disney Movies using :",
-    skills: [
-      "ReactJs",
-      "ReactRouter",
-      "ReactRedux",
-      "StyledComponents",
-      "Firebase",
-    ],
-    cover:
-      "https://i.pinimg.com/originals/0b/bf/c7/0bbfc7ccf6eda7d4173eb795526de3a9.jpg",
-
-    github: "https://github.com/omaranBazna/disney-clone",
-    url: "https://omaranbazna.github.io/disney-clone/",
-  },
-  {
-    id: "1",
-    name: "LinkedIn clone",
-    photo:
-      "https://pryormediacdn.azureedge.net/wordpress/2016/04/No-Hype-Social-Media-for-Business-LinkedIn.jpg",
-    description:
-      "This website is a clone to the real LinkedIn build using ReactJS,Styled components and firebase",
-    detailsDescription:
-      "In this Project ,I cloned the official website of LinkedIn using :",
-    skills: [
-      "ReactJs",
-      "ReactRouter",
-      "ReactRedux",
-      "StyledComponents",
-      "Firebase",
-    ],
-    cover:
-      "https://kinsta.com/wp-content/uploads/2018/09/linkedin-statistics.png",
-
-    github: "https://github.com/omaranBazna/linked-in-clone2",
-    url: "https://omaranbazna.github.io/linked-in-clone2/",
-  },
-  {
-    id: "2",
-    name: "Slack clone",
-    photo:
-      "https://www.guidingtech.com/wp-content/uploads/slack-tips-tricks-fi_4d470f76dc99e18ad75087b1b8410ea9.jpg",
-    description:
-      "This website is a clone to the real Slack App build using ReactJS,Material UI and firebase",
-
-    detailsDescription:
-      "In this Project ,I cloned the official website of Slack using :",
-    skills: ["ReactJs", "ReactRouter", "ReactRedux", "MaterialUI", "Firebase"],
-    cover:
-      "https://a.slack-edge.com/221d25b/marketing/img/homepage/e2e-prospects/unfurl/slack-e2e-homepage-unfurl.jpg",
-
-    github: "https://github.com/omaranBazna/slack-clone",
-    url: "https://omaranbazna.github.io/slack-clone/",
-  },
-  {
-    id: "3",
-    name: "Gmail clone",
-    photo:
-      "https://techgameworld.com/wp-content/uploads/2022/01/Gmail-reaches-10-billion-downloads-on-the-Play-Store.jpg",
-    description:
-      "This website is a clone to the real Gmail website build using ReactJS,Material UI and firebase",
-
-    detailsDescription:
-      "In this Project ,I cloned the official website of Gmail using :",
-    skills: [
-      "ReactJs",
-      "ReactRouter",
-      "ReactRedux",
-      "MaterialUI",
-      "Firebase",
-      "ReactHookForm",
-    ],
-    cover: "https://i.insider.com/627bd37f8f41d500187ac93b?width=700",
-
-    github: "https://github.com/omaranBazna/gmail-clone",
-    url: "",
-  },
 ];
 
 export const UnityProjects = [
@@ -382,90 +254,6 @@ export const UnityProjects = [
     img: "https://cdn4.iconfinder.com/data/icons/various-icons-2/476/Unity.png",
     link: "https://unity.com/",
     color: "rgb(80,80,80)",
-  },
-  {
-    id: "0",
-    name: "Disney clone JavaScript",
-    photo:
-      "https://www.disneychannel.ca/wp-content/themes/disney-child/assets/images/thumbnail-generic.jpg",
-    description:
-      "This website is a clone to the real Disney website build using ReactJS,Styled components and firebase unity",
-    detailsDescription:
-      "In this Project ,I cloned the official website of Walt Disney Movies using :",
-    skills: [
-      "ReactJs",
-      "ReactRouter",
-      "ReactRedux",
-      "StyledComponents",
-      "Firebase",
-    ],
-    cover:
-      "https://i.pinimg.com/originals/0b/bf/c7/0bbfc7ccf6eda7d4173eb795526de3a9.jpg",
-
-    github: "https://github.com/omaranBazna/disney-clone",
-    url: "https://omaranbazna.github.io/disney-clone/",
-  },
-  {
-    id: "1",
-    name: "LinkedIn clone",
-    photo:
-      "https://pryormediacdn.azureedge.net/wordpress/2016/04/No-Hype-Social-Media-for-Business-LinkedIn.jpg",
-    description:
-      "This website is a clone to the real LinkedIn build using ReactJS,Styled components and firebase",
-    detailsDescription:
-      "In this Project ,I cloned the official website of LinkedIn using :",
-    skills: [
-      "ReactJs",
-      "ReactRouter",
-      "ReactRedux",
-      "StyledComponents",
-      "Firebase",
-    ],
-    cover:
-      "https://kinsta.com/wp-content/uploads/2018/09/linkedin-statistics.png",
-
-    github: "https://github.com/omaranBazna/linked-in-clone2",
-    url: "https://omaranbazna.github.io/linked-in-clone2/",
-  },
-  {
-    id: "2",
-    name: "Slack clone",
-    photo:
-      "https://www.guidingtech.com/wp-content/uploads/slack-tips-tricks-fi_4d470f76dc99e18ad75087b1b8410ea9.jpg",
-    description:
-      "This website is a clone to the real Slack App build using ReactJS,Material UI and firebase",
-
-    detailsDescription:
-      "In this Project ,I cloned the official website of Slack using :",
-    skills: ["ReactJs", "ReactRouter", "ReactRedux", "MaterialUI", "Firebase"],
-    cover:
-      "https://a.slack-edge.com/221d25b/marketing/img/homepage/e2e-prospects/unfurl/slack-e2e-homepage-unfurl.jpg",
-
-    github: "https://github.com/omaranBazna/slack-clone",
-    url: "https://omaranbazna.github.io/slack-clone/",
-  },
-  {
-    id: "3",
-    name: "Gmail clone",
-    photo:
-      "https://techgameworld.com/wp-content/uploads/2022/01/Gmail-reaches-10-billion-downloads-on-the-Play-Store.jpg",
-    description:
-      "This website is a clone to the real Gmail website build using ReactJS,Material UI and firebase",
-
-    detailsDescription:
-      "In this Project ,I cloned the official website of Gmail using :",
-    skills: [
-      "ReactJs",
-      "ReactRouter",
-      "ReactRedux",
-      "MaterialUI",
-      "Firebase",
-      "ReactHookForm",
-    ],
-    cover: "https://i.insider.com/627bd37f8f41d500187ac93b?width=700",
-
-    github: "https://github.com/omaranBazna/gmail-clone",
-    url: "",
   },
 ];
 export const skills = {
