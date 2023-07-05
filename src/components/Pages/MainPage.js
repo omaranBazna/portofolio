@@ -19,7 +19,7 @@ const MainPage = () => {
       <SkillPortfolio
         skills={[
           ReactProjects,
-          ReactNativeProjects,
+          //ReactNativeProjects,
           JavaScriptProjects,
           HTMLProjects,
         ]}

@@ -22,7 +22,7 @@ const ProjectPage = () => {
       <div
         className="back-to-home"
         onClick={() => {
-          navigate("../main", { replace: false });
+          navigate("/", { replace: false });
         }}
       >
         <h2>Back To Home</h2> <HomeIcon className="home-icon" />

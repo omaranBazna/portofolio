@@ -8,6 +8,66 @@ export const ReactProjects = [
   },
   {
     id: "0",
+    name: "JavaScript mistakes",
+    photo: "https://i.ibb.co/JrWzHhN/javascript.png",
+    description:
+      "More than 50 common javascript codes mistakes for beginners , The goal of this project is to help javascript beginners to learn javascript , I used React Bootstrap for styling , I used Strip API for payment portal  , I used Ready Code Editor package",
+    detailsDescription: "I used the following technologies:",
+    skills: [
+      "ReactJs",
+      "ReactRouter",
+      "ReactRedux",
+      "React Bootstrap",
+      "NPM package manger",
+      "Stripe API",
+    ],
+    cover: "https://i.ibb.co/JrWzHhN/javascript.png",
+
+    github: "",
+    url: "https://javascriptmistakes.com/",
+  },
+  {
+    id: "1",
+    name: "Weather app",
+    photo: "https://i.ibb.co/HDTy6M4/weather-app.png",
+    description:
+      "Real Time weather data for all countries using Open Weather API , I used Three js  for the interactive earth model , I used  leaflet map for the 2d map ",
+    detailsDescription: "I used the following technologies:",
+    skills: [
+      "ReactJs",
+      "ReactRouter",
+      "React Bootstrap",
+      "NPM package manger",
+      "Three js",
+      "REST API",
+      "axios",
+    ],
+    cover: "https://i.ibb.co/HDTy6M4/weather-app.png",
+
+    github: "",
+    url: "https://6480a8473da95d081767244e--loquacious-tartufo-bf4e21.netlify.app/",
+  },
+  {
+    id: "2",
+    name: "Tensorflow drawing app",
+    photo: "https://i.ibb.co/CMmy4s8/tensorflow.png",
+    description:
+      "Use tensorflow hand recognition model and facial recognition model to create interactive drawing app , The hand detection model keep track of the hand movements and draw on the page , After the child done drawing the app recognize the drawing using ML algorithm , Facial detection model place 2d avatar on top of the child face",
+    detailsDescription: "I used the following technologies:",
+    skills: [
+      "ReactJs",
+      "ReactRouter",
+      "React Bootstrap",
+      "Tensorflow Facial Recognition",
+      "Tensorflow Hand Recognition",
+    ],
+    cover: "https://i.ibb.co/CMmy4s8/tensorflow.png",
+
+    github: "https://github.com/omaranBazna/AI_Project_UFD",
+    url: "https://velvety-paletas-8ab1c7.netlify.app/",
+  },
+  {
+    id: "3",
     name: "Disney Clone",
     photo:
       "https://www.disneychannel.ca/wp-content/themes/disney-child/assets/images/thumbnail-generic.jpg",
@@ -29,7 +89,7 @@ export const ReactProjects = [
     url: "https://omaranbazna.github.io/disney-clone/",
   },
   {
-    id: "1",
+    id: "4",
     name: "LinkedIn clone",
     photo:
       "https://pryormediacdn.azureedge.net/wordpress/2016/04/No-Hype-Social-Media-for-Business-LinkedIn.jpg",
@@ -51,7 +111,7 @@ export const ReactProjects = [
     url: "https://omaranbazna.github.io/linked-in-clone2/",
   },
   {
-    id: "2",
+    id: "5",
     name: "Slack clone",
     photo:
       "https://www.guidingtech.com/wp-content/uploads/slack-tips-tricks-fi_4d470f76dc99e18ad75087b1b8410ea9.jpg",
@@ -68,165 +128,7 @@ export const ReactProjects = [
     url: "https://omaranbazna.github.io/slack-clone/",
   },
   {
-    id: "3",
-    name: "Gmail clone",
-    photo:
-      "https://techgameworld.com/wp-content/uploads/2022/01/Gmail-reaches-10-billion-downloads-on-the-Play-Store.jpg",
-    description:
-      "This website is a clone to the real Gmail website build using ReactJS,Material UI and firebase",
-
-    detailsDescription:
-      "In this Project ,I cloned the official website of Gmail using :",
-    skills: [
-      "ReactJs",
-      "ReactRouter",
-      "ReactRedux",
-      "MaterialUI",
-      "Firebase",
-      "ReactHookForm",
-    ],
-    cover: "https://i.insider.com/627bd37f8f41d500187ac93b?width=700",
-
-    github: "https://github.com/omaranBazna/gmail-clone",
-    url: "",
-  },
-  {
-    id: "4",
-    name: "Gmail clone",
-    photo:
-      "https://techgameworld.com/wp-content/uploads/2022/01/Gmail-reaches-10-billion-downloads-on-the-Play-Store.jpg",
-    description:
-      "This website is a clone to the real Gmail website build using ReactJS,Material UI and firebase",
-
-    detailsDescription:
-      "In this Project ,I cloned the official website of Gmail using :",
-    skills: [
-      "ReactJs",
-      "ReactRouter",
-      "ReactRedux",
-      "MaterialUI",
-      "Firebase",
-      "ReactHookForm",
-    ],
-    cover: "https://i.insider.com/627bd37f8f41d500187ac93b?width=700",
-
-    github: "https://github.com/omaranBazna/gmail-clone",
-    url: "",
-  },
-  {
-    id: "5",
-    name: "Disney clone",
-    photo:
-      "https://www.disneychannel.ca/wp-content/themes/disney-child/assets/images/thumbnail-generic.jpg",
-    description:
-      "This website is a clone to the real Disney website build using ReactJS,Styled components and firebase",
-    detailsDescription:
-      "In this Project ,I cloned the official website of Walt Disney Movies using :",
-    skills: [
-      "ReactJs",
-      "ReactRouter",
-      "ReactRedux",
-      "StyledComponents",
-      "Firebase",
-    ],
-    cover:
-      "https://i.pinimg.com/originals/0b/bf/c7/0bbfc7ccf6eda7d4173eb795526de3a9.jpg",
-
-    github: "https://github.com/omaranBazna/disney-clone",
-    url: "https://omaranbazna.github.io/disney-clone/",
-  },
-  {
     id: "6",
-    name: "Gmail clone",
-    photo:
-      "https://techgameworld.com/wp-content/uploads/2022/01/Gmail-reaches-10-billion-downloads-on-the-Play-Store.jpg",
-    description:
-      "This website is a clone to the real Gmail website build using ReactJS,Material UI and firebase",
-
-    detailsDescription:
-      "In this Project ,I cloned the official website of Gmail using :",
-    skills: [
-      "ReactJs",
-      "ReactRouter",
-      "ReactRedux",
-      "MaterialUI",
-      "Firebase",
-      "ReactHookForm",
-    ],
-    cover: "https://i.insider.com/627bd37f8f41d500187ac93b?width=700",
-
-    github: "https://github.com/omaranBazna/gmail-clone",
-    url: "",
-  },
-  {
-    id: "7",
-    name: "Disney clone",
-    photo:
-      "https://www.disneychannel.ca/wp-content/themes/disney-child/assets/images/thumbnail-generic.jpg",
-    description:
-      "This website is a clone to the real Disney website build using ReactJS,Styled components and firebase",
-    detailsDescription:
-      "In this Project ,I cloned the official website of Walt Disney Movies using :",
-    skills: [
-      "ReactJs",
-      "ReactRouter",
-      "ReactRedux",
-      "StyledComponents",
-      "Firebase",
-    ],
-    cover:
-      "https://i.pinimg.com/originals/0b/bf/c7/0bbfc7ccf6eda7d4173eb795526de3a9.jpg",
-
-    github: "https://github.com/omaranBazna/disney-clone",
-    url: "https://omaranbazna.github.io/disney-clone/",
-  },
-  {
-    id: "8",
-    name: "Gmail clone",
-    photo:
-      "https://techgameworld.com/wp-content/uploads/2022/01/Gmail-reaches-10-billion-downloads-on-the-Play-Store.jpg",
-    description:
-      "This website is a clone to the real Gmail website build using ReactJS,Material UI and firebase",
-
-    detailsDescription:
-      "In this Project ,I cloned the official website of Gmail using :",
-    skills: [
-      "ReactJs",
-      "ReactRouter",
-      "ReactRedux",
-      "MaterialUI",
-      "Firebase",
-      "ReactHookForm",
-    ],
-    cover: "https://i.insider.com/627bd37f8f41d500187ac93b?width=700",
-
-    github: "https://github.com/omaranBazna/gmail-clone",
-    url: "",
-  },
-  {
-    id: "9",
-    name: "Disney clone",
-    photo:
-      "https://www.disneychannel.ca/wp-content/themes/disney-child/assets/images/thumbnail-generic.jpg",
-    description:
-      "This website is a clone to the real Disney website build using ReactJS,Styled components and firebase",
-    detailsDescription:
-      "In this Project ,I cloned the official website of Walt Disney Movies using :",
-    skills: [
-      "ReactJs",
-      "ReactRouter",
-      "ReactRedux",
-      "StyledComponents",
-      "Firebase",
-    ],
-    cover:
-      "https://i.pinimg.com/originals/0b/bf/c7/0bbfc7ccf6eda7d4173eb795526de3a9.jpg",
-
-    github: "https://github.com/omaranBazna/disney-clone",
-    url: "https://omaranbazna.github.io/disney-clone/",
-  },
-  {
-    id: "10",
     name: "Gmail clone",
     photo:
       "https://techgameworld.com/wp-content/uploads/2022/01/Gmail-reaches-10-billion-downloads-on-the-Play-Store.jpg",

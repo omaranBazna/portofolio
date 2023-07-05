@@ -20,19 +20,19 @@ function App() {
   const [popUpFail, setPopUpFail] = useState(false);
   const navigate = useNavigate();
   useEffect(() => {
-    navigate("./portofolio/main", { replace: "true" });
+    navigate("/", { replace: "true" });
   }, []);
   return (
     <div className="App">
       <ParticlesComponent />
 
       {/*showProjectDetails && <ProjectDetails setShow={setShowProjectDetails} />*/}
-      <SearchBar />
+      {/*<SearchBar />*/}
       <Routes>
-        <Route path="/portofolio/main" element={<MainPage />} />
+        <Route path="/" element={<MainPage />} />
 
         <Route
-          path="/portofolio/project/:projectcategory/:projectid"
+          path="project/:projectcategory/:projectid"
           element={<ProjectPage />}
         />
       </Routes>

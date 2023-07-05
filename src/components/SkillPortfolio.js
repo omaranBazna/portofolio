@@ -62,14 +62,9 @@ const SkillPortfolio = ({ skills }) => {
             {skills[tag][index + 1] && (
               <div
                 onClick={() => {
-                  navigate(
-                    `../portofolio/project/${skills[tag][0].skillId}/${
-                      index + 1
-                    }`,
-                    {
-                      replace: false,
-                    }
-                  );
+                  navigate(`/project/${skills[tag][0].skillId}/${index + 1}`, {
+                    replace: false,
+                  });
                 }}
               >
                 <SkillCard
@@ -84,14 +79,9 @@ const SkillPortfolio = ({ skills }) => {
             {skills[tag][index + 2] && (
               <div
                 onClick={() => {
-                  navigate(
-                    `../portofolio/project/${skills[tag][0].skillId}/${
-                      index + 2
-                    }`,
-                    {
-                      replace: false,
-                    }
-                  );
+                  navigate(`/project/${skills[tag][0].skillId}/${index + 2}`, {
+                    replace: false,
+                  });
                 }}
               >
                 <SkillCard
@@ -107,14 +97,9 @@ const SkillPortfolio = ({ skills }) => {
             {skills[tag][index + 3] && (
               <div
                 onClick={() => {
-                  navigate(
-                    `../portofolio/project/${skills[tag][0].skillId}/${
-                      index + 3
-                    }`,
-                    {
-                      replace: false,
-                    }
-                  );
+                  navigate(`/project/${skills[tag][0].skillId}/${index + 3}`, {
+                    replace: false,
+                  });
                 }}
               >
                 <SkillCard
@@ -129,14 +114,9 @@ const SkillPortfolio = ({ skills }) => {
             {skills[tag][index + 4] && (
               <div
                 onClick={() => {
-                  navigate(
-                    `../portofolio/project/${skills[tag][0].skillId}/${
-                      index + 4
-                    }`,
-                    {
-                      replace: false,
-                    }
-                  );
+                  navigate(`/project/${skills[tag][0].skillId}/${index + 4}`, {
+                    replace: false,
+                  });
                 }}
               >
                 <SkillCard

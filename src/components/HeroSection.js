@@ -9,7 +9,11 @@ const HeroSection = () => {
     <div className="hero-section">
       <div className="hero-content">
         <div className="hero-image">
-          <img src="https://i.ibb.co/rF35ZMX/low-res2.jpg/images/omaran.jpg" />
+          <img
+            src="https://i.ibb.co/JpZZSrr/low-res2.jpg"
+            alt="low-res2"
+            border="0"
+          />
         </div>
 
         <div className="hero-left">
