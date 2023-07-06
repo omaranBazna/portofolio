@@ -170,6 +170,41 @@ const ProjectPage = () => {
           </div>
         </div>
       )}
+
+      {projectcategory == "Unity" && (
+        <div>
+          <div className="description">
+            <div className="header">
+              <h1>{UnityProjects[projectid].name}</h1>
+              <a href="">
+                {" "}
+                {UnityProjects[projectid].github != "" && (
+                  <a href={UnityProjects[projectid].github} target="_blank">
+                    <GitHubIcon className="github-project-icon" />
+                  </a>
+                )}
+                <a href={UnityProjects[projectid].url} target="_blank">
+                  <LanguageIcon className="website-icon" />
+                </a>
+              </a>
+            </div>
+            <hr />
+            {UnityProjects[projectid].description
+              .split("newLine")
+              .map((item) => {
+                return (
+                  <div>
+                    <br />
+                    {item}
+                    <br />
+                  </div>
+                );
+              })}
+            <br></br>
+            <br></br>
+          </div>
+        </div>
+      )}
     </div>
   );
 };

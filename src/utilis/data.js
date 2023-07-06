@@ -66,25 +66,6 @@ export const ReactProjects = [
     github: "https://github.com/omaranBazna/AI_Project_UFD",
     url: "https://velvety-paletas-8ab1c7.netlify.app/",
   },
-  {
-    id: "3",
-    name: "Tensorflow drawing app",
-    photo: "https://i.ibb.co/CMmy4s8/tensorflow.png",
-    description:
-      "Use tensorflow hand recognition model and facial recognition model to create interactive drawing app .  newLine The hand detection model keep track of the hand movements and draw on the page . newLine  After the child done drawing the app recognize the drawing using ML algorithm . newLine  Facial detection model place 2d avatar on top of the child face .",
-    detailsDescription: "I used the following technologies:",
-    skills: [
-      "ReactJs",
-      "ReactRouter",
-      "React Bootstrap",
-      "Tensorflow Facial Recognition",
-      "Tensorflow Hand Recognition",
-    ],
-    cover: "https://i.ibb.co/CMmy4s8/tensorflow.png",
-
-    github: "https://github.com/omaranBazna/AI_Project_UFD",
-    url: "https://velvety-paletas-8ab1c7.netlify.app/",
-  },
 ];
 
 export const ReactNativeProjects = [
