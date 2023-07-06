@@ -34,10 +34,11 @@ const ProjectPage = () => {
               <h1>{ReactProjects[projectid].name}</h1>
               <a href="">
                 {" "}
-                <a href={ReactProjects[projectid].github} target="_blank">
-                  {" "}
-                  <GitHubIcon className="github-project-icon" />
-                </a>
+                {ReactProjects[projectid].github != "" && (
+                  <a href={ReactProjects[projectid].github} target="_blank">
+                    <GitHubIcon className="github-project-icon" />
+                  </a>
+                )}
                 <a href={ReactProjects[projectid].url} target="_blank">
                   <LanguageIcon className="website-icon" />
                 </a>
@@ -57,6 +58,37 @@ const ProjectPage = () => {
               })}
             <br></br>
             <br></br>
+
+            {ReactProjects[projectid].url != "" && (
+              <a
+                href={ReactProjects[projectid].url}
+                target="_blank"
+                style={{
+                  border: "2px solid white",
+                  borderRadius: 10,
+                  padding: 20,
+                  cursor: "pointer",
+                  margin: 10,
+                }}
+              >
+                Check Live Demo
+              </a>
+            )}
+            {ReactProjects[projectid].github != "" && (
+              <a
+                href={ReactProjects[projectid].github}
+                target="_blank"
+                style={{
+                  border: "2px solid white",
+                  borderRadius: 10,
+                  padding: 20,
+                  cursor: "pointer",
+                  margin: 10,
+                }}
+              >
+                Check Github repo
+              </a>
+            )}
           </div>
 
           {/*
@@ -109,11 +141,14 @@ const ProjectPage = () => {
             <div className="header">
               <h1>{JavaScriptProjects[projectid].name}</h1>
               <a href="">
-                {" "}
-                <a href={JavaScriptProjects[projectid].github} target="_blank">
-                  {" "}
-                  <GitHubIcon className="github-project-icon" />
-                </a>
+                {JavaScriptProjects[projectid].github != "" && (
+                  <a
+                    href={JavaScriptProjects[projectid].github}
+                    target="_blank"
+                  >
+                    <GitHubIcon className="github-project-icon" />
+                  </a>
+                )}
                 <a href={JavaScriptProjects[projectid].url} target="_blank">
                   <LanguageIcon className="website-icon" />
                 </a>
@@ -133,6 +168,36 @@ const ProjectPage = () => {
               })}
             <br></br>
             <br></br>
+            {JavaScriptProjects[projectid].url != "" && (
+              <a
+                href={JavaScriptProjects[projectid].url}
+                target="_blank"
+                style={{
+                  border: "2px solid white",
+                  borderRadius: 10,
+                  padding: 20,
+                  cursor: "pointer",
+                  margin: 10,
+                }}
+              >
+                Check Live Demo
+              </a>
+            )}
+            {JavaScriptProjects[projectid].github != "" && (
+              <a
+                href={JavaScriptProjects[projectid].github}
+                target="_blank"
+                style={{
+                  border: "2px solid white",
+                  borderRadius: 10,
+                  padding: 20,
+                  cursor: "pointer",
+                  margin: 10,
+                }}
+              >
+                Check Github repo
+              </a>
+            )}
           </div>
         </div>
       )}
@@ -143,11 +208,11 @@ const ProjectPage = () => {
             <div className="header">
               <h1>{HTMLProjects[projectid].name}</h1>
               <a href="">
-                {" "}
-                <a href={HTMLProjects[projectid].github} target="_blank">
-                  {" "}
-                  <GitHubIcon className="github-project-icon" />
-                </a>
+                {HTMLProjects[projectid].github != "" && (
+                  <a href={HTMLProjects[projectid].github} target="_blank">
+                    <GitHubIcon className="github-project-icon" />
+                  </a>
+                )}
                 <a href={HTMLProjects[projectid].url} target="_blank">
                   <LanguageIcon className="website-icon" />
                 </a>
@@ -167,6 +232,36 @@ const ProjectPage = () => {
               })}
             <br></br>
             <br></br>
+            {HTMLProjects[projectid].url != "" && (
+              <a
+                href={HTMLProjects[projectid].url}
+                target="_blank"
+                style={{
+                  border: "2px solid white",
+                  borderRadius: 10,
+                  padding: 20,
+                  cursor: "pointer",
+                  margin: 10,
+                }}
+              >
+                Check Live Demo
+              </a>
+            )}
+            {HTMLProjects[projectid].github != "" && (
+              <a
+                href={HTMLProjects[projectid].github}
+                target="_blank"
+                style={{
+                  border: "2px solid white",
+                  borderRadius: 10,
+                  padding: 20,
+                  cursor: "pointer",
+                  margin: 10,
+                }}
+              >
+                Check Github repo
+              </a>
+            )}
           </div>
         </div>
       )}
@@ -202,6 +297,36 @@ const ProjectPage = () => {
               })}
             <br></br>
             <br></br>
+            {UnityProjects[projectid].url != "" && (
+              <a
+                href={UnityProjects[projectid].url}
+                target="_blank"
+                style={{
+                  border: "2px solid white",
+                  borderRadius: 10,
+                  padding: 20,
+                  cursor: "pointer",
+                  margin: 10,
+                }}
+              >
+                Check Live Demo
+              </a>
+            )}
+            {UnityProjects[projectid].github != "" && (
+              <a
+                href={UnityProjects[projectid].github}
+                target="_blank"
+                style={{
+                  border: "2px solid white",
+                  borderRadius: 10,
+                  padding: 20,
+                  cursor: "pointer",
+                  margin: 10,
+                }}
+              >
+                Check Github repo
+              </a>
+            )}
           </div>
         </div>
       )}
