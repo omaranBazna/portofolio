@@ -136,6 +136,40 @@ const ProjectPage = () => {
           </div>
         </div>
       )}
+
+      {projectcategory == "HTML" && (
+        <div>
+          <div className="description">
+            <div className="header">
+              <h1>{HTMLProjects[projectid].name}</h1>
+              <a href="">
+                {" "}
+                <a href={HTMLProjects[projectid].github} target="_blank">
+                  {" "}
+                  <GitHubIcon className="github-project-icon" />
+                </a>
+                <a href={HTMLProjects[projectid].url} target="_blank">
+                  <LanguageIcon className="website-icon" />
+                </a>
+              </a>
+            </div>
+            <hr />
+            {HTMLProjects[projectid].description
+              .split("newLine")
+              .map((item) => {
+                return (
+                  <div>
+                    <br />
+                    {item}
+                    <br />
+                  </div>
+                );
+              })}
+            <br></br>
+            <br></br>
+          </div>
+        </div>
+      )}
     </div>
   );
 };

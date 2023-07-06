@@ -66,6 +66,25 @@ export const ReactProjects = [
     github: "https://github.com/omaranBazna/AI_Project_UFD",
     url: "https://velvety-paletas-8ab1c7.netlify.app/",
   },
+  {
+    id: "3",
+    name: "Tensorflow drawing app",
+    photo: "https://i.ibb.co/CMmy4s8/tensorflow.png",
+    description:
+      "Use tensorflow hand recognition model and facial recognition model to create interactive drawing app .  newLine The hand detection model keep track of the hand movements and draw on the page . newLine  After the child done drawing the app recognize the drawing using ML algorithm . newLine  Facial detection model place 2d avatar on top of the child face .",
+    detailsDescription: "I used the following technologies:",
+    skills: [
+      "ReactJs",
+      "ReactRouter",
+      "React Bootstrap",
+      "Tensorflow Facial Recognition",
+      "Tensorflow Hand Recognition",
+    ],
+    cover: "https://i.ibb.co/CMmy4s8/tensorflow.png",
+
+    github: "https://github.com/omaranBazna/AI_Project_UFD",
+    url: "https://velvety-paletas-8ab1c7.netlify.app/",
+  },
 ];
 
 export const ReactNativeProjects = [
@@ -245,6 +264,44 @@ export const HTMLProjects = [
     link: "https://developer.mozilla.org/en-US/docs/Web/HTML",
     color: "rgba(100,20,120,0.6)",
   },
+  {
+    id: "0",
+    name: "Blog Article",
+    photo: "https://i.ibb.co/JrWzHhN/javascript.png",
+    description:
+      "I participate in CodePen challenge to create HTML blog article",
+    detailsDescription: "I used the following technologies:",
+    skills: ["HTML", "CSS", "Bootstrap"],
+    cover: "https://i.ibb.co/JrWzHhN/javascript.png",
+
+    github: "https://codepen.io/omrandmax/pen/GRQKQBd",
+    url: "https://codepen.io/omrandmax/full/GRQKQBd",
+  },
+  {
+    id: "1",
+    name: "Blog Article",
+    photo: "https://i.ibb.co/JrWzHhN/javascript.png",
+    description:
+      "I participate in CodePen challenge to create HTML blog article",
+    detailsDescription: "I used the following technologies:",
+    skills: ["HTML", "CSS", "Bootstrap"],
+    cover: "https://i.ibb.co/JrWzHhN/javascript.png",
+
+    github: "https://codepen.io/omrandmax/pen/GRQKQBd",
+    url: "https://codepen.io/omrandmax/full/GRQKQBd",
+  },
+  {
+    id: "2",
+    name: "Calculator",
+    photo: "https://i.ibb.co/JrWzHhN/javascript.png",
+    description: "I design Calculator using HTML , CSS  ",
+    detailsDescription: "I used the following technologies:",
+    skills: ["HTML", "CSS", "Bootstrap"],
+    cover: "https://i.ibb.co/JrWzHhN/javascript.png",
+
+    github: "https://codepen.io/omrandmax/pen/podaoWa",
+    url: "https://codepen.io/omrandmax/full/podaoWa",
+  },
 ];
 
 export const UnityProjects = [
@@ -254,6 +311,19 @@ export const UnityProjects = [
     img: "https://cdn4.iconfinder.com/data/icons/various-icons-2/476/Unity.png",
     link: "https://unity.com/",
     color: "rgb(80,80,80)",
+  },
+  {
+    id: "0",
+    name: "Le francais en violet",
+    photo: "https://i.ibb.co/JrWzHhN/javascript.png",
+    description:
+      "Android App That teach the basics of french language with more than 1500 quiz questions ",
+    detailsDescription: "I used the following technologies:",
+    skills: ["HTML", "CSS", "Bootstrap"],
+    cover: "https://i.ibb.co/JrWzHhN/javascript.png",
+
+    github: "",
+    url: "https://play.google.com/store/apps/details?id=com.francais.violet2&hl=en_US&gl=US",
   },
 ];
 export const skills = {
