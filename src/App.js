@@ -24,6 +24,7 @@ function App() {
   }, []);
   return (
     <div className="App">
+      <h1>test</h1>
       <ParticlesComponent />
 
       {/*showProjectDetails && <ProjectDetails setShow={setShowProjectDetails} />*/}
